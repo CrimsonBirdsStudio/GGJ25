@@ -16,6 +16,7 @@ public class FollowPlayer : MonoBehaviour
     void Start()
     {
         crono = 0;
+        target = GameObject.Find("Player").transform;
     }
 
     // Update is called once per frame
