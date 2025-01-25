@@ -10,8 +10,8 @@ public class WaveMovement : MonoBehaviour
     public float freq;
     
     float crono;
-    //public Vector2 wave;
-
+    public Vector2 wave;
+    public Transform player;
 
 
     private void Awake()
@@ -32,13 +32,16 @@ public class WaveMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        dir = (player.position - transform.position).normalized;
+
         crono += Time.fixedDeltaTime;
-        //wave.x = Mathf.Sin(crono * freq);
+        wave = new Vector2(dir.x, dir.y * -1 * Mathf.Cos(crono * freq) ).normalized * amp;
         //dir.x = dir.x;
-        dir.y = Mathf.Cos(crono * freq);
+        //dir.y = Mathf.Cos(crono * freq);
 
 
-        rb.linearVelocity = dir * vel;
+        rb.linearVelocity = (dir + wave).normalized * vel;
     }
 
     private void OnCollisionEnter(Collision collision)

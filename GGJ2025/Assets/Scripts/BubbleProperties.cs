@@ -18,6 +18,7 @@ public class BubbleProperties : MonoBehaviour
 {
 
     public BLUBBER blubber;
+    public bool freezing;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
