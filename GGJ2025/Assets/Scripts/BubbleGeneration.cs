@@ -5,10 +5,10 @@ using UnityEngine;
 
 public class BubbleGeneration : MonoBehaviour
 {
-	public Transform PlayerObject;
-	public Transform CameraObject;
+	private Transform PlayerObject;
+	private Transform CameraObject;
 
-	public GameObject[] BubblesToSpawn;
+	public BubblerConfig[] bubblerConfigs;
 	public Vector2 SpawnDistance; // A partir de qué distancia pueden aparecer las burbujas, desde el borde de la pantalla.
 	public float SpawnRadius; // En qué radio aparecen las burbujas, respecto al SpawnDistance.
 	public float DesiredBubbleDensity; // Densidad de burbujas deseada.
@@ -28,6 +28,7 @@ public class BubbleGeneration : MonoBehaviour
 
 	void Start()
 	{
+		transform.position = Vector2.zero;
 		if (CameraObject == null)
 			CameraObject = Camera.main.transform;
 		if (PlayerObject == null)
@@ -45,15 +46,31 @@ public class BubbleGeneration : MonoBehaviour
 		}
 	}
 
+	void SpawnBubbles2()
+	{
+		// Obtener dirección del jugador.
+		Vector2 playerDir = ((Vector2)PlayerObject.position - lastPlayerPos).normalized;
+
+		// Comprobar qué bubblers tienen posibilidad de spawnear y obtener una lista filtrada.
+		var configsToSpawn = BubblerSpawningLogic.GetBubblersThatCanSpawn(bubblerConfigs);
+
+		// Para cada config viable:
+		foreach (var config in configsToSpawn)
+		{
+			// Elegir posición de spawn en base a la dirección en la que va el jugador.
+			Vector2 borderDistance = GameManager.Instance.CurrentViewSize / 2f;
+			Vector2 spawnCenterPos = (Vector2)CameraObject.position + new Vector2(playerDir.x * (borderDistance.x + SpawnDistance.x + SpawnRadius), playerDir.y * (borderDistance.y + SpawnDistance.y + SpawnRadius));
+			_debugSpawnPos = spawnCenterPos;
+		}
+	}
+
 	void SpawnBubbles()
 	{
 		// Obtener dirección del jugador.
 		Vector2 playerDir = ((Vector2)PlayerObject.position - lastPlayerPos).normalized;
-		if (playerDir.magnitude == 0)
-			return;
-		Vector2 borderDistance = GameManager.Instance.CurrentViewSize / 2f;
 
 		// Elegir posición de spawn en base a la dirección en la que va el jugador.
+		Vector2 borderDistance = GameManager.Instance.CurrentViewSize / 2f;
 		Vector2 spawnCenterPos = (Vector2)CameraObject.position + new Vector2(playerDir.x * (borderDistance.x + SpawnDistance.x + SpawnRadius), playerDir.y * (borderDistance.y + SpawnDistance.y + SpawnRadius));
 		_debugSpawnPos = spawnCenterPos;
 
@@ -105,12 +122,12 @@ public class BubbleGeneration : MonoBehaviour
 
 		// Elegir burbujas a spawnear.
 		// TODO: Implementar lógica.
-		GameObject[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => BubblesToSpawn[UnityEngine.Random.Range(0, BubblesToSpawn.Length)]).ToArray();
+		BubblerConfig[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => bubblerConfigs[UnityEngine.Random.Range(0, bubblerConfigs.Length)]).ToArray();
 
 		// Spawnear burbujas.
 		for(int i = 0;i < bubblesChoosen.Length; i++)
 		{
-			GameObject.Instantiate(bubblesChoosen[i], _nextPositionsToSpawn[i], Quaternion.identity);
+			BubblerSpawningLogic.InstantiateBubbler(bubblesChoosen[i], _nextPositionsToSpawn[i], transform);
 		}
 	}
 

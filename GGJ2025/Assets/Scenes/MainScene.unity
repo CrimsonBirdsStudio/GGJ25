@@ -363,6 +363,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   smooth: 0.2
   target: {fileID: 708608325}
+  distanceAdvance: 0
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,9 +708,25 @@ PrefabInstance:
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
+      propertyPath: bubblerConfigs.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
       propertyPath: 'BubblesToSpawn.Array.data[0]'
       value: 
       objectReference: {fileID: 886012185701371576, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
+    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
+      propertyPath: 'bubblerConfigs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
+    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
+      propertyPath: 'bubblerConfigs.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
+    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
+      propertyPath: 'bubblerConfigs.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
