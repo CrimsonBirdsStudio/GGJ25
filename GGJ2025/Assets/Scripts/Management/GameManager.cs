@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
 
-    Player_Movement _player;
+    public TheCleanerTM ObjectCleaner;
+    public Player_Movement PlayerMovementScript;
     private void Awake()
     {
         if (Instance == null)
@@ -23,11 +24,16 @@ public class GameManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Buscar componentes en la escena una vez cargada
-        _player = FindFirstObjectByType<Player_Movement>();
+        PlayerMovementScript = FindObjectInSceneAndShowError<Player_Movement>();
+		ObjectCleaner = FindObjectInSceneAndShowError<TheCleanerTM>();
+	}
 
-        // Verificar que los componentes se han encontrado
-        if (_player == null) Debug.LogError("Player no encontrado en la escena.");
-    }
+    public GameObject player_instance => PlayerMovementScript.gameObject;
 
-    public GameObject player_instance => _player.gameObject;
+    private T FindObjectInSceneAndShowError<T>() where T : MonoBehaviour
+    {
+        T found = FindFirstObjectByType<T>();
+		if (found == null) Debug.LogError($"{typeof(T)} no encontrado en la escena.");
+        return found;
+	}
 }
