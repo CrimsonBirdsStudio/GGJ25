@@ -292,7 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicBank: BackgroudMusic
-  fxBank: Bank
+  fxBank: SFX
 --- !u!4 &290905542
 Transform:
   m_ObjectHideFlags: 0
