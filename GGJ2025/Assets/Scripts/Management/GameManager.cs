@@ -1,6 +1,4 @@
-using System.Collections;
 using UnityEngine;
-using UnityEngine.InputSystem.HID;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
@@ -11,6 +9,7 @@ public class GameManager : MonoBehaviour
 	public Player_Movement PlayerMovementScript;
     public GameState GameState;
     public BubblerRepository BubblerRepository;
+    public GameEvents GameEvents;
 
 	public Vector2 CurrentViewSize {
         get {
@@ -34,10 +33,18 @@ public class GameManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Buscar componentes en la escena una vez cargada
+        ResetGameEvents();
         PlayerMovementScript = FindObjectInSceneAndShowError<Player_Movement>();
 		ObjectCleaner = FindObjectInSceneAndShowError<TheCleanerTM>();
 		GameState = FindObjectInSceneAndShowError<GameState>();
 		BubblerRepository = FindObjectInSceneAndShowError<BubblerRepository>();
+	}
+
+	private void ResetGameEvents()
+    {
+		GameEvents = FindFirstObjectByType<GameEvents>();
+        if (GameEvents == null)
+            GameEvents = gameObject.AddComponent<GameEvents>();
 	}
 
     public GameObject player_instance => PlayerMovementScript.gameObject;
