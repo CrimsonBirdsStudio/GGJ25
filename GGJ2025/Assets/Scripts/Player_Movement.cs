@@ -63,6 +63,8 @@ public class Player_Movement : MonoBehaviour
 
     private void ApplyImpulse()
     {
+        float randomZ = Random.Range(0f, 15f); // Ángulo aleatorio entre 0 y 360 grados
+        transform.rotation = Quaternion.Euler(0f, 0f, randomZ); // Solo rota en el eje Y
         if (impulseStrength > 0) // Solo aplica impulso si hay fuerza acumulada
         {
             _rb.AddForce(targetDirection * impulseStrength, ForceMode2D.Impulse);

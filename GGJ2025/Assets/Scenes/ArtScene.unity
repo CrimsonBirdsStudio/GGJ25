@@ -452,11 +452,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d802b559c320548acf891aa9af4d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vel: 2
-  stamina: 100
-  staminaRefill: 10
+  velocityMultiplier: 10
+  staminaRefillRate: 10
   maxStamina: 50
   staminaIndicator: {fileID: 0}
+  cooldown: 1
+  impulseCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 5
+      inSlope: 4
+      outSlope: 4
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!50 &1038698892
 Rigidbody2D:
   serializedVersion: 5
@@ -498,6 +522,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1321568966}
+  - {fileID: 1618226380}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1127712377
@@ -904,7 +929,7 @@ Transform:
   - {fileID: 1150499292}
   - {fileID: 847305734}
   - {fileID: 1227249414}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1038698893}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -913,4 +938,3 @@ SceneRoots:
   - {fileID: 644819512}
   - {fileID: 746372853}
   - {fileID: 1038698893}
-  - {fileID: 1618226380}
