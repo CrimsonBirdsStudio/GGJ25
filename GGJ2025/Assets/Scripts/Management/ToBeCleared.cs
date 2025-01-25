@@ -6,6 +6,8 @@ public class ToBeCleared : MonoBehaviour
 	public float DistanceToDelete;
 	[Tooltip("Tras pasar esta cantidad de tiempo a DistanceToDelete, el objeto será eliminado")]
 	public float TimeAtDistanceToDelete;
+	[Tooltip("A partir de esta distancia, el objeto será eliminado independientemente del tiempo.")]
+	public float DistanceToDeleteMax;
 
 	[HideInInspector]
 	public float? TimeAtWhenGotOut;

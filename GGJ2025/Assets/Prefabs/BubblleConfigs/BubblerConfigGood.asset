@@ -26,6 +26,7 @@ MonoBehaviour:
   MaxDensityOverall: 2
   Radius: 1
   DespawnTime: 3
-  DespawnDistance: 20
+  DespawnDistance: 12
+  DespawnDistanceMax: 20
   MovementInterval: 2
   MovementForce: 5

@@ -122,12 +122,16 @@ public class BubbleGeneration : MonoBehaviour
 
 		// Elegir burbujas a spawnear.
 		// TODO: Implementar lógica.
-		BubblerConfig[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => bubblerConfigs[UnityEngine.Random.Range(0, bubblerConfigs.Length)]).ToArray();
-
-		// Spawnear burbujas.
-		for(int i = 0;i < bubblesChoosen.Length; i++)
+		var possibleBubblers = BubblerSpawningLogic.GetBubblersThatCanSpawn(bubblerConfigs);
+		if (possibleBubblers.Count > 0)
 		{
-			BubblerSpawningLogic.InstantiateBubbler(bubblesChoosen[i], _nextPositionsToSpawn[i], transform);
+			BubblerConfig[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => possibleBubblers[UnityEngine.Random.Range(0, possibleBubblers.Count)]).ToArray();
+
+			// Spawnear burbujas.
+			for (int i = 0; i < bubblesChoosen.Length; i++)
+			{
+				BubblerSpawningLogic.InstantiateBubbler(bubblesChoosen[i], _nextPositionsToSpawn[i], transform);
+			}
 		}
 	}
 

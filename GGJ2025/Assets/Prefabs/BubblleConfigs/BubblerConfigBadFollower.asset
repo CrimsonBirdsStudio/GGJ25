@@ -18,14 +18,15 @@ MonoBehaviour:
   SpawnerType: 16
   SpawnAreaType: 0
   RespawnMechanic: 0
-  DespawnMechanic: 0
+  DespawnMechanic: 1
   SpawnTimeFrame: {x: 0, y: 0}
   RespawnTimeFrame: {x: 0, y: 0}
-  MaxTotalSpawned: 20
+  MaxTotalSpawned: 40
   MaxDensityForSameType: 0.15
   MaxDensityOverall: 1
   Radius: 1
   DespawnTime: 3
-  DespawnDistance: 20
+  DespawnDistance: 14
+  DespawnDistanceMax: 25
   MovementInterval: 2
   MovementForce: 2

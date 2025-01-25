@@ -25,6 +25,7 @@ public class BubblerConfig : ScriptableObject
 
 	public float DespawnTime;
 	public float DespawnDistance;
+	public float DespawnDistanceMax;
 
 	public float MovementInterval;
 	public float MovementForce;
