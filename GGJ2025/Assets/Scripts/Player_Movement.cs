@@ -24,6 +24,7 @@ public class Player_Movement : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         stamina = maxStamina;
+        Cursor.visible=false;
 	}
 
     void Update()
@@ -61,7 +62,7 @@ public class Player_Movement : MonoBehaviour
 
             float scaleX = Mathf.Clamp01(impulseStrength / maxStamina);
             arrow.transform.localScale = new Vector3(
-                scaleX/2, // Cambiar la escala X
+                scaleX, // Cambiar la escala X
                 arrow.transform.localScale.y, // Mantener la escala Y
                 arrow.transform.localScale.z  // Mantener la escala Z
             );
@@ -88,8 +89,20 @@ public class Player_Movement : MonoBehaviour
     {
         arrow.GetComponent<SpriteRenderer>().color = new Color
                 (arrow.GetComponent<SpriteRenderer>().color.r, arrow.GetComponent<SpriteRenderer>().color.g, arrow.GetComponent<SpriteRenderer>().material.color.b, 0);
-        float randomZ = Random.Range(0f, 90f); // Ángulo aleatorio
-        transform.rotation = Quaternion.Euler(0f, 0f, randomZ); // Solo rota en el eje Y
+
+        // Obtener la posición del ratón en coordenadas del mundo
+        Vector3 worldMousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        worldMousePosition.z = transform.position.z; // Mantener la profundidad del objeto
+
+        // Calcular la dirección del ratón respecto al objeto
+        Vector3 direction = (worldMousePosition - transform.position).normalized;
+
+        // Calcular el ángulo que se necesita para alinear el sprite
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+
+        // Rotar el sprite para que el ratón esté hacia arriba
+        transform.rotation = Quaternion.Euler(0f, 0f, angle - 90f);
+
         if (impulseStrength > 0) // Solo aplica impulso si hay fuerza acumulada
         {
             _rb.AddForce(targetDirection * impulseStrength, ForceMode2D.Impulse);
