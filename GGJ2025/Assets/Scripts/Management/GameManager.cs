@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
 	public Player_Movement PlayerMovementScript;
     public GameState GameState;
     public BubblerRepository BubblerRepository;
-    public GameEvents GameEvents;
+    public BubblerAccounting BubblerAccounting;
+	public GameEvents GameEvents;
 
 	public Vector2 CurrentViewSize {
         get {
@@ -33,18 +34,23 @@ public class GameManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         // Buscar componentes en la escena una vez cargada
-        ResetGameEvents();
+        ResetPerGameScripts();
         PlayerMovementScript = FindObjectInSceneAndShowError<Player_Movement>();
 		ObjectCleaner = FindObjectInSceneAndShowError<TheCleanerTM>();
 		GameState = FindObjectInSceneAndShowError<GameState>();
 		BubblerRepository = FindObjectInSceneAndShowError<BubblerRepository>();
+		BubblerAccounting = FindObjectInSceneAndShowError<BubblerAccounting>();
 	}
 
-	private void ResetGameEvents()
+	private void ResetPerGameScripts()
     {
 		GameEvents = FindFirstObjectByType<GameEvents>();
         if (GameEvents == null)
             GameEvents = gameObject.AddComponent<GameEvents>();
+
+		BubblerAccounting = FindFirstObjectByType<BubblerAccounting>();
+		if (BubblerAccounting == null)
+			BubblerAccounting = gameObject.AddComponent<BubblerAccounting>();
 	}
 
     public GameObject player_instance => PlayerMovementScript.gameObject;

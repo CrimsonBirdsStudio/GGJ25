@@ -8,9 +8,10 @@ public class GameEvents : MonoBehaviour
 {
 #region Event definition
 
-	public Action<GameObject> OnBubbleSpawnedEvent;
-	public Action<GameObject> OnBubbleCollideWithPlayerEvent;
-	public Action<GameObject> OnBubbleDestroyedEvent;
+	public Action<BubblerObject> OnBubbleSpawnedEvent;
+	public Action<BubblerObject> OnBubbleCollideWithPlayerEvent;
+	public Action<BubblerObject> OnBubbleTriggeredWithPlayerEvent;
+	public Action<BubblerObject> OnBubbleDestroyedEvent;
 
 	public Action OnGameStartedEvent;
 	public Action OnGameOverEvent;
@@ -20,9 +21,10 @@ public class GameEvents : MonoBehaviour
 
 	#region Event triggering
 
-	public void OnBubbleSpawned(GameObject bubble) => OnBubbleSpawnedEvent?.Invoke(bubble); // TODO: Recibir el script de bubbles.
-	public void OnBubbleCollideWithPlayer(GameObject bubble) => OnBubbleCollideWithPlayerEvent?.Invoke(bubble); // TODO: Recibir el script de bubbles.
-	public void OnBubbleDestroyed(GameObject bubble) => OnBubbleDestroyedEvent?.Invoke(bubble); // TODO: Recibir el script de bubbles.
+	public void OnBubbleSpawned(BubblerObject bubble) => OnBubbleSpawnedEvent?.Invoke(bubble);
+	public void OnBubbleCollideWithPlayer(BubblerObject bubble) => OnBubbleCollideWithPlayerEvent?.Invoke(bubble);
+	public void OnBubbleTriggeredWithPlayer(BubblerObject bubble) => OnBubbleTriggeredWithPlayerEvent?.Invoke(bubble);
+	public void OnBubbleDestroyed(BubblerObject bubble) => OnBubbleDestroyedEvent?.Invoke(bubble);
 	public void OnGameStarted() => OnGameStartedEvent?.Invoke();
 	public void OnGameOver() => OnGameOverEvent?.Invoke();
 

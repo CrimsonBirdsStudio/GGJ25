@@ -77,6 +77,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7367411799690352095, guid: 1d09dece962373a4fb9557df23987a7f, type: 3}
       insertIndex: -1
       addedObject: {fileID: -7817523666920326149}
+    - targetCorrespondingSourceObject: {fileID: 7367411799690352095, guid: 1d09dece962373a4fb9557df23987a7f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 549655898407515515}
   m_SourcePrefab: {fileID: 100100000, guid: 1d09dece962373a4fb9557df23987a7f, type: 3}
 --- !u!1 &8041632576401943291 stripped
 GameObject:
@@ -160,3 +163,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DistanceToDelete: 20
   TimeAtDistanceToDelete: 3
+--- !u!114 &549655898407515515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8041632576401943291}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec21d10e34f8a1c4780e7b70937cb36c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BubblerConfig: {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
