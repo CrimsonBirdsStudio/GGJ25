@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerObject: {fileID: 0}
+  CameraObject: {fileID: 0}
   BubblesToSpawn:
   - {fileID: 8041632576401943291, guid: 60c5e107b9de85b488d9d50d08d11210, type: 3}
   SpawnDistance: {x: 11, y: 6}
