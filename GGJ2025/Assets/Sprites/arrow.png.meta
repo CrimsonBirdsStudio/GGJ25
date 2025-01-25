@@ -1,16 +1,22 @@
 fileFormatVersion: 2
-guid: 3c0e3c0ded306cc41ad54fe7490de912
+guid: fb3fc71697a71274b8f45e671b4ee015
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2785530517947363876
-    second: plant_stick_idle_spritesheet_0
+      213: -765150924802650856
+    second: arrow_0
   - first:
-      213: 2402632852154035818
-    second: plant_stick_idle_spritesheet_1
+      213: -7451953295746623981
+    second: arrow_1
   - first:
-      213: 4394655055693890384
-    second: plant_stick_idle_spritesheet_2
+      213: 4793074969510804509
+    second: arrow_2
+  - first:
+      213: 4397636249099975194
+    second: arrow_3
+  - first:
+      213: 8816886408898176165
+    second: arrow_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,12 +58,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
-  spriteExtrude: 0
+  spriteMode: 1
+  spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
-  spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  alignment: 9
+  spritePivot: {x: 0.0016921731, y: 0.52911884}
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,67 +125,111 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plant_stick_idle_spritesheet_0
+      name: arrow_0
       rect:
         serializedVersion: 2
-        x: 385
-        y: 315
-        width: 193
-        height: 354
+        x: 444
+        y: 597
+        width: 38
+        height: 130
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cddccb690cec759d0800000000000000
-      internalID: -2785530517947363876
+      spriteID: 81d839fa943a165f0800000000000000
+      internalID: -765150924802650856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plant_stick_idle_spritesheet_1
+      name: arrow_1
       rect:
         serializedVersion: 2
-        x: 1307
-        y: 316
-        width: 203
-        height: 357
+        x: 446
+        y: 489
+        width: 34
+        height: 100
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6e235e69ddd75120800000000000000
-      internalID: 2402632852154035818
+      spriteID: 316983ca5f7559890800000000000000
+      internalID: -7451953295746623981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plant_stick_idle_spritesheet_2
+      name: arrow_2
       rect:
         serializedVersion: 2
-        x: 2236
-        y: 317
-        width: 209
-        height: 355
+        x: 445
+        y: 384
+        width: 36
+        height: 95
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05342014d73fcfc30800000000000000
-      internalID: 4394655055693890384
+      spriteID: d1cf18b3a4c648240800000000000000
+      internalID: 4793074969510804509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_3
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 271
+        width: 36
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a3cfe6eda870d30800000000000000
+      internalID: 4397636249099975194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arrow_4
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 157
+        width: 36
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4685b997fdb5a70800000000000000
+      internalID: 8816886408898176165
       vertices: []
       indices: 
       edges: []
@@ -188,8 +238,8 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4b99e2dd3731587469a7c0734320c66f
-    internalID: 0
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
@@ -198,9 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plant_stick_idle_spritesheet_0: -2785530517947363876
-      plant_stick_idle_spritesheet_1: 2402632852154035818
-      plant_stick_idle_spritesheet_2: 4394655055693890384
+      arrow_0: -765150924802650856
+      arrow_1: -7451953295746623981
+      arrow_2: 4793074969510804509
+      arrow_3: 4397636249099975194
+      arrow_4: 8816886408898176165
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
