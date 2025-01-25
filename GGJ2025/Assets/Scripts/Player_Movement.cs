@@ -8,6 +8,7 @@ public class Player_Movement : MonoBehaviour
     public float maxStamina = 100f; // Valor máximo de estamina
     public Image staminaIndicator; // Indicador de estamina
     public float cooldown = 1f; // Cooldown entre impulsos
+    public AnimationCurve impulseCurve = new AnimationCurve(new Keyframe(0f, 1f, 2, 2), new Keyframe(1f, 5f, 4, 4));
 
     private float stamina; // Estamina actual
     private float currentCooldown = 0f; // Cooldown restante
@@ -21,7 +22,7 @@ public class Player_Movement : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         stamina = maxStamina;
-    }
+	}
 
     void Update()
     {
@@ -34,8 +35,10 @@ public class Player_Movement : MonoBehaviour
             isCharging = true;
             targetDirection = (Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position).normalized;
 
+            float currentImpulse = impulseStrength / maxStamina;
+
             // Incrementar la fuerza acumulada limitada por la estamina disponible
-            float maxIncrement = Time.deltaTime * velocityMultiplier;
+            float maxIncrement = Time.deltaTime * impulseCurve.Evaluate(currentImpulse) * velocityMultiplier;
             float actualIncrement = Mathf.Min(maxIncrement, stamina); // Asegura que no consuma más de lo disponible
             impulseStrength += actualIncrement;
             stamina -= actualIncrement; // Consumir estamina gradualmente
