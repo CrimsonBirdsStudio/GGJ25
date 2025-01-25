@@ -7,6 +7,7 @@ using UnityEngine;
 public class BubblerAccounting : MonoBehaviour
 {
     public Dictionary<BubblerEnums.SpawnType, int> _SpawnedBubblersBySpawnType = new Dictionary<BubblerEnums.SpawnType, int>();
+    public Dictionary<BubblerEnums.SpawnType, float> _NextSpawnTimeBySpawnType = new Dictionary<BubblerEnums.SpawnType, float>();
 
 	private void Start()
 	{
@@ -30,5 +31,17 @@ public class BubblerAccounting : MonoBehaviour
 		{
 			_SpawnedBubblersBySpawnType.Add(config.SpawnerType, (blubber.IsDestroyed ? 0 : 1));
 		}
+
+		if (!blubber.IsDestroyed)
+		{
+			_NextSpawnTimeBySpawnType[config.SpawnerType] = 
+				GameManager.Instance.GameState.LevelTimer +
+				Random.Range(config.SpawnTimeFrame.x, config.SpawnTimeFrame.y);
+		}
+	}
+
+	public float GetNextSpawnTimeForBlubbersOfType(BubblerEnums.SpawnType type)
+	{
+		return _NextSpawnTimeBySpawnType.TryGetValue(type, out var lastTime) ? lastTime : 0f;
 	}
 }

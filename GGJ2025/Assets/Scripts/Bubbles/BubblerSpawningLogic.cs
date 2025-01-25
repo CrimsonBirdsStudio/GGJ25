@@ -11,7 +11,13 @@ public class BubblerSpawningLogic
         BubblerAccounting bubblerAccounting = GameManager.Instance.BubblerAccounting;
 		foreach (var bubbler in bubblerConfigs)
         {
+			int spawnedAmount = bubblerAccounting.GetSpawnedBlubbersOfType(bubbler.SpawnerType);
+			if (spawnedAmount >= bubbler.MaxTotalSpawned) continue;
 
+			float nextSpawnTime = bubblerAccounting.GetNextSpawnTimeForBlubbersOfType(bubbler.SpawnerType);
+			if (GameManager.Instance.GameState.LevelTimer < nextSpawnTime) continue;
+
+			result.Add(bubbler);
 		}
 
         return result;
