@@ -7,19 +7,16 @@ public class ToBeCleared : MonoBehaviour
 	[Tooltip("Tras pasar esta cantidad de tiempo a DistanceToDelete, el objeto será eliminado")]
 	public float TimeAtDistanceToDelete;
 
+	[HideInInspector]
+	public float? TimeAtWhenGotOut;
+
 	void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+		GameManager.Instance.ObjectCleaner.AddToBeCleared(this);
+	}
 
 	void OnDestroy()
 	{
-		// Desuscribir de TheCleaner.
+		GameManager.Instance.ObjectCleaner.RemoveToBeCleared(this);
 	}
 }

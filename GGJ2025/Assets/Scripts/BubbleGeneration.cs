@@ -25,14 +25,13 @@ public class BubbleGeneration : MonoBehaviour
 	// Debugs
 	private Vector2 _debugSpawnPos;
 	private float _debugBubbleRadius;
-	private float _debugBubbleArea;
 
 	void Start()
 	{
 		if (CameraObject == null)
 			CameraObject = Camera.main.transform;
 		if (PlayerObject == null)
-			PlayerObject = GameObject.Find("Player").transform;
+			PlayerObject = GameManager.Instance.player_instance.transform;
 	}
 
 	// Update is called once per frame
@@ -72,7 +71,6 @@ public class BubbleGeneration : MonoBehaviour
 			maxBubbleRadius = Mathf.Max(nextBubbleRadius, maxBubbleRadius);
 			maxBubbleArea = Mathf.Max(nextBubbleArea, maxBubbleArea);
 		}
-		_debugBubbleArea = maxBubbleArea;
 		_debugBubbleRadius = maxBubbleRadius;
 
 		float currentDensity = areaUsedByBubbles == 0 ? 0 : areaUsedByBubbles / _currentAreaForDensityCheck;
@@ -81,7 +79,6 @@ public class BubbleGeneration : MonoBehaviour
 		if (currentDensity >= DesiredBubbleDensity)
 			return;
 		int bubbleAmountToSpawn = Mathf.FloorToInt((DesiredBubbleDensity - currentDensity) * (_currentAreaForDensityCheck / maxBubbleArea));
-		Debug.Log($"currentDensity: {currentDensity}, bubbleAmountToSpawn: {bubbleAmountToSpawn}, _currentAreaForDensityCheck: {_currentAreaForDensityCheck}, areaUsedByBubbles: {areaUsedByBubbles}, maxBubbleArea: {maxBubbleArea}, maxBubbleRadius: {maxBubbleRadius}");
 
 		// Elegir posiciones para cada burbuja sin que se sobrepongan.
 		_nextPositionsToSpawn.Clear();
@@ -107,7 +104,7 @@ public class BubbleGeneration : MonoBehaviour
 
 		// Elegir burbujas a spawnear.
 		// TODO: Implementar lógica.
-		GameObject[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => BubblesToSpawn[0]).ToArray();
+		GameObject[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => BubblesToSpawn[UnityEngine.Random.Range(0, BubblesToSpawn.Length)]).ToArray();
 
 		// Spawnear burbujas.
 		for(int i = 0;i < bubblesChoosen.Length; i++)
