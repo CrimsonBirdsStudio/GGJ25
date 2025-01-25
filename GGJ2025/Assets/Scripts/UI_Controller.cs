@@ -1,45 +1,56 @@
 using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
+using System.Collections.Generic;
 using System.Collections;
 
 public class UIAnimator : MonoBehaviour
 {
-    public float animationDuration = 0.25f; // Duración de la animación de cada elemento
-    public float delayBetweenElements = 0.1f; // Retraso entre elementos
-    CanvasGroup canvasGroup;
+    public List<Sprite> bublersSpritesOff =new();
+    public List<Sprite> bublersSpritesOn = new();
+    public float timeBetweenBublers;
+    public GameObject bublersContainer;
+    public GameObject myFriendz;
 
+    List<Sprite> bublersChosen = new();
     void Start()
     {
-        canvasGroup = GetComponent<CanvasGroup>();
-        ShowBlubbers();
+        ChoseBublers();
     }
 
-    void ShowBlubbers()
+    void ChoseBublers()
     {
-        float animationDuration = 0.5f; // Duración de la animación de cada objeto
-        float delayBetweenObjects = 0.2f; // Retraso entre cada objeto
+        foreach (Transform bubbler in bublersContainer.transform)
+        {
+            Sprite sprite = bublersSpritesOn[Random.Range(0, bublersSpritesOn.Count)];
 
-        // Fade in del CanvasGroup
-        canvasGroup.DOFade(1f, 1f)
-            .SetEase(Ease.OutQuad)
-            .OnComplete(() =>
+            // Obtener el RectTransform del elemento
+            RectTransform rectTransform = bubbler.GetComponent<RectTransform>();
+            if (rectTransform != null)
             {
-                // Animar los objetos del contenedor uno a uno
-                int index = 0; // Índice para calcular el retraso por objeto
-                foreach (Transform blubber in transform)
-                {
-                    Vector2 startPosition = blubber.position;
-                    blubber.position = new Vector2(startPosition.x, startPosition.y - 100); // Posición inicial desplazada
-
-                    // Animar posición con retraso individual
-                    blubber.DOMoveY(startPosition.y, animationDuration)
-                        .SetEase(Ease.OutBack)
-                        .SetDelay(index * delayBetweenObjects);
-
-                    index++; // Incrementar el índice para el próximo retraso
-                }
-            });
+                // Modificar la posición local inicial
+                rectTransform.localPosition = new Vector3(
+                    rectTransform.localPosition.x,
+                    rectTransform.localPosition.y - 150,
+                    rectTransform.localPosition.z
+                );
+            }
+            bublersChosen.Add(sprite);
+        }
+            StartCoroutine(ShowBubbler());
     }
+
+    IEnumerator ShowBubbler()
+    {
+        yield return new WaitForSeconds(1);
+        myFriendz.transform.DOScale(1,1).SetEase(Ease.OutElastic);
+        yield return new WaitForSeconds(1);
+        foreach (Transform bubbler in bublersContainer.transform)
+        {
+            bubbler.DOMoveY(bubbler.transform.position.y + 150, 0.5f).SetEase(Ease.OutBounce); // Animar con DOTween
+            yield return new WaitForSeconds(timeBetweenBublers); // Esperar el tiempo correspondiente
+        }
+    }
+
 
 }

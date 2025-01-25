@@ -93,8 +93,13 @@ public class Player_Movement : MonoBehaviour
     private void ApplyImpulse()
     {
         GameObject bubblerSprite = transform.GetChild(1).gameObject;
-        bubblerSprite.transform.DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f);
         animator.Play("Push");
+        bubblerSprite.transform
+            .DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f)
+            .OnComplete(() => {
+                // Restablecer la escala original
+                bubblerSprite.transform.localScale = Vector3.one; // Ajusta esto si la escala original no es (1, 1, 1)
+            });
 
         arrow.GetComponent<SpriteRenderer>().color = new Color
                 (arrow.GetComponent<SpriteRenderer>().color.r, arrow.GetComponent<SpriteRenderer>().color.g, arrow.GetComponent<SpriteRenderer>().material.color.b, 0);
@@ -136,7 +141,13 @@ public class Player_Movement : MonoBehaviour
             if(isCooldownActive)
             {
                 GameObject bubblerSprite = transform.GetChild(1).gameObject;
-                bubblerSprite.transform.DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f);
+                bubblerSprite.transform
+                .DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f)
+                .OnComplete(() => {
+                    // Restablecer la escala original
+                    bubblerSprite.transform.localScale = Vector3.one; // Ajusta esto si la escala original no es (1, 1, 1)
+                });
+                ;
                 animator.Play("Idle");
             }
             isCooldownActive = false; // Cooldown terminado
