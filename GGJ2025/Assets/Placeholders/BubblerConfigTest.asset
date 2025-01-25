@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0889f225e5983bb468b1d2a5c91c0ad5, type: 3}
   m_Name: BubblerConfigTest
   m_EditorClassIdentifier: 
-  prefabBase: {fileID: 8041632576401943291, guid: 60c5e107b9de85b488d9d50d08d11210, type: 3}
+  prefabBase: {fileID: 886012185701371576, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
   SpawnerType: 0
   SpawnAreaType: 0
   RespawnMechanic: 0
