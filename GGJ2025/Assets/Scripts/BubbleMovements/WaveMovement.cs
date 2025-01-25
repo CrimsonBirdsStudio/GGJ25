@@ -11,7 +11,7 @@ public class WaveMovement : MonoBehaviour
     
     float crono;
     public Vector2 wave;
-
+    public Transform player;
 
 
     private void Awake()
@@ -21,7 +21,7 @@ public class WaveMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        dir = (player.position - transform.position).normalized * vel;
     }
 
     // Update is called once per frame
@@ -32,13 +32,16 @@ public class WaveMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+
+        
+
         crono += Time.fixedDeltaTime;
-        //wave.x = Mathf.Sin(crono * freq);
-        wave.x = 0;
-        wave.y = Mathf.Cos(crono * freq);
+        wave = new Vector2(-dir.y, dir.x * Mathf.Cos(crono * freq) ) * amp;
+        //dir.x = dir.x;
+        //dir.y = Mathf.Cos(crono * freq);
 
 
-        rb.linearVelocity = wave * dir.normalized * vel;
+        rb.linearVelocity = dir + wave;
     }
 
     private void OnCollisionEnter(Collision collision)
