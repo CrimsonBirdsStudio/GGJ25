@@ -13,6 +13,7 @@ public enum BLUBBER
 }
 
 
+[SelectionBase]
 public class BubbleProperties : MonoBehaviour
 {
 

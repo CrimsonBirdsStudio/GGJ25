@@ -10,7 +10,7 @@ public class WaveMovement : MonoBehaviour
     public float freq;
     
     float crono;
-    public Vector2 wave;
+    //public Vector2 wave;
 
 
 
@@ -34,11 +34,11 @@ public class WaveMovement : MonoBehaviour
     {
         crono += Time.fixedDeltaTime;
         //wave.x = Mathf.Sin(crono * freq);
-        wave.x = 0;
-        wave.y = Mathf.Cos(crono * freq);
+        //dir.x = dir.x;
+        dir.y = Mathf.Cos(crono * freq);
 
 
-        rb.linearVelocity = wave * dir.normalized * vel;
+        rb.linearVelocity = dir * vel;
     }
 
     private void OnCollisionEnter(Collision collision)

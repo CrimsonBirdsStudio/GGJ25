@@ -52,7 +52,7 @@ public class BlubberCatcher : MonoBehaviour
 
                     }
                 }
-                GameObject.Destroy(collision.gameObject);
+                GameObject.Destroy(collision.transform.parent.gameObject);
             }
         }
     }
