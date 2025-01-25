@@ -57,6 +57,12 @@ public class BubblerSpawningLogic
 				badFollower.interval = bubbler.BubblerConfig.MovementInterval;
 				badFollower.force = bubbler.BubblerConfig.MovementForce;
 				break;
+			case BubblerEnums.SpawnType.GoodBubbler:
+				var gottaCatch = bubbler.AddComponent<RandomMovement>();
+				gottaCatch.interval = bubbler.BubblerConfig.MovementInterval;
+				gottaCatch.start_interval = bubbler.BubblerConfig.MovementInterval;
+				gottaCatch.vel = bubbler.BubblerConfig.MovementForce;
+				break;
 		}
 	}
 	private static void ConfigBubbleBubble(BubblerObject bubbler)
@@ -85,18 +91,25 @@ public class BubblerSpawningLogic
 
 		var bubbleSprite = GameObject.Instantiate(bubbler.BubblerConfig.prefabBubbler, bubbler.transform);
 
+		// TODO: Obtener sprites con nuevo scriptableobject de sprites.
+
 		switch (bubbler.BubblerConfig.SpawnerType)
 		{
 			case BubblerEnums.SpawnType.BadFollower:
 			case BubblerEnums.SpawnType.BadOscillingGroup:
 				{
-					// TODO: Obtener sprites con nuevo scriptableobject de sprites.
 					var spriteRendererSelected = GameManager.Instance.BubblerRepository.GetRandomBubblerExcluding();
 					var spriteRenderer = bubbleSprite.GetComponent<SpriteRenderer>();
 					spriteRenderer.sprite = spriteRendererSelected.GetComponent<SpriteRenderer>().sprite;
 				}
 				break;
 			case BubblerEnums.SpawnType.GoodBubbler:
+				{
+					var targets = GameManager.Instance.GameState.BubblesTarget;
+					var spriteRendererSelected = targets[Random.Range(0, targets.Length)];
+					var spriteRenderer = bubbleSprite.GetComponent<SpriteRenderer>();
+					spriteRenderer.sprite = spriteRendererSelected.GetComponent<SpriteRenderer>().sprite;
+				}
 				break;
 			default:
 				break;

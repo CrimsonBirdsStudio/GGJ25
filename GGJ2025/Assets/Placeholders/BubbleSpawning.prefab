@@ -44,14 +44,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8881d22ccee16d641867c3f79bfc2519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  PlayerObject: {fileID: 0}
-  CameraObject: {fileID: 0}
-  BubblesToSpawn:
-  - {fileID: 8041632576401943291, guid: 60c5e107b9de85b488d9d50d08d11210, type: 3}
+  bubblerConfigs:
+  - {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
+  - {fileID: 11400000, guid: 79cbc435b01bfc641add1ac55a53c026, type: 2}
   SpawnDistance: {x: 2, y: 2}
   SpawnRadius: 3
-  DesiredBubbleDensity: 0.3
+  DesiredBubbleDensity: 0.1
   DensityCheckRadius: 4
-  SpawnCooldown: 0.5
+  SpawnCooldown: 0.1
   BubbleMargin: 0.2
   BubbleRadius: 0.5
