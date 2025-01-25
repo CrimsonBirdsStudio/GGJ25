@@ -14,7 +14,7 @@ public class GameState : MonoBehaviour
 	public bool IsPaused { get { return _isPaused; } set { _isPaused = value; SetIsTimePassing(); } }
 		private bool _isPaused;
 	public bool IsGameEnded { get { return _isGameEnded; } set { _isGameEnded = value; SetIsTimePassing(); } }
-	private bool _isGameEnded;
+	private bool _isGameEnded = false;
 
 
 	// Tema pausas y calculo del tiempo.
@@ -24,6 +24,10 @@ public class GameState : MonoBehaviour
 	private float _totalTimePaused;
 	private bool _isTimePassing;
 
+	private void Start()
+	{
+		SetIsTimePassing();
+	}
 	/// <summary>
 	/// Establece el estado en nuevo juego.
 	/// </summary>
