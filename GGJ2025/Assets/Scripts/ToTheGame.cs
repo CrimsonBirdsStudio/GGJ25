@@ -3,6 +3,12 @@ using UnityEngine.SceneManagement;
 
 public class ToTheGame : MonoBehaviour
 {
+
+
+    [FMODUnity.BankRef]
+    public string musicBank;
+    [FMODUnity.BankRef]
+    public string fxBank;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -14,11 +20,14 @@ public class ToTheGame : MonoBehaviour
     {
         if (Input.anyKeyDown)
         {
-            if (FMODUnity.RuntimeManager.HasBankLoaded("Music"))
+            print("MIERDA");
+            if (FMODUnity.RuntimeManager.HasBankLoaded(musicBank))
             {
-                if (FMODUnity.RuntimeManager.HasBankLoaded("FX"))
+                print("DEL");
+                if (FMODUnity.RuntimeManager.HasBankLoaded(fxBank))
                 {
-                    SceneManager.LoadScene("Game");
+                    print("CULO");
+                    SceneManager.LoadScene("MainSceneFMOD");
                 }
             }
 
