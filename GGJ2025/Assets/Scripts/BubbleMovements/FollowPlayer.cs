@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class FollowPlayer : MonoBehaviour
 {
-    public Transform target;
+    Transform target;
     Vector2 dir;
     float crono;
     public float interval;
@@ -16,7 +16,7 @@ public class FollowPlayer : MonoBehaviour
     void Start()
     {
         crono = 0;
-        target = GameObject.Find("Player").transform;
+        target = GameManager.Instance.player_instance.transform;
     }
 
     // Update is called once per frame
