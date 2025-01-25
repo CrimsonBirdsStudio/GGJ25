@@ -1,52 +1,52 @@
 fileFormatVersion: 2
-guid: 49e479a5f2f672343bc92895195c125c
+guid: 70c6dcd6465c4854f84677fe3fa3a672
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5849962688519437107
-    second: symbol_on_0
+      213: -6773571181594146874
+    second: symbols_off_0
   - first:
-      213: 4460520746691040145
-    second: symbol_on_1
+      213: -1952237617978825881
+    second: symbols_off_1
   - first:
-      213: -4998562129523146919
-    second: symbol_on_2
+      213: -6313253166344163643
+    second: symbols_off_2
   - first:
-      213: 7750781278369094791
-    second: symbol_on_3
+      213: 9069621584712742399
+    second: symbols_off_3
   - first:
-      213: -4198466958008532451
-    second: symbol_on_4
+      213: 7233281548633926106
+    second: symbols_off_4
   - first:
-      213: -5571793106115399223
-    second: symbol_on_5
+      213: 1831870482614863228
+    second: symbols_off_5
   - first:
-      213: 9074396473031734403
-    second: symbol_on_6
+      213: -2254465061968223547
+    second: symbols_off_6
   - first:
-      213: 4110783434509948570
-    second: symbol_on_7
+      213: -3998982025785285832
+    second: symbols_off_7
   - first:
-      213: 5848006108522650715
-    second: symbol_on_8
+      213: -8876161701720801643
+    second: symbols_off_8
   - first:
-      213: -7713712914227061297
-    second: symbol_on_9
+      213: -7052651036580918715
+    second: symbols_off_9
   - first:
-      213: 3859560387753584249
-    second: symbol_on_10
+      213: -6151668875935040430
+    second: symbols_off_10
   - first:
-      213: 6057252123588444487
-    second: symbol_on_11
+      213: 7308015364983494445
+    second: symbols_off_11
   - first:
-      213: -817456943429814016
-    second: symbol_on_12
+      213: 3498421372387861716
+    second: symbols_off_12
   - first:
-      213: 4961572114689107570
-    second: symbol_on_13
+      213: -5517295913940419853
+    second: symbols_off_13
   - first:
-      213: 2729010361310447202
-    second: symbol_on_14
+      213: 8827007163193373030
+    second: symbols_off_14
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,11 +155,11 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: symbol_on_0
+      name: symbols_off_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 606
+        x: 226
+        y: 941
         width: 126
         height: 158
       alignment: 0
@@ -170,18 +170,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dc48281ede1c0dea0800000000000000
-      internalID: -5849962688519437107
+      spriteID: 6c70244f5e07ff1a0800000000000000
+      internalID: -6773571181594146874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_1
+      name: symbols_off_1
       rect:
         serializedVersion: 2
-        x: 188
-        y: 605
+        x: 480
+        y: 948
         width: 174
         height: 151
       alignment: 0
@@ -192,18 +192,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19397cb7cf3f6ed30800000000000000
-      internalID: 4460520746691040145
+      spriteID: 763a737da3248e4e0800000000000000
+      internalID: -1952237617978825881
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_2
+      name: symbols_off_2
       rect:
         serializedVersion: 2
-        x: 376
-        y: 602
+        x: 794
+        y: 942
         width: 135
         height: 165
       alignment: 0
@@ -214,18 +214,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 95f7d0a0a3a81aab0800000000000000
-      internalID: -4998562129523146919
+      spriteID: 5ce22fab1b1d268a0800000000000000
+      internalID: -6313253166344163643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_3
+      name: symbols_off_3
       rect:
         serializedVersion: 2
-        x: 531
-        y: 601
+        x: 1082
+        y: 939
         width: 167
         height: 162
       alignment: 0
@@ -236,18 +236,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 78c10fcd18e409b60800000000000000
-      internalID: 7750781278369094791
+      spriteID: ff5b40447c4cddd70800000000000000
+      internalID: 9069621584712742399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_4
+      name: symbols_off_4
       rect:
         serializedVersion: 2
-        x: 704
-        y: 602
+        x: 1388
+        y: 935
         width: 190
         height: 188
       alignment: 0
@@ -258,18 +258,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d12cfaecb8c0cb5c0800000000000000
-      internalID: -4198466958008532451
+      spriteID: ad966b2be37c16460800000000000000
+      internalID: 7233281548633926106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_5
+      name: symbols_off_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 394
+        x: 233
+        y: 620
         width: 126
         height: 158
       alignment: 0
@@ -280,18 +280,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c1750cc0b30da2b0800000000000000
-      internalID: -5571793106115399223
+      spriteID: c7548ce8f7c1c6910800000000000000
+      internalID: 1831870482614863228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_6
+      name: symbols_off_6
       rect:
         serializedVersion: 2
-        x: 188
-        y: 393
+        x: 487
+        y: 627
         width: 174
         height: 151
       alignment: 0
@@ -302,18 +302,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3843d16938bbeed70800000000000000
-      internalID: 9074396473031734403
+      spriteID: 5c2ead688f786b0e0800000000000000
+      internalID: -2254465061968223547
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_7
+      name: symbols_off_7
       rect:
         serializedVersion: 2
-        x: 376
-        y: 390
+        x: 801
+        y: 621
         width: 135
         height: 165
       alignment: 0
@@ -324,18 +324,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a96968af0cf6c0930800000000000000
-      internalID: 4110783434509948570
+      spriteID: 83365e9f803c088c0800000000000000
+      internalID: -3998982025785285832
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_8
+      name: symbols_off_8
       rect:
         serializedVersion: 2
-        x: 531
-        y: 389
+        x: 1089
+        y: 618
         width: 167
         height: 162
       alignment: 0
@@ -346,18 +346,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b5c9ec6529a482150800000000000000
-      internalID: 5848006108522650715
+      spriteID: 59e3100d5f981d480800000000000000
+      internalID: -8876161701720801643
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_9
+      name: symbols_off_9
       rect:
         serializedVersion: 2
-        x: 704
-        y: 390
+        x: 1395
+        y: 614
         width: 190
         height: 188
       alignment: 0
@@ -368,18 +368,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fcd172839f263f490800000000000000
-      internalID: -7713712914227061297
+      spriteID: 54acdcfaf33ff1e90800000000000000
+      internalID: -7052651036580918715
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_10
+      name: symbols_off_10
       rect:
         serializedVersion: 2
-        x: 41
-        y: 174
+        x: 244
+        y: 293
         width: 126
         height: 158
       alignment: 0
@@ -390,18 +390,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 976a83d49b9ef8530800000000000000
-      internalID: 3859560387753584249
+      spriteID: 25cb01210c1e0aaa0800000000000000
+      internalID: -6151668875935040430
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_11
+      name: symbols_off_11
       rect:
         serializedVersion: 2
-        x: 194
-        y: 173
+        x: 498
+        y: 300
         width: 174
         height: 151
       alignment: 0
@@ -412,18 +412,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7414875b6beaf0450800000000000000
-      internalID: 6057252123588444487
+      spriteID: d2710f241494b6560800000000000000
+      internalID: 7308015364983494445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_12
+      name: symbols_off_12
       rect:
         serializedVersion: 2
-        x: 382
-        y: 170
+        x: 812
+        y: 294
         width: 135
         height: 165
       alignment: 0
@@ -434,18 +434,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 00970b3bd3fc7a4f0800000000000000
-      internalID: -817456943429814016
+      spriteID: 4d420d7e3b3ec8030800000000000000
+      internalID: 3498421372387861716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_13
+      name: symbols_off_13
       rect:
         serializedVersion: 2
-        x: 537
-        y: 169
+        x: 1100
+        y: 291
         width: 167
         height: 162
       alignment: 0
@@ -456,18 +456,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 276278ffc8b0bd440800000000000000
-      internalID: 4961572114689107570
+      spriteID: 3fafdd02990ae63b0800000000000000
+      internalID: -5517295913940419853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: symbol_on_14
+      name: symbols_off_14
       rect:
         serializedVersion: 2
-        x: 710
-        y: 170
+        x: 1406
+        y: 287
         width: 190
         height: 188
       alignment: 0
@@ -478,8 +478,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2660546f6746fd520800000000000000
-      internalID: 2729010361310447202
+      spriteID: 66138f75f34df7a70800000000000000
+      internalID: 8827007163193373030
       vertices: []
       indices: 
       edges: []
