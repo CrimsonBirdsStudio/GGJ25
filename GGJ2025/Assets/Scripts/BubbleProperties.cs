@@ -1,13 +1,22 @@
-
-using System.Collections.Generic;
 using UnityEngine;
 
 
-public class BackgroundGenerator : MonoBehaviour
+
+
+public enum BLUBBER
+{
+    BLUBBER01,
+    BLUBBER02,
+    BLUBBER03,
+    BLUBBER04,
+    BLUBBER05,
+}
+
+
+public class BubbleProperties : MonoBehaviour
 {
 
-    public List<GameObject> prefabs;
-
+    public BLUBBER blubber;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {

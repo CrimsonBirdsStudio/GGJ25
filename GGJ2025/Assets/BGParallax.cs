@@ -1,13 +1,7 @@
-
-using System.Collections.Generic;
 using UnityEngine;
 
-
-public class BackgroundGenerator : MonoBehaviour
+public class BGParallax : MonoBehaviour
 {
-
-    public List<GameObject> prefabs;
-
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
