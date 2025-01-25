@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: 3c0e3c0ded306cc41ad54fe7490de912
+guid: 043ca5aca6e42d644bb40ee49e6081e4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2785530517947363876
-    second: plant_stick_idle_spritesheet_0
+      213: -3234400725290422774
+    second: Bubble_Sheet_0
   - first:
-      213: 2402632852154035818
-    second: plant_stick_idle_spritesheet_1
+      213: -5242435963758582417
+    second: Bubble_Sheet_1
   - first:
-      213: 4394655055693890384
-    second: plant_stick_idle_spritesheet_2
+      213: -2722819298173475279
+    second: Bubble_Sheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -53,11 +53,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,67 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plant_stick_idle_spritesheet_0
+      name: Bubble_Sheet_0
       rect:
         serializedVersion: 2
-        x: 385
-        y: 315
-        width: 193
-        height: 354
+        x: 110
+        y: 129
+        width: 724
+        height: 722
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cddccb690cec759d0800000000000000
-      internalID: -2785530517947363876
+      spriteID: ae41006e1602bbd4d98b2dc00dc1ec19
+      internalID: -554640990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plant_stick_idle_spritesheet_1
+      name: Bubble_Sheet_1
       rect:
         serializedVersion: 2
-        x: 1307
-        y: 316
-        width: 203
-        height: 357
+        x: 1040
+        y: 126
+        width: 724
+        height: 723
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a6e235e69ddd75120800000000000000
-      internalID: 2402632852154035818
+      spriteID: bc762448326bb9e4fb2024f30528e9a0
+      internalID: 228018103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: plant_stick_idle_spritesheet_2
+      name: Bubble_Sheet_2
       rect:
         serializedVersion: 2
-        x: 2236
-        y: 317
-        width: 209
-        height: 355
+        x: 1962
+        y: 130
+        width: 724
+        height: 719
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 05342014d73fcfc30800000000000000
-      internalID: 4394655055693890384
+      spriteID: 98c601b067f68ef44991bcf809f9292e
+      internalID: -1378698617
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4b99e2dd3731587469a7c0734320c66f
+    spriteID: bf764a732a133e6448fdd1cb233c6714
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      plant_stick_idle_spritesheet_0: -2785530517947363876
-      plant_stick_idle_spritesheet_1: 2402632852154035818
-      plant_stick_idle_spritesheet_2: 4394655055693890384
+      Bubble_Sheet_0: -554640990
+      Bubble_Sheet_1: 228018103
+      Bubble_Sheet_2: -1378698617
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
