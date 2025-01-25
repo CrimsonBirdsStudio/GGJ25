@@ -21,7 +21,7 @@ public class WaveMovement : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        dir = (player.position - transform.position).normalized * vel;
     }
 
     // Update is called once per frame
@@ -33,15 +33,15 @@ public class WaveMovement : MonoBehaviour
     private void FixedUpdate()
     {
 
-        dir = (player.position - transform.position).normalized;
+        
 
         crono += Time.fixedDeltaTime;
-        wave = new Vector2(dir.x, dir.y * -1 * Mathf.Cos(crono * freq) ).normalized * amp;
+        wave = new Vector2(-dir.y, dir.x * Mathf.Cos(crono * freq) ) * amp;
         //dir.x = dir.x;
         //dir.y = Mathf.Cos(crono * freq);
 
 
-        rb.linearVelocity = (dir + wave).normalized * vel;
+        rb.linearVelocity = dir + wave;
     }
 
     private void OnCollisionEnter(Collision collision)

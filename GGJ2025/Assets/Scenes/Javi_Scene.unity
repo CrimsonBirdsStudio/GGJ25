@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 38.379997
@@ -187,6 +191,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -259,7 +267,7 @@ Transform:
   m_GameObject: {fileID: 172976978}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1, y: -0.2, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2.7, y: 2.7, z: 2.7}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -332,6 +340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 44.55
@@ -388,6 +400,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -446,6 +462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.43
@@ -502,6 +522,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -560,6 +584,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.7
@@ -616,6 +644,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -674,6 +706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.7
@@ -730,6 +766,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 8ae83496ebfd8f045ade53fef1f8e025, type: 3}
       propertyPath: m_Name
       value: EnemyWave (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 8ae83496ebfd8f045ade53fef1f8e025, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 8ae83496ebfd8f045ade53fef1f8e025, type: 3}
       propertyPath: m_LocalPosition.x
@@ -790,6 +830,10 @@ PrefabInstance:
     - target: {fileID: 886012185701371576, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
       propertyPath: m_Name
       value: EnemyFollow
+      objectReference: {fileID: 0}
+    - target: {fileID: 886012185701371576, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2436844024924903140, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
       propertyPath: force
@@ -883,6 +927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.82
@@ -939,6 +987,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -997,6 +1049,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStaticFreezing (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
       value: 50.4
@@ -1053,6 +1109,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1196,7 +1256,7 @@ Transform:
   m_GameObject: {fileID: 670550359}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.3, y: -2.1, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -1216,7 +1276,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   foundBlubbersCount: 0
-  targetBlubbers: 01000000010000000100000001000000
+  targetBlubbers: 01000000030000000300000000000000
   foundBlubbers: 
 --- !u!58 &670550364
 CircleCollider2D:
@@ -1248,12 +1308,12 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 1.36
+  m_Radius: 1.35
 --- !u!4 &674004596 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
@@ -1270,6 +1330,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1327,6 +1391,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1389,6 +1457,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1533,6 +1605,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1750,8 +1826,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dir: {x: -1, y: 0}
   vel: 3
-  amp: 1
-  freq: 5
+  amp: 2
+  freq: 4
   wave: {x: 0, y: 0}
   player: {fileID: 670550362}
 --- !u!1001 &954882034
@@ -1765,6 +1841,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: ef769b67c9df2a544a01d31bc6bdaad1, type: 3}
       propertyPath: m_Name
       value: EnemyRandom
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: ef769b67c9df2a544a01d31bc6bdaad1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: ef769b67c9df2a544a01d31bc6bdaad1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1979,6 +2059,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 42.78
@@ -2035,6 +2119,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2093,6 +2181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 31.91
@@ -2149,6 +2241,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2242,6 +2338,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabs: []
+  worldCameraWidth: 0
+  worldCameraHeight: 0
 --- !u!114 &1267757306
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2265,6 +2363,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2379,6 +2481,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2510,6 +2616,37 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
+--- !u!1 &1626961102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1626961103}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1626961103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1626961102}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.2, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1639323527
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2521,6 +2658,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2581,6 +2722,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_Name
       value: EnemyStaticFreezing (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: 7ba303e4e9f46804b9a3e66320fe7464, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2741,6 +2886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyFollow (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 886012185701371576, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2436844024924903140, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
       propertyPath: force
       value: 5
@@ -2881,6 +3030,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 18.7
@@ -2937,6 +3090,10 @@ PrefabInstance:
     - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_Name
       value: EnemyStatic (39)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2995,6 +3152,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: EnemyStatic (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1085344818342898083, guid: da475d98f888ec046b08b773db066f74, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3205209637615416341, guid: da475d98f888ec046b08b773db066f74, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.4
@@ -3045,6 +3206,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 901953379}
+  - {fileID: 1626961103}
   - {fileID: 670550362}
   - {fileID: 1709885215}
   - {fileID: 1489837182}
