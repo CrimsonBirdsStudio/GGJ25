@@ -10,18 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0889f225e5983bb468b1d2a5c91c0ad5, type: 3}
-  m_Name: BubblerConfigTest
+  m_Name: BubblerConfigBadFollower
   m_EditorClassIdentifier: 
-  prefabBase: {fileID: 886012185701371576, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
-  SpawnerType: 0
+  prefabBase: {fileID: 226420496374734395, guid: 6763b1d62a3390749ab5c30785a0e936, type: 3}
+  prefabBubble: {fileID: 8692821181687536155, guid: 665b33ace6bb09449a55a7f676c16650, type: 3}
+  prefabBubbler: {fileID: 4900055635229235843, guid: a6fae905ec5690640a9b87087228984f, type: 3}
+  SpawnerType: 16
   SpawnAreaType: 0
   RespawnMechanic: 0
   DespawnMechanic: 0
   SpawnTimeFrame: {x: 0, y: 0}
   RespawnTimeFrame: {x: 0, y: 0}
-  MaxTotalSpawned: 0
-  MaxDensityForSameType: 0
-  MaxDensityOverall: 0
-  Radius: 0
-  DespawnTime: 0
-  DespawnDistance: 0
+  MaxTotalSpawned: 20
+  MaxDensityForSameType: 0.15
+  MaxDensityOverall: 1
+  Radius: 1
+  DespawnTime: 3
+  DespawnDistance: 20
+  MovementInterval: 2
+  MovementForce: 2

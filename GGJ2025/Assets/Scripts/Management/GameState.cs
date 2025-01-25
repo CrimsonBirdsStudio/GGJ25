@@ -11,6 +11,7 @@ public class GameState : MonoBehaviour
 	public int CurrentLevel; // Nivel actual, en base a los blubbers recogidos. // TODO: Implementar como getter a partir del progreso del jugador.
 	public string[] BubblesTarget;
 	public bool[] BubblesObtained;
+	public GameObject BubblerPlayer; // Sprite del player.
 	public int TargetShoppingListAmount;
 
 	// Cosas de pause
@@ -39,8 +40,12 @@ public class GameState : MonoBehaviour
         _levelTimeStart = Time.timeSinceLevelLoad;
 		IsGameEnded = false;
 		IsPaused = false;
+
+		BubblerPlayer = GameManager.Instance.BubblerRepository.GetRandomBubblerExcluding();
 		BubblesTarget = GameManager.Instance.BubblerRepository.GetBubblesForShoppingList(TargetShoppingListAmount).Select(x => x.name).ToArray();
 		BubblesObtained = new bool[BubblesTarget.Length];
+
+		GameManager.Instance.player_instance.GetComponentsInChildren<SpriteRenderer>().First(x => x.name == "Bubbler").sprite = BubblerPlayer.GetComponent<SpriteRenderer>().sprite;
 	}
 
 	public void SetGameOver()

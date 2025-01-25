@@ -3,18 +3,13 @@ using UnityEngine;
 
 public class BubblerRepository : MonoBehaviour
 {
-    public GameObject[] AllSprites;
+    public GameObject[] AllBubblerSprites;
 
-    public GameObject GetRandomBubblerExcluding(string[] excluded)
+    public GameObject GetRandomBubblerExcluding(params string[] excluded)
     {
-        GameObject selected;
-        do
-        {
-            selected = AllSprites[Random.Range(0, AllSprites.Length)];
-
-        } while (excluded.Contains(selected.name));
-        return selected;
-
+        var listWithourExluded = AllBubblerSprites
+            .Where(x => !excluded.Contains(x.name)).ToArray();
+		return listWithourExluded[Random.Range(0, listWithourExluded.Length)];
 	}
 
     public GameObject[] GetBubblesForShoppingList(int amount)
@@ -24,9 +19,14 @@ public class BubblerRepository : MonoBehaviour
 
 		for (int i = 0; i < amount; i++)
         {
-            selected[i] = AllSprites[i];
+            selected[i] = AllBubblerSprites[i];
 		}
 
-        return selected;
+        return selected.ToArray();
     }
+
+	public GameObject[] GetAllBubblersExcluding(params string[] excluded)
+	{
+        return AllBubblerSprites.Where(x => !excluded.Contains(x.name)).ToArray();
+	}
 }
