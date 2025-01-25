@@ -170,4 +170,8 @@ public class Player_Movement : MonoBehaviour
             staminaIndicator.color = Color.red; // Mientras recarga
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Destroy(collision.transform.parent.gameObject);   
+    }
 }
