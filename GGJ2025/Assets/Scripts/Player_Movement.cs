@@ -1,4 +1,6 @@
 using DG.Tweening;
+using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,6 +14,8 @@ public class Player_Movement : MonoBehaviour
     public AnimationCurve impulseCurve = new AnimationCurve(new Keyframe(0f, 1f, 2, 2), new Keyframe(1f, 5f, 4, 4));
     public GameObject arrow;
 
+
+    private Animator animator;
     private float stamina; // Estamina actual
     private float currentCooldown = 0f; // Cooldown restante
     private Vector2 targetDirection; // Dirección del impulso
@@ -22,6 +26,7 @@ public class Player_Movement : MonoBehaviour
 
     void Start()
     {
+        animator = transform.GetChild(1).GetComponent<Animator>();
         _rb = GetComponent<Rigidbody2D>();
         stamina = maxStamina;
         Cursor.visible=false;
@@ -87,6 +92,10 @@ public class Player_Movement : MonoBehaviour
     }
     private void ApplyImpulse()
     {
+        GameObject bubblerSprite = transform.GetChild(1).gameObject;
+        bubblerSprite.transform.DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f);
+        animator.Play("Push");
+
         arrow.GetComponent<SpriteRenderer>().color = new Color
                 (arrow.GetComponent<SpriteRenderer>().color.r, arrow.GetComponent<SpriteRenderer>().color.g, arrow.GetComponent<SpriteRenderer>().material.color.b, 0);
 
@@ -124,6 +133,12 @@ public class Player_Movement : MonoBehaviour
         currentCooldown -= Time.deltaTime;
         if (currentCooldown <= 0)
         {
+            if(isCooldownActive)
+            {
+                GameObject bubblerSprite = transform.GetChild(1).gameObject;
+                bubblerSprite.transform.DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f);
+                animator.Play("Idle");
+            }
             isCooldownActive = false; // Cooldown terminado
         }
         // Regenerar estamina si no está en cooldown
