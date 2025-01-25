@@ -122,10 +122,10 @@ TextureImporter:
       name: plant_stick_idle_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 928
-        height: 901
+        x: 385
+        y: 315
+        width: 193
+        height: 354
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: plant_stick_idle_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 928
-        y: 0
-        width: 928
-        height: 901
+        x: 1307
+        y: 316
+        width: 203
+        height: 357
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: plant_stick_idle_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 1856
-        y: 0
-        width: 928
-        height: 901
+        x: 2236
+        y: 317
+        width: 209
+        height: 355
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

@@ -289,7 +289,7 @@ Transform:
   m_GameObject: {fileID: 805942072}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1884236, y: 0.73715055, z: 0}
+  m_LocalPosition: {x: 0.59, y: 0.53, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -708,10 +708,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BubbleSpawning
       objectReference: {fileID: 0}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: BubbleRadius
-      value: 0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -980,10 +976,6 @@ PrefabInstance:
     - target: {fileID: 1528879044429029471, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2664736824317059049, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
-      propertyPath: maxCleanChecksPerUpdate
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3724779746613311758, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: m_Name

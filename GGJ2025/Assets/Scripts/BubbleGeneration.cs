@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class BubbleGeneration : MonoBehaviour
 {
-	public Transform PlayerObject; // Referencia a objeto de jugador. TODO: Hacerlo private y obtenerlo en el start.
+	public Transform PlayerObject;
 	public Transform CameraObject;
 
 	public GameObject[] BubblesToSpawn;
-	public Vector2 SpawnDistance; // A partir de qué distancia pueden aparecer las burbujas.
-	public float SpawnRadius; // En qué radio aparecen las burbujas, respencto al SpawnDistance.
+	public Vector2 SpawnDistance; // A partir de qué distancia pueden aparecer las burbujas, desde el borde de la pantalla.
+	public float SpawnRadius; // En qué radio aparecen las burbujas, respecto al SpawnDistance.
 	public float DesiredBubbleDensity; // Densidad de burbujas deseada.
 	public float DensityCheckRadius = 1f; // En qué radio se comprueba la densidad antes de spawnear.
 	public float SpawnCooldown = 0.2f; // Tiempos entre spawneos, en segundos.
@@ -51,9 +51,10 @@ public class BubbleGeneration : MonoBehaviour
 		Vector2 playerDir = ((Vector2)PlayerObject.position - lastPlayerPos).normalized;
 		if (playerDir.magnitude == 0)
 			return;
+		Vector2 borderDistance = GameManager.Instance.CurrentViewSize / 2f;
 
 		// Elegir posición de spawn en base a la dirección en la que va el jugador.
-		Vector2 spawnCenterPos = (Vector2)CameraObject.position + new Vector2(playerDir.x * (SpawnDistance.x + SpawnRadius), playerDir.y * (SpawnDistance.y + SpawnRadius));
+		Vector2 spawnCenterPos = (Vector2)CameraObject.position + new Vector2(playerDir.x * (borderDistance.x + SpawnDistance.x + SpawnRadius), playerDir.y * (borderDistance.y + SpawnDistance.y + SpawnRadius));
 		_debugSpawnPos = spawnCenterPos;
 
 		// Obtener densidad de burbujas en la zona.
