@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1b4c587f-1584-46b9-a911-83831fdc8467}">
 		<property name="name">
-			<value>FX</value>
+			<value>FX_Bubble_Hit_01</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
 		</property>
 		<relationship name="folder">
-			<destination>{23dc5b42-e010-4331-a4a7-de5f7ed47c46}</destination>
+			<destination>{71dccc83-ee2a-4538-886d-a18fbcfc4624}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{b05f89d8-7fda-45f3-9f82-703fd07a0a29}</destination>
@@ -28,6 +28,9 @@
 		<relationship name="timeline">
 			<destination>{a3b2385b-7292-4056-903f-b0dd367776d9}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{fd1a3c1b-68e4-4e1c-be2d-21d273ce9ff5}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{b05f89d8-7fda-45f3-9f82-703fd07a0a29}">
 		<relationship name="masterBus">
@@ -35,6 +38,9 @@
 		</relationship>
 	</object>
 	<object class="MasterTrack" id="{3b8d2088-4f21-46bf-9301-b82bad53fb1b}">
+		<relationship name="modules">
+			<destination>{68d1fcf6-a1fb-4dbd-af87-00f99e2e3456}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{f7787553-fbcd-4beb-a8de-2c22cbfe9982}</destination>
 		</relationship>
@@ -53,9 +59,9 @@
 	<object class="EventAutomatableProperties" id="{64652cc3-b2ce-4795-97d8-b566b3e2910d}" />
 	<object class="MarkerTrack" id="{0b7c2e14-c1bb-4791-8063-dec34ef0e544}" />
 	<object class="Timeline" id="{a3b2385b-7292-4056-903f-b0dd367776d9}">
-		<property name="isProxyEnabled">
-			<value>false</value>
-		</property>
+		<relationship name="modules">
+			<destination>{68d1fcf6-a1fb-4dbd-af87-00f99e2e3456}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{f7787553-fbcd-4beb-a8de-2c22cbfe9982}">
 		<relationship name="effectChain">
@@ -67,6 +73,11 @@
 		<relationship name="mixer">
 			<destination>{b05f89d8-7fda-45f3-9f82-703fd07a0a29}</destination>
 		</relationship>
+	</object>
+	<object class="MultiSound" id="{68d1fcf6-a1fb-4dbd-af87-00f99e2e3456}">
+		<property name="length">
+			<value>12</value>
+		</property>
 	</object>
 	<object class="MixerBusEffectChain" id="{b58cddd8-54ad-40b2-a58d-3cae987cf9db}">
 		<relationship name="effects">
