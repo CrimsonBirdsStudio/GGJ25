@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 70b9dc490c03d2e43b9b7c4fbc730bc2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7404005391311353891
+    second: myFriendz_Sheet_0
+  - first:
+      213: 7200588551066269862
+    second: myFriendz_Sheet_1
+  - first:
+      213: 2951124849872474356
+    second: myFriendz_Sheet_2
+  - first:
+      213: -5555089073067314659
+    second: myFriendz_Sheet_3
+  - first:
+      213: -3279271967806784793
+    second: myFriendz_Sheet_4
+  - first:
+      213: -4892927794183709523
+    second: myFriendz_Sheet_5
+  - first:
+      213: 688889875651283425
+    second: myFriendz_Sheet_6
+  - first:
+      213: 1466458989492815790
+    second: myFriendz_Sheet_7
+  - first:
+      213: 1508704492422925108
+    second: myFriendz_Sheet_8
+  - first:
+      213: -6374713021183628266
+    second: myFriendz_Sheet_9
+  - first:
+      213: 4915726607042209806
+    second: myFriendz_Sheet_10
+  - first:
+      213: -5666159817199427652
+    second: myFriendz_Sheet_11
+  - first:
+      213: -6279663635377385691
+    second: myFriendz_Sheet_12
+  - first:
+      213: -4257023952448375186
+    second: myFriendz_Sheet_13
+  - first:
+      213: -6576018096878882485
+    second: myFriendz_Sheet_14
+  - first:
+      213: 1361146521058826830
+    second: myFriendz_Sheet_15
+  - first:
+      213: 4664778020526954457
+    second: myFriendz_Sheet_16
+  - first:
+      213: 8405900546697746066
+    second: myFriendz_Sheet_17
+  - first:
+      213: -5738152389241850206
+    second: myFriendz_Sheet_18
+  - first:
+      213: 6986848822637789423
+    second: myFriendz_Sheet_19
+  - first:
+      213: -4994975564949269879
+    second: myFriendz_Sheet_20
+  - first:
+      213: -6848151128553271998
+    second: myFriendz_Sheet_21
+  - first:
+      213: -7346886151620429399
+    second: myFriendz_Sheet_22
+  - first:
+      213: -3080428242086188836
+    second: myFriendz_Sheet_23
+  - first:
+      213: -9165061874406460725
+    second: myFriendz_Sheet_24
+  - first:
+      213: -1429894599961136372
+    second: myFriendz_Sheet_25
+  - first:
+      213: 4462879798640944285
+    second: myFriendz_Sheet_26
+  - first:
+      213: -112735034955484842
+    second: myFriendz_Sheet_27
+  - first:
+      213: -4297356820980500638
+    second: myFriendz_Sheet_28
+  - first:
+      213: -245926632796532532
+    second: myFriendz_Sheet_29
+  - first:
+      213: 3539680339447011930
+    second: myFriendz_Sheet_30
+  - first:
+      213: 5930094871349869740
+    second: myFriendz_Sheet_31
+  - first:
+      213: -4859934735059344482
+    second: myFriendz_Sheet_32
+  - first:
+      213: 1453867849071313447
+    second: myFriendz_Sheet_33
+  - first:
+      213: -7352437447052619919
+    second: myFriendz_Sheet_34
+  - first:
+      213: 3253854811865107981
+    second: myFriendz_Sheet_35
+  - first:
+      213: 5130842071264157423
+    second: myFriendz_Sheet_36
+  - first:
+      213: -7554200649857996776
+    second: myFriendz_Sheet_37
+  - first:
+      213: -3321878541808143752
+    second: myFriendz_Sheet_38
+  - first:
+      213: 2891818546303673226
+    second: myFriendz_Sheet_39
+  - first:
+      213: 5159848506231585981
+    second: myFriendz_Sheet_40
+  - first:
+      213: 9057920789085976806
+    second: myFriendz_Sheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: myFriendz_Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 928
+        height: 461
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5542f311d074a14479eca5664e530936
+      internalID: -897145573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: myFriendz_Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 256
+        width: 925
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4ae01aa23581a4eba2e8d177cc38c9
+      internalID: -1301775145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: myFriendz_Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 256
+        width: 928
+        height: 459
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba7c346216a3714f8cf70a8de4c4c49
+      internalID: 1465135748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 479363fd52c41be4897498a9c726b813
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      myFriendz_Sheet_0: -897145573
+      myFriendz_Sheet_1: -1301775145
+      myFriendz_Sheet_2: 1465135748
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

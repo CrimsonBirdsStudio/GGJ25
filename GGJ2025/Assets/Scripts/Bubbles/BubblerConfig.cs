@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "BubblerBase", menuName = "Scriptable Objects/BubblerBase")]
-public class BubblerBase : ScriptableObject
+public class BubblerConfig : ScriptableObject
 {
 	// public BubblerEnums.Shape Shape;
 	// public BubblerEnums.Family Family;
