@@ -10,7 +10,14 @@ public class GameManager : MonoBehaviour
     public TheCleanerTM ObjectCleaner;
 	public Player_Movement PlayerMovementScript;
     public GameState GameState;
-    private void Awake()
+    public BubblerRepository BubblerRepository;
+
+	public Vector2 CurrentViewSize {
+        get {
+            Camera cam = Camera.main;
+            return new Vector2(cam.orthographicSize * 2 * cam.aspect,  cam.orthographicSize * 2);
+        } }
+	private void Awake()
     {
         if (Instance == null)
         {
@@ -30,6 +37,7 @@ public class GameManager : MonoBehaviour
         PlayerMovementScript = FindObjectInSceneAndShowError<Player_Movement>();
 		ObjectCleaner = FindObjectInSceneAndShowError<TheCleanerTM>();
 		GameState = FindObjectInSceneAndShowError<GameState>();
+		BubblerRepository = FindObjectInSceneAndShowError<BubblerRepository>();
 	}
 
     public GameObject player_instance => PlayerMovementScript.gameObject;

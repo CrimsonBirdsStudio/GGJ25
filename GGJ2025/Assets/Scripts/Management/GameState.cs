@@ -1,3 +1,4 @@
+using System.Linq;
 using UnityEngine;
 
 /// <summary>
@@ -8,7 +9,9 @@ public class GameState : MonoBehaviour
     // TODO: Gestionar los bubbles obtenidos y los que faltan.
     public float CurrentDifficulty; // Dificultad actual que escala con el progreso. // TODO: Implementar como getter a partir del progreso del jugador.
 	public int CurrentLevel; // Nivel actual, en base a los blubbers recogidos. // TODO: Implementar como getter a partir del progreso del jugador.
-
+	public string[] BubblesTarget;
+	public bool[] BubblesObtained;
+	public int TargetShoppingListAmount;
 
 	// Cosas de pause
 	public bool IsPaused { get { return _isPaused; } set { _isPaused = value; SetIsTimePassing(); } }
@@ -26,7 +29,7 @@ public class GameState : MonoBehaviour
 
 	private void Start()
 	{
-		SetIsTimePassing();
+		SetNewGame();
 	}
 	/// <summary>
 	/// Establece el estado en nuevo juego.
@@ -36,6 +39,8 @@ public class GameState : MonoBehaviour
         _levelTimeStart = Time.timeSinceLevelLoad;
 		IsGameEnded = false;
 		IsPaused = false;
+		BubblesTarget = GameManager.Instance.BubblerRepository.GetBubblesForShoppingList(TargetShoppingListAmount).Select(x => x.name).ToArray();
+		BubblesObtained = new bool[BubblesTarget.Length];
 	}
 
 	public void SetGameOver()
