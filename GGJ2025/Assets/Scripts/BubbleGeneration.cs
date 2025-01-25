@@ -6,6 +6,7 @@ using UnityEngine;
 public class BubbleGeneration : MonoBehaviour
 {
 	public Transform PlayerObject; // Referencia a objeto de jugador. TODO: Hacerlo private y obtenerlo en el start.
+	public Transform CameraObject;
 
 	public GameObject[] BubblesToSpawn;
 	public Vector2 SpawnDistance; // A partir de qué distancia pueden aparecer las burbujas.
@@ -28,7 +29,10 @@ public class BubbleGeneration : MonoBehaviour
 
 	void Start()
 	{
-
+		if (CameraObject == null)
+			CameraObject = Camera.main.transform;
+		if (PlayerObject == null)
+			PlayerObject = GameObject.Find("Player").transform;
 	}
 
 	// Update is called once per frame
@@ -50,7 +54,7 @@ public class BubbleGeneration : MonoBehaviour
 			return;
 
 		// Elegir posición de spawn en base a la dirección en la que va el jugador.
-		Vector2 spawnCenterPos = new Vector2(playerDir.x * (SpawnDistance.x + SpawnRadius), playerDir.y * (SpawnDistance.y + SpawnRadius));
+		Vector2 spawnCenterPos = (Vector2)CameraObject.position + new Vector2(playerDir.x * (SpawnDistance.x + SpawnRadius), playerDir.y * (SpawnDistance.y + SpawnRadius));
 		_debugSpawnPos = spawnCenterPos;
 
 		// Obtener densidad de burbujas en la zona.
