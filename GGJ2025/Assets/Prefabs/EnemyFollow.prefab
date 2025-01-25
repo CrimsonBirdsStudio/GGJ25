@@ -98,6 +98,7 @@ GameObject:
   - component: {fileID: 6775273823727258270}
   - component: {fileID: 2208193948304804304}
   - component: {fileID: 2436844024924903140}
+  - component: {fileID: -7122165300798907004}
   m_Layer: 0
   m_Name: EnemyFollow
   m_TagString: Untagged
@@ -164,6 +165,20 @@ MonoBehaviour:
   target: {fileID: 0}
   interval: 2
   force: 2
+--- !u!114 &-7122165300798907004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886012185701371576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dda5ddede8a85b4994ad23c16a6a721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DistanceToDelete: 20
+  TimeAtDistanceToDelete: 5
 --- !u!1 &7264986082846298888
 GameObject:
   m_ObjectHideFlags: 0
