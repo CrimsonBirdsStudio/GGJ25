@@ -146,6 +146,9 @@ public class UI_Controller : MonoBehaviour
         endMsg.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, 1);
        
         yield return new WaitForSeconds(4);
+        initialColor = endMsg.color;
+        startAlpha = initialColor.a;
+        timeElapsed = 0;
 
         while (timeElapsed < .5f)
         {
