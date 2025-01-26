@@ -4,7 +4,7 @@ using DG.Tweening;
 using System.Collections.Generic;
 using System.Collections;
 
-public class UIAnimator : MonoBehaviour
+public class UI_Controller : MonoBehaviour
 {
     public List<Sprite> bublersSpritesOff =new();
     public List<Sprite> bublersSpritesOn = new();
@@ -15,33 +15,29 @@ public class UIAnimator : MonoBehaviour
     List<Sprite> bublersChosen = new();
     void Start()
     {
-        ChoseBublers();
+
     }
 
-    void ChoseBublers()
+    public void SetIcons(List<Sprite> offIcons, List<Sprite> onIcons)
     {
-        foreach (Transform bubbler in bublersContainer.transform)
+        for(int i = 0; i < 4; i++)
         {
-            Sprite sprite = bublersSpritesOn[Random.Range(0, bublersSpritesOn.Count)];
-
-            // Obtener el RectTransform del elemento
-            RectTransform rectTransform = bubbler.GetComponent<RectTransform>();
-            if (rectTransform != null)
-            {
-                // Modificar la posición local inicial
-                rectTransform.localPosition = new Vector3(
-                    rectTransform.localPosition.x,
-                    rectTransform.localPosition.y - 150,
-                    rectTransform.localPosition.z
-                );
-            }
-            bublersChosen.Add(sprite);
+           bublersContainer.transform.GetChild(i).gameObject.GetComponent<Image>().sprite = offIcons[i];
+           bublersContainer.transform.GetChild(i+4).gameObject.GetComponent<Image>().sprite = onIcons[i];
         }
-            StartCoroutine(ShowBubbler());
+        StartCoroutine(ShowBubbler());
     }
 
     IEnumerator ShowBubbler()
     {
+        foreach (RectTransform bubbler in bublersContainer.transform)
+        {
+            // Ajusta la posición de las imágenes desplazándolas 150 unidades hacia abajo
+            bubbler.anchoredPosition = new Vector2(
+                bubbler.anchoredPosition.x,
+                bubbler.anchoredPosition.y - 150
+            );
+        }
         yield return new WaitForSeconds(1);
         myFriendz.transform.DOScale(1,1).SetEase(Ease.OutElastic);
         yield return new WaitForSeconds(1);

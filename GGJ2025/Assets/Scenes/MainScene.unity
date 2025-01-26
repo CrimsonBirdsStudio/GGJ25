@@ -119,6 +119,81 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &314648606
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314648607}
+  - component: {fileID: 314648609}
+  - component: {fileID: 314648608}
+  m_Layer: 5
+  m_Name: FrienzOn04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &314648607
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314648606}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1199500056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.95260924, y: 0.094000004}
+  m_AnchorMax: {x: 0.9915633, y: 0.16153087}
+  m_AnchoredPosition: {x: 0.017578125, y: 0.5}
+  m_SizeDelta: {x: -0.8493004, y: 0.13700104}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &314648608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314648606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -2524822862839784859, guid: fc39db502a866c6448fff2b6838c2a2f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &314648609
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314648606}
+  m_CullTransparentMesh: 1
 --- !u!1 &414670516
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +451,81 @@ MonoBehaviour:
   smooth: 0.2
   target: {fileID: 708608325}
   distanceAdvance: 0
+--- !u!1 &600693202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 600693203}
+  - component: {fileID: 600693205}
+  - component: {fileID: 600693204}
+  m_Layer: 5
+  m_Name: FrienzOn02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &600693203
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600693202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1199500056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.8621725, y: 0.094000004}
+  m_AnchorMax: {x: 0.8996092, y: 0.16153087}
+  m_AnchoredPosition: {x: 0.3083496, y: 0.5}
+  m_SizeDelta: {x: 0.13579941, y: 0.13700104}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &600693204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600693202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -2254465061968223547, guid: 70c6dcd6465c4854f84677fe3fa3a672, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &600693205
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 600693202}
+  m_CullTransparentMesh: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +622,7 @@ GameObject:
   - component: {fileID: 649782980}
   - component: {fileID: 649782979}
   m_Layer: 5
-  m_Name: Frienz02
+  m_Name: FrienzOff02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -552,7 +702,7 @@ GameObject:
   - component: {fileID: 714554649}
   - component: {fileID: 714554648}
   m_Layer: 5
-  m_Name: Frienz01
+  m_Name: FrienzOff01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,6 +1068,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: AllBubblerSprites.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 37fdd900b9296c24d83187aa518b921c, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 6b311fcad9efee244bbf681d6371daa1, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[2]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 2847ed0e5ade8a04eab43608ffcf424b, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[3]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 1bc5042d2827ad540911c05ee8aea20c, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[4]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 3bac23244e84e7b488d5f2c144d78811, type: 2}
     - target: {fileID: 1528879044429029471, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8924479
@@ -967,6 +1141,81 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+--- !u!1 &1166275138
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1166275139}
+  - component: {fileID: 1166275141}
+  - component: {fileID: 1166275140}
+  m_Layer: 5
+  m_Name: FrienzOn01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1166275139
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166275138}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1199500056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.81760925, y: 0.09646914}
+  m_AnchorMax: {x: 0.85517246, y: 0.16153087}
+  m_AnchoredPosition: {x: -0.2999878, y: 0}
+  m_SizeDelta: {x: 0.13579941, y: 1.137001}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1166275140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166275138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 1325655711669224747, guid: fc39db502a866c6448fff2b6838c2a2f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1166275141
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1166275138}
+  m_CullTransparentMesh: 1
 --- !u!1 &1199500055
 GameObject:
   m_ObjectHideFlags: 0
@@ -1000,6 +1249,10 @@ RectTransform:
   - {fileID: 649782978}
   - {fileID: 1286058438}
   - {fileID: 1915604996}
+  - {fileID: 1166275139}
+  - {fileID: 600693203}
+  - {fileID: 1631517379}
+  - {fileID: 314648607}
   m_Father: {fileID: 1914179380}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1141,7 +1394,7 @@ GameObject:
   - component: {fileID: 1286058440}
   - component: {fileID: 1286058439}
   m_Layer: 5
-  m_Name: Frienz03
+  m_Name: FrienzOff03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1203,6 +1456,81 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1286058437}
+  m_CullTransparentMesh: 1
+--- !u!1 &1631517378
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1631517379}
+  - component: {fileID: 1631517381}
+  - component: {fileID: 1631517380}
+  m_Layer: 5
+  m_Name: FrienzOn03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1631517379
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631517378}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1199500056}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.90800005, y: 0.09646914}
+  m_AnchorMax: {x: 0.9456092, y: 0.16153087}
+  m_AnchoredPosition: {x: -0.08325195, y: 0}
+  m_SizeDelta: {x: 0.13579941, y: 1.137001}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1631517380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631517378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 3498421372387861716, guid: 70c6dcd6465c4854f84677fe3fa3a672, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1631517381
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631517378}
   m_CullTransparentMesh: 1
 --- !u!1 &1741807798
 GameObject:
@@ -1517,7 +1845,7 @@ GameObject:
   - component: {fileID: 1915604998}
   - component: {fileID: 1915604997}
   m_Layer: 5
-  m_Name: Frienz04
+  m_Name: FrienzOff04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
