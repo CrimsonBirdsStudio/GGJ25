@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
@@ -64,6 +65,18 @@ public class GameState : MonoBehaviour
 	public bool IsGoodBubbler(Bubler_Scriptable sprite)
 	{
 		return BubblesTarget.Contains(sprite);
+	}
+
+	public Bubler_Scriptable[] GetRemainingTargets()
+	{
+		var remaining = new List<Bubler_Scriptable>();
+		for (int i = 0; i < BubblesObtained.Length; i++)
+		{
+			if (!BubblesObtained[i])
+				remaining.Add(BubblesTarget[i]);
+		}
+
+		return remaining.ToArray();
 	}
 
 	private void PlayerGotBubbler(BubblerObject bubbler)
