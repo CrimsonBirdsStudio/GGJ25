@@ -25,6 +25,7 @@ MonoBehaviour:
   MaxDensityForSameType: 1
   MaxDensityOverall: 2
   Radius: 1
+  SpawnRadius: 4
   DespawnTime: 3
   DespawnDistance: 12
   DespawnDistanceMax: 20

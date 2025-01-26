@@ -22,6 +22,7 @@ public class BubblerConfig : ScriptableObject
 	public float MaxDensityForSameType;
 	public float MaxDensityOverall;
 	public float Radius;
+	public float SpawnRadius;
 
 	public float DespawnTime;
 	public float DespawnDistance;

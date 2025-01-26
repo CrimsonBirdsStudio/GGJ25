@@ -47,6 +47,7 @@ MonoBehaviour:
   bubblerConfigs:
   - {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
   - {fileID: 11400000, guid: 79cbc435b01bfc641add1ac55a53c026, type: 2}
+  - {fileID: 11400000, guid: 7f780e20f7874ca4db75f38e8c3e5b88, type: 2}
   SpawnDistance: {x: 2, y: 2}
   SpawnRadius: 3
   DesiredBubbleDensity: 0.1
