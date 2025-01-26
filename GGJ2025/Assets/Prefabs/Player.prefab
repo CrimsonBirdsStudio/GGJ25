@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 3942662976177611745}
   - component: {fileID: 5897443695442071511}
   - component: {fileID: 8220587597729312343}
-  - component: {fileID: 2085584743186080929}
-  - component: {fileID: 9186814522669745932}
+  - component: {fileID: 554560055114371482}
+  - component: {fileID: 760703144102121126}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3199934869891323338}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8d802b559c320548acf891aa9af4d37, type: 3}
   m_Name: 
@@ -161,7 +161,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AbsorbedPrefab: {fileID: 6347368671842838193, guid: d789888abbe34304a9c35bde6b8b82bb, type: 3}
   DecreasingBubble: {fileID: 8086679764084241959, guid: 54e4dd5596e6be4409ccbe3ac92ee74b, type: 3}
---- !u!114 &2085584743186080929
+--- !u!114 &554560055114371482
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,7 +175,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theSound: {fileID: 0}
   repelledPrefab: {fileID: 6347368671842838193, guid: 7d1d14e2b079e094f9009888ec19f30b, type: 3}
---- !u!114 &9186814522669745932
+--- !u!114 &760703144102121126
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -292,7 +292,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1758843512673124713
 Transform:
   m_ObjectHideFlags: 0

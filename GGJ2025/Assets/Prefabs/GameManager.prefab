@@ -69,6 +69,7 @@ MonoBehaviour:
   CurrentDifficulty: 0
   CurrentLevel: 0
   BubblesTarget: []
+  BubblesEnemies: []
   BubblesObtained: 
   BubblerPlayer: {fileID: 0}
   TargetShoppingListAmount: 4
@@ -113,4 +114,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c554fe038e9c19f4692fa61e3049c2c6, type: 2}
   - {fileID: 11400000, guid: bbe69f45e30c9d4488d356f67c5b797e, type: 2}
   - {fileID: 11400000, guid: e4483d73480dbda48a49ea0160721c19, type: 2}
-  BubbleStopperSprite: {fileID: 11400000, guid: 1ba939fb0c880784a8a8ef229d46ed86, type: 2}
+  BubbleStopperSprite: {fileID: 11400000, guid: 87206e38e847088499eb5f1ff655f7aa, type: 2}

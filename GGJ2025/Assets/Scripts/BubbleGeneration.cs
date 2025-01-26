@@ -128,6 +128,7 @@ public class BubbleGeneration : MonoBehaviour
 				0f,
 				(configToSpawn.MaxDensityOverall - currentAllDensity) * (_currentAreaForDensityCheck / maxAllBubbleArea)
 				));
+			bubbleAmountToSpawn = Mathf.Clamp(bubbleAmountToSpawn, 0, configToSpawn.MaxTotalSpawned);
 
 			//print(((configToSpawn.MaxDensityForSameType - currentSameDensity) * (_currentAreaForDensityCheck / maxSameBubbleArea))+" "+ (configToSpawn.MaxDensityOverall - currentAllDensity) * (_currentAreaForDensityCheck / maxAllBubbleArea));
 
@@ -159,6 +160,8 @@ public class BubbleGeneration : MonoBehaviour
 		// Spawnear burbujas en las posiciones determinadas.
 		for (int i = 0; i < nextPositionsListToSpawn.Length; i++)
 		{
+			if (nextPositionsListToSpawn[i] == null)
+				continue;
 			for (int j = 0; j < nextPositionsListToSpawn[i].Length; j++)
 			{
 				BubblerSpawningLogic.InstantiateBubbler(configsToSpawn[i], nextPositionsListToSpawn[i][j], transform);

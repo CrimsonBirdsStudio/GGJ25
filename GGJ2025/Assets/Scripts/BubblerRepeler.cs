@@ -11,6 +11,7 @@ public class BubblerRepeler : MonoBehaviour
     void Start()
     {
         GameManager.Instance.GameEvents.OnBubbleTriggeredWithPlayerEvent += StartRepelation;
+        if (theSound) Debug.LogError("No sound!");
     }
 
     // Update is called once per frame
@@ -21,13 +22,13 @@ public class BubblerRepeler : MonoBehaviour
 
     void StartRepelation(BubblerObject bubbler)
     {
-        theSound.Play();
         bubblerGo = bubbler.gameObject;
-        if (bubbler.BubblerConfig.SpawnerType != SpawnType.GoodBubbler)
+        if (bubbler.BubblerConfig.SpawnerType == SpawnType.BadFollower)
         {
-            //Vector2 pos = bubbler.transform.position;
-            //GameObject go = GameObject.Instantiate(repelledPrefab);
-            //go.transform.position = pos;
+            theSound?.Play();
+            Vector2 pos = bubbler.transform.position;
+            GameObject go = GameObject.Instantiate(repelledPrefab);
+            go.transform.position = pos;
   
             Destroy(bubbler.gameObject);
             /*

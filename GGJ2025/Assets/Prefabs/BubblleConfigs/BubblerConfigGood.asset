@@ -19,7 +19,7 @@ MonoBehaviour:
   SpawnAreaType: 0
   RespawnMechanic: 1
   DespawnMechanic: 1
-  SpawnTimeFrame: {x: 0, y: 0}
+  SpawnTimeFrame: {x: 10, y: 20}
   RespawnTimeFrame: {x: 0, y: 0}
   MaxTotalSpawned: 1
   MaxDensityForSameType: 10
