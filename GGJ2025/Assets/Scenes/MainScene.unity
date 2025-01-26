@@ -847,7 +847,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.69339085, y: 0}
   m_AnchorMax: {x: 1, y: 0.2874074}
-  m_AnchoredPosition: {x: -0.24298096, y: -0.97232056}
+  m_AnchoredPosition: {x: -0.24298096, y: -0.97229004}
   m_SizeDelta: {x: 0.479599, y: 0.055610657}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &908483985
@@ -1399,8 +1399,46 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1892575537}
+    - targetCorrespondingSourceObject: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1892575538}
   m_SourcePrefab: {fileID: 100100000, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+--- !u!1 &1892575536 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+  m_PrefabInstance: {fileID: 1892575535}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1892575537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892575536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5059563b9d592db4b8a4538c6ffcbac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbsorbedPrefab: {fileID: 6347368671842838193, guid: d789888abbe34304a9c35bde6b8b82bb, type: 3}
+  DecreasingBubble: {fileID: 8086679764084241959, guid: 54e4dd5596e6be4409ccbe3ac92ee74b, type: 3}
+--- !u!114 &1892575538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892575536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df95d54acbe165499dcdecf42ca169c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  repelledPrefab: {fileID: 6347368671842838193, guid: 7d1d14e2b079e094f9009888ec19f30b, type: 3}
 --- !u!1 &1914179376
 GameObject:
   m_ObjectHideFlags: 0
