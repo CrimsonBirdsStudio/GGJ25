@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: c8e1ffd02313a41448eff3a5a9820139
+guid: 79ba28ab613e8604da9b3b225ba15517
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8392975258750097174
-    second: plant_square_idle1_0
+      213: -6207960985790532386
+    second: Star_Green_Idle_0
+  - first:
+      213: -1262506348178896629
+    second: Star_Green_Idle_1
+  - first:
+      213: -1453699908822518099
+    second: Star_Green_Idle_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,11 +53,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plant_square_idle_spritesheet_0
+      name: Star_Green_Idle_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 926
-        height: 899
+        x: 251
+        y: 190
+        width: 439
+        height: 517
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: b6d7d928ee5f5d545a9d7a9190c23fd3
-      internalID: 1170235137
+      spriteID: ed4b876ef54e8d9a0800000000000000
+      internalID: -6207960985790532386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Green_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 280
+        width: 440
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b090f165a2daa7ee0800000000000000
+      internalID: -1262506348178896629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Green_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 279
+        width: 430
+        height: 426
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6bd9c82ab63dbe0800000000000000
+      internalID: -1453699908822518099
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 4f659faa7d34e6d4e84f870af287225d
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      plant_square_idle_spritesheet_0: 1170235137
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
