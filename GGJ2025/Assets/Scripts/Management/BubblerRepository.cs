@@ -19,7 +19,7 @@ public class BubblerRepository : MonoBehaviour
 
 		for (int i = 0; i < amount; i++)
         {
-            selected[i] = AllBubblerSprites[i];
+            selected[i] = AllBubblerSprites[Random.Range(0,AllBubblerSprites.Count())];
 		}
 
         return selected.ToArray();

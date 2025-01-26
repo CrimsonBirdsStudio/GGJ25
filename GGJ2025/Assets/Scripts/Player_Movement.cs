@@ -102,10 +102,10 @@ public class Player_Movement : MonoBehaviour
         GameObject bubblerSprite = transform.GetChild(1).gameObject;
         animator.Play("Push");
         bubblerSprite.transform
-            .DOPunchScale(new Vector3(0, .25f, 0), 0.5f, 10, 0.5f)
+            .DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f)
             .OnComplete(() => {
                 // Restablecer la escala original
-                bubblerSprite.transform.localScale = new Vector3(.25f, .25f, .25f);
+                bubblerSprite.transform.localScale = Vector3.one;
             });
 
         arrow.GetComponent<SpriteRenderer>().color = new Color
@@ -149,10 +149,10 @@ public class Player_Movement : MonoBehaviour
             {
                 GameObject bubblerSprite = transform.GetChild(1).gameObject;
                 bubblerSprite.transform
-                .DOPunchScale(new Vector3(0, .25f, 0), 0.5f, 10, 0.5f)
+                .DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f)
                 .OnComplete(() => {
                     // Restablecer la escala original
-                    bubblerSprite.transform.localScale = new Vector3(.25f, .25f, .25f);
+                    bubblerSprite.transform.localScale = Vector3.one;
                 });
                 ;
                 animator.Play("Idle");
