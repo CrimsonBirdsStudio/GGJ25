@@ -144,7 +144,7 @@
 	<object class="MixerBusPanner" id="{a4c208d1-5874-473d-ad61-22ca74522ad2}" />
 	<object class="SingleSound" id="{1987a86f-8063-4503-b0d0-30c0ac4830df}">
 		<property name="length">
-			<value>1.375</value>
+			<value>1.5</value>
 		</property>
 		<property name="volume">
 			<value>3</value>
@@ -276,7 +276,7 @@
 	</object>
 	<object class="TransitionMarker" id="{7c4494b0-7dba-4565-b456-94275683a62e}">
 		<property name="position">
-			<value>1.25</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{63d1bffa-f4e6-4a31-a07f-48144ff932e9}</destination>
@@ -296,7 +296,7 @@
 	</object>
 	<object class="TransitionMarker" id="{a825c43d-27c9-4c65-a966-fae6669744f4}">
 		<property name="position">
-			<value>1.25</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{63d1bffa-f4e6-4a31-a07f-48144ff932e9}</destination>
@@ -316,7 +316,7 @@
 	</object>
 	<object class="TransitionMarker" id="{d8d97445-a6fd-4a9d-a414-bb45b91f0f64}">
 		<property name="position">
-			<value>1.25</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{63d1bffa-f4e6-4a31-a07f-48144ff932e9}</destination>
