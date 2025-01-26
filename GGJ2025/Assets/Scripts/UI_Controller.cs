@@ -108,11 +108,9 @@ public class UI_Controller : MonoBehaviour
 		print($"Bubbler Obtained! {bubbler.name}");
         foreach (Image bublerSelected in bublersSpritesOn)
         {
-            if (bublerSelected.sprite == bubbler.BubblerScriptableSprite.bublerSpriteUIOn)
+            if (bublerSelected.sprite.name == bubbler.BubblerScriptableSprite.bublerSpriteUIOn.name)
             {
-                bublerSelected.gameObject.transform.DOScale(0,.25f).OnComplete(() => {
-                    bublerSelected.gameObject.SetActive(false);
-                });
+                bublerSelected.gameObject.transform.DOScale(0, .25f);
                 break;
             }
         }
@@ -120,11 +118,12 @@ public class UI_Controller : MonoBehaviour
 	void OnBubblerLost(BubblerObject bubbler)
 	{
 		print($"Bubbler lost! {bubbler.name}");
-        foreach(Image bublerSelected in bublersSpritesOff)
+        foreach(Image bublerSelected in bublersSpritesOn)
         {
-            if(bublerSelected.sprite == bubbler.BubblerScriptableSprite.bublerSpriteUIOff)
+            if(bublerSelected.sprite == bubbler.BubblerScriptableSprite.bublerSpriteUIOn)
             {
-                bublerSelected.gameObject.SetActive(false);
+                Debug.Log(bublerSelected.name);
+                bublerSelected.gameObject.transform.DOScale(1, .25f);
                 break;
             }
         }
