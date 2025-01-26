@@ -53,11 +53,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -122,10 +122,10 @@ TextureImporter:
       name: Star_Green_Idle_0
       rect:
         serializedVersion: 2
-        x: 251
-        y: 190
-        width: 439
-        height: 517
+        x: 0
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: Star_Green_Idle_1
       rect:
         serializedVersion: 2
-        x: 1177
-        y: 280
-        width: 440
-        height: 426
+        x: 928
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: Star_Green_Idle_2
       rect:
         serializedVersion: 2
-        x: 2112
-        y: 279
-        width: 430
-        height: 426
+        x: 1856
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7269d763d0d06514299db6ac03e085c3
     internalID: 0
     vertices: []
     indices: 
