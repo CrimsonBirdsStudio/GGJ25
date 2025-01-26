@@ -53,11 +53,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -81,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -119,67 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Green_Square_Idle_0
+      name: Square_Green_Idle_0
       rect:
         serializedVersion: 2
-        x: 303
-        y: 244
-        width: 328
-        height: 494
+        x: 0
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e4c0dfe44907f2360800000000000000
-      internalID: 7147054915942943822
+      spriteID: 8339460d35a1b204dbe384f7492eedd7
+      internalID: -908330210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Square_Idle_1
+      name: Square_Green_Idle_1
       rect:
         serializedVersion: 2
-        x: 1230
-        y: 244
-        width: 330
-        height: 497
+        x: 928
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 10121412c8d774af0800000000000000
-      internalID: -412222800074301183
+      spriteID: 947d8294c2bffa5429c0a9a704598a84
+      internalID: 777542315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Green_Square_Idle_2
+      name: Square_Green_Idle_2
       rect:
         serializedVersion: 2
-        x: 2156
-        y: 244
-        width: 331
-        height: 503
+        x: 1856
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8b0fefb99bf750ad0800000000000000
-      internalID: -2736640763394854728
+      spriteID: a02d3105fc895ce499f7b02e89fd4d19
+      internalID: 2086194344
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f490383a4187edc42be6520cef874e87
     internalID: 0
     vertices: []
     indices: 
@@ -198,9 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Green_Square_Idle_0: 7147054915942943822
-      Green_Square_Idle_1: -412222800074301183
-      Green_Square_Idle_2: -2736640763394854728
+      Square_Green_Idle_0: -908330210
+      Square_Green_Idle_1: 777542315
+      Square_Green_Idle_2: 2086194344
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

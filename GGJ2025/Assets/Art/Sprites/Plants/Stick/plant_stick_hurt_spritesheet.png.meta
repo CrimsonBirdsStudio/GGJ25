@@ -122,10 +122,10 @@ TextureImporter:
       name: plant_stick_hurt_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 384
-        y: 293
-        width: 201
-        height: 384
+        x: 0
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: plant_stick_hurt_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1315
-        y: 293
-        width: 199
-        height: 386
+        x: 928
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: plant_stick_hurt_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 2238
-        y: 294
-        width: 207
-        height: 386
+        x: 1856
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

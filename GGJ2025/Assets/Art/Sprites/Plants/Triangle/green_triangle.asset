@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 23649f37dc835274ebaa13ffc53d31c7, type: 3}
-  m_Name: TriangleGreen
+  m_Name: green_triangle
   m_EditorClassIdentifier: 
   bublerSpriteUIOff: {fileID: -1952237617978825881, guid: 70c6dcd6465c4854f84677fe3fa3a672, type: 3}
   bublerSpriteUIOn: {fileID: 3790112799709515835, guid: fc39db502a866c6448fff2b6838c2a2f, type: 3}
