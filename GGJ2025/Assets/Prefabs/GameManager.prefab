@@ -53,6 +53,7 @@ MonoBehaviour:
   BubblerRepository: {fileID: 0}
   BubblerAccounting: {fileID: 0}
   GameEvents: {fileID: 0}
+  UIController: {fileID: 0}
 --- !u!114 &1308343579306055759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,18 +98,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AllBubblerSprites:
-  - {fileID: 503816210576823527, guid: 4041105edd1358e438b80da35dec223c, type: 3}
-  - {fileID: 3969555971759499886, guid: 20ed44052e8ca6f4cb9aebe3c1617fa9, type: 3}
-  - {fileID: 3499351416483430963, guid: edfa10bcc173e6e49afa881052f5032d, type: 3}
-  - {fileID: 7522487021582072373, guid: fdfe9668ef06514458b4cc215940f61b, type: 3}
-  - {fileID: 6890604601444910879, guid: 0088d9cb36c2c5c498a21514e72eaca3, type: 3}
-  - {fileID: 7027348407361703467, guid: 5556a5171c9f3184b9aafc441e575e77, type: 3}
-  - {fileID: 1299549321055046420, guid: 11f1f87c5172f1e4b8b44d689fbb2567, type: 3}
-  - {fileID: 7064378870321384198, guid: b2af0ac6df0b8ef408fdeedc02bfc1b2, type: 3}
-  - {fileID: 3059880228475011861, guid: a8bf00a42a64cf343bc5dd9700ef496c, type: 3}
-  - {fileID: 2026752811094984682, guid: fe2a61e4b6bfe344d9f6c9c5e5c3d7ea, type: 3}
-  - {fileID: 1810530656167300493, guid: 6830b9313d845b840a98ea95665b0904, type: 3}
-  - {fileID: 7203310424373361093, guid: c713367936adae547bc8623834d399a0, type: 3}
-  - {fileID: 3122548421889674232, guid: f75fa6c3b7bb4f7409d4e91c6e887beb, type: 3}
-  - {fileID: 7475804657656082510, guid: e83eb93ca8060c54c9da317cbcc058a7, type: 3}
-  - {fileID: 5986351264041442979, guid: 36280e90bdee3ee4aa2513d99653f74c, type: 3}
+  - {fileID: 11400000, guid: 37fdd900b9296c24d83187aa518b921c, type: 2}
+  - {fileID: 11400000, guid: c55c3ea38fa0d2442867f5816bf2584d, type: 2}
+  - {fileID: 11400000, guid: 3bac23244e84e7b488d5f2c144d78811, type: 2}
+  - {fileID: 11400000, guid: 2847ed0e5ade8a04eab43608ffcf424b, type: 2}
+  - {fileID: 11400000, guid: 155dd68a3df1fce4c8504b8ec1a45668, type: 2}
+  - {fileID: 11400000, guid: 1bc5042d2827ad540911c05ee8aea20c, type: 2}
+  - {fileID: 11400000, guid: 5942e57e21837d0489f246926c7869c6, type: 2}
+  - {fileID: 11400000, guid: 7efcea82e973ff2419220588843866d2, type: 2}
+  - {fileID: 11400000, guid: 812724f39109ef448b0db709ac9ea718, type: 2}
+  - {fileID: 11400000, guid: 5e5da6b0e7b645d488e79d65915afdcc, type: 2}
+  - {fileID: 11400000, guid: 6b311fcad9efee244bbf681d6371daa1, type: 2}
+  - {fileID: 11400000, guid: a712e9775b907fc4fa4f4ce465e7f279, type: 2}
+  - {fileID: 11400000, guid: c554fe038e9c19f4692fa61e3049c2c6, type: 2}
+  - {fileID: 11400000, guid: bbe69f45e30c9d4488d356f67c5b797e, type: 2}
+  - {fileID: 11400000, guid: e4483d73480dbda48a49ea0160721c19, type: 2}
+  BubbleStopperSprite: {fileID: 11400000, guid: 1ba939fb0c880784a8a8ef229d46ed86, type: 2}

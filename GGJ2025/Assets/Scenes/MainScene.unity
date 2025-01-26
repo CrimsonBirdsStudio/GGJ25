@@ -944,42 +944,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: BubbleSpawning
       objectReference: {fileID: 0}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: CameraObject
-      value: 
-      objectReference: {fileID: 519420032}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: PlayerObject
-      value: 
-      objectReference: {fileID: 708608325}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: SpawnCooldown
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: DesiredBubbleDensity
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: bubblerConfigs.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: 'BubblesToSpawn.Array.data[0]'
-      value: 
-      objectReference: {fileID: 886012185701371576, guid: 4b5d576094496c1409094b6cfd6b0c74, type: 3}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: 'bubblerConfigs.Array.data[0]'
-      value: 
-      objectReference: {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: 'bubblerConfigs.Array.data[1]'
-      value: 
-      objectReference: {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
-    - target: {fileID: 5759860610875651356, guid: 21b60d7ea1718e94dbace89da9696cd7, type: 3}
-      propertyPath: 'bubblerConfigs.Array.data[2]'
-      value: 
-      objectReference: {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1195,6 +1159,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: BubbleStopperSprite
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ba939fb0c880784a8a8ef229d46ed86, type: 2}
     - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: AllBubblerSprites.Array.size
       value: 15
@@ -1933,6 +1901,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1892575538}
+    - targetCorrespondingSourceObject: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1892575542}
   m_SourcePrefab: {fileID: 100100000, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
 --- !u!1 &1892575536 stripped
 GameObject:
@@ -1967,6 +1938,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   theSound: {fileID: 17936260}
   repelledPrefab: {fileID: 6347368671842838193, guid: 7d1d14e2b079e094f9009888ec19f30b, type: 3}
+--- !u!114 &1892575542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1892575536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ada52ac4686f64f9c6f1f6c195b62a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theSound: {fileID: 17936261}
 --- !u!1 &1914179376
 GameObject:
   m_ObjectHideFlags: 0

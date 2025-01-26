@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 3924988867302454228}
   - component: {fileID: 3942662976177611745}
   - component: {fileID: 5897443695442071511}
+  - component: {fileID: 8220587597729312343}
+  - component: {fileID: 2085584743186080929}
+  - component: {fileID: 9186814522669745932}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -113,6 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8d802b559c320548acf891aa9af4d37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  scriptableData: {fileID: 11400000, guid: 3bac23244e84e7b488d5f2c144d78811, type: 2}
   velocityMultiplier: 10
   staminaRefillRate: 2
   maxStamina: 50
@@ -143,6 +147,47 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   arrow: {fileID: 4120269881220835587}
+--- !u!114 &8220587597729312343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3199934869891323338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5059563b9d592db4b8a4538c6ffcbac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbsorbedPrefab: {fileID: 6347368671842838193, guid: d789888abbe34304a9c35bde6b8b82bb, type: 3}
+  DecreasingBubble: {fileID: 8086679764084241959, guid: 54e4dd5596e6be4409ccbe3ac92ee74b, type: 3}
+--- !u!114 &2085584743186080929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3199934869891323338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df95d54acbe165499dcdecf42ca169c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theSound: {fileID: 0}
+  repelledPrefab: {fileID: 6347368671842838193, guid: 7d1d14e2b079e094f9009888ec19f30b, type: 3}
+--- !u!114 &9186814522669745932
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3199934869891323338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75ada52ac4686f64f9c6f1f6c195b62a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  theSound: {fileID: 0}
 --- !u!1 &4120269881220835587
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,12 +549,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 105275685, guid: e59098e69ed9e5b4fb6a67935cf0ed93, type: 3}
+  m_Sprite: {fileID: -1969649463085495541, guid: 5ab28661ae3a15c429a971b320852d38, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 4.94, y: 4.971465}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

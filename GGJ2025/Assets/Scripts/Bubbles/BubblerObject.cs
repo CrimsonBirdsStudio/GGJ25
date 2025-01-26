@@ -6,6 +6,9 @@ using UnityEngine;
 public class BubblerObject : MonoBehaviour
 {
     public BubblerConfig BubblerConfig;
+	public GameObject BubblerSprite;
+	public GameObject BubbleSprite;
+
 	public bool IsDestroyed { get; private set; }
     void Start()
     {

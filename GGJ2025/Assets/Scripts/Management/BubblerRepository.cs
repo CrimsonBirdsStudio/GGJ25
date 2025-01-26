@@ -4,6 +4,7 @@ using UnityEngine;
 public class BubblerRepository : MonoBehaviour
 {
     public Bubler_Scriptable[] AllBubblerSprites;
+    public Bubler_Scriptable BubbleStopperSprite;
 
     public Bubler_Scriptable GetRandomBubblerExcluding(params string[] excluded)
     {
