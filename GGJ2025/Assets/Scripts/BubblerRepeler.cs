@@ -4,6 +4,7 @@ using static BubblerEnums;
 
 public class BubblerRepeler : MonoBehaviour
 {
+    public FMODUnity.StudioEventEmitter theSound;
     GameObject bubblerGo;
     public GameObject repelledPrefab;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -20,6 +21,7 @@ public class BubblerRepeler : MonoBehaviour
 
     void StartRepelation(BubblerObject bubbler)
     {
+        theSound.Play();
         bubblerGo = bubbler.gameObject;
         if (bubbler.BubblerConfig.SpawnerType != SpawnType.GoodBubbler)
         {

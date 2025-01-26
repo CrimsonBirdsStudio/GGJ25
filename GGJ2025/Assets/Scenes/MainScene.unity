@@ -1438,6 +1438,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7df95d54acbe165499dcdecf42ca169c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  theSound: {fileID: 0}
   repelledPrefab: {fileID: 6347368671842838193, guid: 7d1d14e2b079e094f9009888ec19f30b, type: 3}
 --- !u!1 &1914179376
 GameObject:
