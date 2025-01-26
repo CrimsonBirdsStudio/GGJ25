@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{7d0d0b25-51a5-45be-8962-5be10bb69926}">
 		<property name="name">
-			<value>BlubberHit_Bad</value>
+			<value>BlubberHit_Bad_Grito</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>

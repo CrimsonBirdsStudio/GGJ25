@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{8b1950cf-6ea7-4c48-8165-46167137954b}">
+		<property name="assetPath">
+			<value>Bubblers SFX/Blubber_FX 02_Silvido.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>2.5669614512471655</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6fb96f74-ec99-4a03-9727-b482e4f2e7f8}</destination>
+		</relationship>
+	</object>
+</objects>
