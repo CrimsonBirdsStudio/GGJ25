@@ -7,13 +7,14 @@ public class BubblerSlower : MonoBehaviour
 	void Start()
 	{
 		GameManager.Instance.GameEvents.OnBubbleTriggeredWithPlayerEvent += StartRepelation;
+		if (theSound) Debug.LogError("No sound!");
 	}
 
 	void StartRepelation(BubblerObject bubbler)
 	{
 		if (bubbler.BubblerConfig.SpawnerType == SpawnType.ObstacleStopper)
 		{
-			theSound.Play();
+			theSound?.Play();
 			var playerRb = GameManager.Instance.player_instance.GetComponent<Rigidbody2D>();
 			playerRb.angularVelocity *= bubbler.BubblerConfig.MovementForce;
 			playerRb.linearVelocity *= bubbler.BubblerConfig.MovementForce;

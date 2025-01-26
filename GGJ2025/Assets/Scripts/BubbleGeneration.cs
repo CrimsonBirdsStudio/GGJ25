@@ -160,6 +160,8 @@ public class BubbleGeneration : MonoBehaviour
 		// Spawnear burbujas en las posiciones determinadas.
 		for (int i = 0; i < nextPositionsListToSpawn.Length; i++)
 		{
+			if (nextPositionsListToSpawn[i] == null)
+				continue;
 			for (int j = 0; j < nextPositionsListToSpawn[i].Length; j++)
 			{
 				BubblerSpawningLogic.InstantiateBubbler(configsToSpawn[i], nextPositionsListToSpawn[i][j], transform);

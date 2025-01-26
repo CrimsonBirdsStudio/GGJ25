@@ -30,7 +30,6 @@ public class BubblerSpawningLogic
 		BubblerObject bubbler = result.AddComponent<BubblerObject>();
 		bubbler.BubblerConfig = config;
 
-
 		ConfigBubbleDespawn(bubbler);
 		ConfigBubbleMovement(bubbler);
 		ConfigBubbleBubble(bubbler);
@@ -108,6 +107,7 @@ public class BubblerSpawningLogic
 					var spriteSelected = allEnemies[Random.Range(0, allEnemies.Length)];
 					var spriteAnimator = bubbleSprite.GetComponent<Animator>();
 					spriteAnimator.runtimeAnimatorController = spriteSelected.animatorController;
+					bubbler.BubblerScriptableSprite = spriteSelected;
 				}
 				break;
 			case BubblerEnums.SpawnType.GoodBubbler:
@@ -116,6 +116,7 @@ public class BubblerSpawningLogic
 					var spriteSelected = targets[Random.Range(0, targets.Length)];
 					var spriteAnimator = bubbleSprite.GetComponent<Animator>();
 					spriteAnimator.runtimeAnimatorController = spriteSelected.animatorController;
+					bubbler.BubblerScriptableSprite = spriteSelected;
 				}
 				break;
 			default:

@@ -13,8 +13,11 @@ public class GameEvents : MonoBehaviour
 	public Action<BubblerObject> OnBubbleTriggeredWithPlayerEvent;
 	public Action<BubblerObject> OnBubbleDestroyedEvent;
 
+	public Action<BubblerObject> OnGameStateBubblersObtainedEvent;
+	public Action<BubblerObject> OnGameStateBubblersLostEvent;
+
 	public Action OnGameStartedEvent;
-	public Action OnGameOverEvent;
+	public Action<bool> OnGameOverEvent;
 
 
 	#endregion Event difinition
@@ -26,7 +29,9 @@ public class GameEvents : MonoBehaviour
 	public void OnBubbleTriggeredWithPlayer(BubblerObject bubble) => OnBubbleTriggeredWithPlayerEvent?.Invoke(bubble);
 	public void OnBubbleDestroyed(BubblerObject bubble) => OnBubbleDestroyedEvent?.Invoke(bubble);
 	public void OnGameStarted() => OnGameStartedEvent?.Invoke();
-	public void OnGameOver() => OnGameOverEvent?.Invoke();
+	public void OnGameStateBubblersObtained(BubblerObject bubble) => OnGameStateBubblersObtainedEvent?.Invoke(bubble);
+	public void OnGameStateBubblersLost(BubblerObject bubble) => OnGameStateBubblersLostEvent?.Invoke(bubble);
+	public void OnGameOver(bool playerWon) => OnGameOverEvent?.Invoke(playerWon);
 
 	#endregion
 }

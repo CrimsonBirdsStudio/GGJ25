@@ -21,7 +21,7 @@ public class BubblerRepository : MonoBehaviour
 		while(selected.Count < amount)
         {
             var choosen = AllBubblerSprites[Random.Range(0, AllBubblerSprites.Count())];
-            if(choosen != playerToExclude)
+            if(choosen != playerToExclude && !selected.Contains(choosen))
                 selected.Add(choosen);
 		}
 
