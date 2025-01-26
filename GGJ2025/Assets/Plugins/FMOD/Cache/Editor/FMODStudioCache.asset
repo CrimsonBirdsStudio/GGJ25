@@ -27,33 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 45660
---- !u!114 &-6071755792992909599
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Path: 
-  Guid:
-    Data1: 1333203787
-    Data2: 1296656122
-    Data3: -266350169
-    Data4: 1815068864
-  Banks:
-  - {fileID: -1017177451340106743}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 2500
 --- !u!114 &-4824456189744375139
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,7 +42,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Bank.bank
   Name: Desktop/Bank
   StudioPath: bank:/Bank
-  lastModified: 638734598520101206
+  lastModified: 638734598144481706
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -89,7 +62,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638734598520116300
+  lastModified: 638734598144491372
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -136,7 +109,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/SFX.bank
   Name: Desktop/SFX
   StudioPath: bank:/SFX
-  lastModified: 638734598520251903
+  lastModified: 638734598144501647
   FileSizes:
   - Name: Desktop
     Value: 124480
@@ -161,7 +134,6 @@ MonoBehaviour:
   - {fileID: 5749029205288338875}
   EditorEvents:
   - {fileID: -6582341552594748511}
-  - {fileID: -6071755792992909599}
   - {fileID: 8492698441322791626}
   - {fileID: 1919223030321072491}
   - {fileID: -1334024999000241462}
@@ -171,7 +143,7 @@ MonoBehaviour:
   - {fileID: -4142797966250029231}
   StringsBanks:
   - {fileID: 5749029205288338875}
-  cacheTime: 638734598520251903
+  cacheTime: 638734598144501647
   cacheVersion: 131622
 --- !u!114 &795603582021469051
 MonoBehaviour:
@@ -242,7 +214,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/BackgroudMusic.bank
   Name: Desktop/BackgroudMusic
   StudioPath: bank:/BackgroudMusic
-  lastModified: 638734598520101206
+  lastModified: 638734598144481706
   FileSizes:
   - Name: Desktop
     Value: 548000
@@ -262,7 +234,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734598520218998
+  lastModified: 638734598144491372
   FileSizes:
   - Name: Desktop
     Value: 1122
