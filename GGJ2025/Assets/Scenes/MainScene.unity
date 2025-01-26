@@ -448,7 +448,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &414670517
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1428,6 +1428,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+--- !u!1 &1155190363 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7806311861454113581, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+  m_PrefabInstance: {fileID: 1892575535}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1166275138
 GameObject:
   m_ObjectHideFlags: 0
@@ -1636,7 +1641,7 @@ MonoBehaviour:
   initialBubblers: {fileID: 1176611644}
   playerBubble: {fileID: 2078596032}
   backGorundFader: {fileID: 1688379009}
-  mouseIcon: {fileID: 0}
+  mouseIcon: {fileID: 1155190363}
 --- !u!114 &1199500058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1725,7 +1730,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 6a2f825693f554442841c74f6ee4e0ed, type: 3}
   m_Type: 3
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -2217,7 +2222,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1741807799
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2320,6 +2325,10 @@ PrefabInstance:
       propertyPath: theSound
       value: 
       objectReference: {fileID: 17936259}
+    - target: {fileID: 2201744620665600486, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+      propertyPath: m_SortingOrder
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
       propertyPath: m_Name
       value: Player

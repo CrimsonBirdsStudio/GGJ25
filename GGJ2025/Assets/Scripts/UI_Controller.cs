@@ -102,7 +102,10 @@ public class UI_Controller : MonoBehaviour
             mouseIcon.SetActive(true);
         });
     }
-
+    public IEnumerator EndAnimation()
+    {
+        yield return new WaitForSeconds(1);
+    }
 	void OnBubblerObtained(BubblerObject bubbler)
 	{
 		print($"Bubbler Obtained! {bubbler.name}");
