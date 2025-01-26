@@ -92,7 +92,7 @@ public class GameState : MonoBehaviour
 			{
 				for (int i = 0; i < BubblesObtained.Length; i++)
 				{
-					if (BubblesObtained[i])
+					if (BubblesObtained[i] && BubblesTarget[i] == bubbler.BubblerScriptableSprite)
 					{
 						BubblesObtained[i] = false;
 						GameManager.Instance.GameEvents.OnGameStateBubblersLost(bubbler);

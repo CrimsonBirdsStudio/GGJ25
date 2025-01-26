@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class BubblerSpawningLogic
 {
-    public static List<BubblerConfig> GetBubblersThatCanSpawn(BubblerConfig[] bubblerConfigs)
-    {
-        List<BubblerConfig> result = new List<BubblerConfig> ();
+	public static List<BubblerConfig> GetBubblersThatCanSpawn(BubblerConfig[] bubblerConfigs)
+	{
+		List<BubblerConfig> result = new List<BubblerConfig>();
 
-        BubblerAccounting bubblerAccounting = GameManager.Instance.BubblerAccounting;
+		BubblerAccounting bubblerAccounting = GameManager.Instance.BubblerAccounting;
 		foreach (var bubbler in bubblerConfigs)
-        {
+		{
 			int spawnedAmount = bubblerAccounting.GetSpawnedBlubbersOfType(bubbler.SpawnerType);
 			if (bubbler.MaxTotalSpawned > 0 && spawnedAmount >= bubbler.MaxTotalSpawned) continue;
 
@@ -20,10 +20,10 @@ public class BubblerSpawningLogic
 			result.Add(bubbler);
 		}
 
-        return result;
-    }
+		return result;
+	}
 
-    public static GameObject InstantiateBubbler(BubblerConfig config, Vector2 position, Transform parent)
+	public static GameObject InstantiateBubbler(BubblerConfig config, Vector2 position, Transform parent)
 	{
 		GameObject result = GameObject.Instantiate(config.prefabBase, position, Quaternion.identity, parent);
 		result.name = config.SpawnerType.ToString();
@@ -34,26 +34,28 @@ public class BubblerSpawningLogic
 		ConfigBubbleMovement(bubbler);
 		ConfigBubbleBubble(bubbler);
 		ConfigBubbleBubbler(bubbler);
+		ConfigBubbleRotation(bubbler);
 
 		return result;
 	}
 	#region Config spawned bubble
 	private static void ConfigBubbleDespawn(BubblerObject bubbler)
-    {
-        if (bubbler.BubblerConfig.DespawnMechanic == BubblerEnums.DespawnMechanic.None)
-            return;
+	{
+		if (bubbler.BubblerConfig.DespawnMechanic == BubblerEnums.DespawnMechanic.None)
+			return;
 
-        var despawner = bubbler.gameObject.AddComponent<ToBeCleared>();
+		var despawner = bubbler.gameObject.AddComponent<ToBeCleared>();
 
-        switch(bubbler.BubblerConfig.DespawnMechanic){
-            case BubblerEnums.DespawnMechanic.TimeAndDistance:
-                despawner.DistanceToDelete = bubbler.BubblerConfig.DespawnDistance;
-                despawner.TimeAtDistanceToDelete = bubbler.BubblerConfig.DespawnTime;
-                despawner.DistanceToDeleteMax = bubbler.BubblerConfig.DespawnDistanceMax;
+		switch (bubbler.BubblerConfig.DespawnMechanic)
+		{
+			case BubblerEnums.DespawnMechanic.TimeAndDistance:
+				despawner.DistanceToDelete = bubbler.BubblerConfig.DespawnDistance;
+				despawner.TimeAtDistanceToDelete = bubbler.BubblerConfig.DespawnTime;
+				despawner.DistanceToDeleteMax = bubbler.BubblerConfig.DespawnDistanceMax;
 
 				break;
-        }
-    }
+		}
+	}
 
 	private static void ConfigBubbleMovement(BubblerObject bubbler)
 	{
@@ -121,6 +123,20 @@ public class BubblerSpawningLogic
 				break;
 			default:
 				break;
+		}
+	}
+
+	private static void ConfigBubbleRotation(BubblerObject bubbler)
+	{
+		var rb = bubbler.GetComponent<Rigidbody2D>();
+		if (bubbler.BubblerConfig.RotateOnSpawn > 0f)
+		{
+			rb.angularDamping = 0f;
+			rb.angularVelocity = Random.Range(-bubbler.BubblerConfig.RotateOnSpawn, bubbler.BubblerConfig.RotateOnSpawn);
+		}
+		else
+		{
+			rb.freezeRotation = true;
 		}
 	}
 

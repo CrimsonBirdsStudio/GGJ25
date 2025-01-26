@@ -31,3 +31,4 @@ MonoBehaviour:
   DespawnDistanceMax: 25
   MovementInterval: 2
   MovementForce: 2
+  RotateOnSpawn: 50
