@@ -22,7 +22,26 @@ public class BubblerAbsortion : MonoBehaviour
             Vector2 pos = bubbler.transform.position;
             GameObject go = GameObject.Instantiate(AbsorbedPrefab);
             go.transform.position = pos;
-            go.GetComponent<AbsorbedBubblerBehaiviour>().SetTarget(transform);
+
+
+            Animator newAnim = go.AddComponent<Animator>();
+            newAnim.runtimeAnimatorController = bubbler.BubblerScriptableSprite.animatorController;
+            //newAnim.Play("Hurt");
+
+
+
+            int total = GameManager.Instance.GameState.BubblesTarget.Length;
+            float ang = Mathf.PI * 2 / total;
+            int obtainedCount = GameManager.Instance.GameState.BubblersObtainedCount;
+
+            float x = Mathf.Sin(ang * obtainedCount);
+            float y = Mathf.Cos(ang * obtainedCount); ;
+            Vector2 offset = new Vector2(x, y) * 0.25f;
+
+            go.GetComponent<AbsorbedBubblerBehaiviour>().SetTarget(transform , offset);
+            
+            
+            
             GameObject bu = GameObject.Instantiate(DecreasingBubble);
             bu.transform.position = pos;
             Destroy(bubbler.gameObject);

@@ -6,8 +6,9 @@ using UnityEngine;
 /// </summary>
 public class GameState : MonoBehaviour
 {
-	// TODO: Gestionar los bubbles obtenidos y los que faltan.
-	public float CurrentDifficulty; // Dificultad actual que escala con el progreso. // TODO: Implementar como getter a partir del progreso del jugador.
+    public int BubblersObtainedCount => BubblesObtained.Count(x => x);
+    // TODO: Gestionar los bubbles obtenidos y los que faltan.
+    public float CurrentDifficulty; // Dificultad actual que escala con el progreso. // TODO: Implementar como getter a partir del progreso del jugador.
 	public int CurrentLevel; // Nivel actual, en base a los blubbers recogidos. // TODO: Implementar como getter a partir del progreso del jugador.
 	public Bubler_Scriptable[] BubblesTarget;
 	public Bubler_Scriptable[] BubblesEnemies;
@@ -38,6 +39,8 @@ public class GameState : MonoBehaviour
 	/// </summary>
 	public void SetNewGame()
 	{
+
+
 		_levelTimeStart = Time.timeSinceLevelLoad;
 		IsGameEnded = false;
 		IsPaused = false;

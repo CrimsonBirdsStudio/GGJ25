@@ -89,7 +89,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638734872686521799
+  lastModified: 638734880367200223
   FileSizes:
   - Name: Desktop
     Value: 1258
@@ -136,7 +136,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/SFX.bank
   Name: Desktop/SFX
   StudioPath: bank:/SFX
-  lastModified: 638734872686558347
+  lastModified: 638734880367250080
   FileSizes:
   - Name: Desktop
     Value: 458944
@@ -171,7 +171,7 @@ MonoBehaviour:
   - {fileID: -4142797966250029231}
   StringsBanks:
   - {fileID: 5749029205288338875}
-  cacheTime: 638734872686558347
+  cacheTime: 638734880367250080
   cacheVersion: 131622
 --- !u!114 &1919223030321072491
 MonoBehaviour:
@@ -262,7 +262,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734872686521799
+  lastModified: 638734880367209862
   FileSizes:
   - Name: Desktop
     Value: 1188

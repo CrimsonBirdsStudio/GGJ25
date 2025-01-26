@@ -3,12 +3,22 @@ using static UnityEngine.GraphicsBuffer;
 
 public class AbsorbedBubblerBehaiviour : MonoBehaviour
 {
-    Transform target;
+    public Transform target;
     public float vel;
+    public Vector2 offset;
+
+    public bool stop;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        stop = false;
+        GameManager.Instance.GameEvents.OnGameStateBubblersLostEvent += OnBubblerLost;
+    }
+
+
+    void OnBubblerLost(Bubler_Scriptable bscript)
+    {
+        //if(bscript.)
     }
 
     // Update is called once per frame
@@ -21,16 +31,27 @@ public class AbsorbedBubblerBehaiviour : MonoBehaviour
         }
     }
 
-    public void SetTarget(Transform _target)
+    public void SetTarget(Transform _target , Vector2 _offset)
     {
+        offset = _offset;
         target = _target;
         vel = _target.GetComponent<Rigidbody2D>().linearVelocity.magnitude;
     }
 
     private void FixedUpdate()
     {
-        Vector2 dir = (target.position - transform.position).normalized;
+        if(stop) return;
+        Vector2 targetpos = (Vector2)target.position + offset;
+
+        Vector2 dir = (targetpos - (Vector2)transform.position).normalized;
         vel = target.GetComponent<Rigidbody2D>().linearVelocity.magnitude;
+
+        if(Vector2.Distance (transform.position , targetpos) <= 0.15f )
+        {
+            transform.SetParent(target);
+            stop = true;
+        }
+
         transform.Translate(dir * vel * Time.fixedDeltaTime);
     }
 }

@@ -11,7 +11,7 @@ public class BubblerRepeler : MonoBehaviour
     void Start()
     {
         GameManager.Instance.GameEvents.OnBubbleTriggeredWithPlayerEvent += StartRepelation;
-        if (theSound) Debug.LogError("No sound!");
+        if (!theSound) Debug.LogError("No sound!");
     }
 
     // Update is called once per frame
@@ -29,7 +29,12 @@ public class BubblerRepeler : MonoBehaviour
             Vector2 pos = bubbler.transform.position;
             GameObject go = GameObject.Instantiate(repelledPrefab);
             go.transform.position = pos;
-  
+
+            Animator newAnim = go.AddComponent<Animator>();
+            newAnim.runtimeAnimatorController = bubbler.BubblerScriptableSprite.animatorController;
+            newAnim.Play("Hurt");
+
+
             Destroy(bubbler.gameObject);
             /*
             GameObject bu = GameObject.Instantiate(DecreasingBubble);

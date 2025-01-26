@@ -431,6 +431,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 314648606}
   m_CullTransparentMesh: 1
+--- !u!1 &407979221 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+  m_PrefabInstance: {fileID: 1892575535}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &414670516
 GameObject:
   m_ObjectHideFlags: 0
@@ -927,6 +932,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4826658073066191484, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
   m_PrefabInstance: {fileID: 1892575535}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &708608332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 407979221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 1692736522
+      Data2: 1107353952
+      Data3: 1817087903
+      Data4: -1185955472
+    Path: event:/SFX/Movement/Player_Push_SFX
+  Event: 
+  EventPlayTrigger: 0
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &714554646
 GameObject:
   m_ObjectHideFlags: 0
@@ -2365,6 +2401,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5897443695442071511, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+      propertyPath: sound
+      value: 
+      objectReference: {fileID: 708608332}
+    - target: {fileID: 5897443695442071511, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
       propertyPath: staminaIndicator
       value: 
       objectReference: {fileID: 1257414585}
@@ -2375,7 +2415,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3199934869891323338, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 708608332}
   m_SourcePrefab: {fileID: 100100000, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
 --- !u!1 &1907632023
 GameObject:

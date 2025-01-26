@@ -7,7 +7,7 @@ public class BubblerSlower : MonoBehaviour
 	void Start()
 	{
 		GameManager.Instance.GameEvents.OnBubbleTriggeredWithPlayerEvent += StartRepelation;
-		if (theSound) Debug.LogError("No sound!");
+		if (!theSound) Debug.LogError("No sound!");
 	}
 
 	void StartRepelation(BubblerObject bubbler)
