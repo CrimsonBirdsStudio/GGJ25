@@ -8,6 +8,8 @@ public class BubbleGeneration : MonoBehaviour
 	private Transform PlayerObject;
 	private Transform CameraObject;
 
+	public float initialDelayInSeconds = 15;
+
 	public BubblerConfig[] bubblerConfigs;
 	public Vector2 SpawnDistance; // A partir de qué distancia pueden aparecer las burbujas, desde el borde de la pantalla.
 	public float SpawnRadius; // En qué radio aparecen las burbujas, respecto al SpawnDistance.
@@ -29,6 +31,7 @@ public class BubbleGeneration : MonoBehaviour
 
 	void Start()
 	{
+		_lastSpawnTime = initialDelayInSeconds;
 		transform.position = Vector2.zero;
 		if (CameraObject == null)
 			CameraObject = Camera.main.transform;
