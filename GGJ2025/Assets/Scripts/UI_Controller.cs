@@ -11,11 +11,24 @@ public class UI_Controller : MonoBehaviour
     public float timeBetweenBublers;
     public GameObject bublersContainer;
     public GameObject myFriendz;
+    public GameObject tittleAnim;
+    public GameObject initialBubblers;
+    public GameObject playerBubble;
+    public GameObject backGorundFader;
 
     List<Sprite> bublersChosen = new();
+    bool animFinished;
     void Start()
     {
-
+        StartCoroutine(StartAnimation());
+        foreach (RectTransform bubbler in bublersContainer.transform)
+        {
+            // Ajusta la posición de las imágenes desplazándolas 150 unidades hacia abajo
+            bubbler.anchoredPosition = new Vector2(
+                bubbler.anchoredPosition.x,
+                bubbler.anchoredPosition.y - 150
+            );
+        }
     }
 
     public void SetIcons(List<Sprite> offIcons, List<Sprite> onIcons)
@@ -25,19 +38,10 @@ public class UI_Controller : MonoBehaviour
            bublersContainer.transform.GetChild(i).gameObject.GetComponent<Image>().sprite = offIcons[i];
            bublersContainer.transform.GetChild(i+4).gameObject.GetComponent<Image>().sprite = onIcons[i];
         }
-        StartCoroutine(ShowBubbler());
     }
 
     IEnumerator ShowBubbler()
     {
-        foreach (RectTransform bubbler in bublersContainer.transform)
-        {
-            // Ajusta la posición de las imágenes desplazándolas 150 unidades hacia abajo
-            bubbler.anchoredPosition = new Vector2(
-                bubbler.anchoredPosition.x,
-                bubbler.anchoredPosition.y - 150
-            );
-        }
         yield return new WaitForSeconds(1);
         myFriendz.transform.DOScale(1,1).SetEase(Ease.OutElastic);
         yield return new WaitForSeconds(1);
@@ -48,5 +52,48 @@ public class UI_Controller : MonoBehaviour
         }
     }
 
+    IEnumerator StartAnimation()
+    {
+        Animator anim = tittleAnim.GetComponent<Animator>();
+        anim.Play("tittle_idle");
 
+        yield return new WaitForSeconds(5);
+
+        anim.Play("tittle_death");
+        Color initialColor = backGorundFader.GetComponent<SpriteRenderer>().color;
+        float startAlpha = initialColor.a;
+        float timeElapsed = 0;
+
+        while (timeElapsed < .5f)
+        {
+            timeElapsed += Time.deltaTime;
+            float newAlpha = Mathf.Lerp(startAlpha, 0, timeElapsed / .5f);
+            backGorundFader.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, newAlpha);
+            yield return null; // Espera hasta el siguiente frame
+        }
+
+        // Asegúrate de que el alfa final sea exactamente el deseado
+        backGorundFader.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, 0);
+        tittleAnim.transform.DOScale(0,.25f).OnComplete(() => {
+            tittleAnim.transform.DOScale(1, .25f);
+            anim.Play("where_message_idle");
+        });
+        yield return new WaitForSeconds(3);
+        for(int i = 1; i < 5; i++)
+        {
+            if(i == 4)
+            {
+                initialBubblers.transform.GetChild(0).transform.DOScale(0, .05f).OnComplete(() => {
+                    playerBubble.SetActive(true);
+                    playerBubble.GetComponentInParent<Player_Movement>().enabled = true;
+                }); ;
+            }
+            initialBubblers.transform.GetChild(i).transform.DOScale(0, .05f);
+            yield return new WaitForSeconds(1f);
+        }
+        tittleAnim.transform.DOScale(0, .25f).OnComplete(() => {
+            animFinished = true;
+            StartCoroutine(ShowBubbler());
+        });
+    }
 }
