@@ -1070,7 +1070,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: AllBubblerSprites.Array.size
-      value: 5
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: 'AllBubblerSprites.Array.data[0]'
@@ -1079,19 +1079,59 @@ PrefabInstance:
     - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: 'AllBubblerSprites.Array.data[1]'
       value: 
-      objectReference: {fileID: 11400000, guid: 6b311fcad9efee244bbf681d6371daa1, type: 2}
+      objectReference: {fileID: 11400000, guid: c55c3ea38fa0d2442867f5816bf2584d, type: 2}
     - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: 'AllBubblerSprites.Array.data[2]'
       value: 
-      objectReference: {fileID: 11400000, guid: 2847ed0e5ade8a04eab43608ffcf424b, type: 2}
+      objectReference: {fileID: 11400000, guid: 3bac23244e84e7b488d5f2c144d78811, type: 2}
     - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: 'AllBubblerSprites.Array.data[3]'
       value: 
-      objectReference: {fileID: 11400000, guid: 1bc5042d2827ad540911c05ee8aea20c, type: 2}
+      objectReference: {fileID: 11400000, guid: 2847ed0e5ade8a04eab43608ffcf424b, type: 2}
     - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: 'AllBubblerSprites.Array.data[4]'
       value: 
-      objectReference: {fileID: 11400000, guid: 3bac23244e84e7b488d5f2c144d78811, type: 2}
+      objectReference: {fileID: 11400000, guid: 155dd68a3df1fce4c8504b8ec1a45668, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[5]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 1bc5042d2827ad540911c05ee8aea20c, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 5942e57e21837d0489f246926c7869c6, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 7efcea82e973ff2419220588843866d2, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[8]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 812724f39109ef448b0db709ac9ea718, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[9]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 5e5da6b0e7b645d488e79d65915afdcc, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[10]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 6b311fcad9efee244bbf681d6371daa1, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[11]'
+      value: 
+      objectReference: {fileID: 11400000, guid: a712e9775b907fc4fa4f4ce465e7f279, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[12]'
+      value: 
+      objectReference: {fileID: 11400000, guid: c554fe038e9c19f4692fa61e3049c2c6, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[13]'
+      value: 
+      objectReference: {fileID: 11400000, guid: bbe69f45e30c9d4488d356f67c5b797e, type: 2}
+    - target: {fileID: 1342006334275888175, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
+      propertyPath: 'AllBubblerSprites.Array.data[14]'
+      value: 
+      objectReference: {fileID: 11400000, guid: e4483d73480dbda48a49ea0160721c19, type: 2}
     - target: {fileID: 1528879044429029471, guid: c723306ed3414374e8b2d3d3b082a6d1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.8924479
