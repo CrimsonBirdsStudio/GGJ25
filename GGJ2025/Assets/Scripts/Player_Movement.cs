@@ -27,11 +27,14 @@ public class Player_Movement : MonoBehaviour
     private bool isCharging = false; // Indicador de carga
     private bool isCooldownActive = false; // Indicador del cooldown
 
-    void Start()
+    private void Awake()
     {
         animator = transform.GetChild(1).GetComponent<Animator>();
+        _rb = GetComponent<Rigidbody2D>();        
+    }
+    void Start()
+    {
         animator.runtimeAnimatorController = scriptableData.animatorController;
-        _rb = GetComponent<Rigidbody2D>();
         stamina = maxStamina;
         Cursor.visible=false;
 	}

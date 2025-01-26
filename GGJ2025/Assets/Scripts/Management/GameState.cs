@@ -9,9 +9,9 @@ public class GameState : MonoBehaviour
     // TODO: Gestionar los bubbles obtenidos y los que faltan.
     public float CurrentDifficulty; // Dificultad actual que escala con el progreso. // TODO: Implementar como getter a partir del progreso del jugador.
 	public int CurrentLevel; // Nivel actual, en base a los blubbers recogidos. // TODO: Implementar como getter a partir del progreso del jugador.
-	public GameObject[] BubblesTarget;
+	public Bubler_Scriptable[] BubblesTarget;
 	public bool[] BubblesObtained;
-	public GameObject BubblerPlayer; // Sprite del player.
+	public Bubler_Scriptable BubblerPlayer; // Sprite del player.
 	public int TargetShoppingListAmount;
 
 	// Cosas de pause
@@ -44,9 +44,14 @@ public class GameState : MonoBehaviour
 		BubblerPlayer = GameManager.Instance.BubblerRepository.GetRandomBubblerExcluding();
 		BubblesTarget = GameManager.Instance.BubblerRepository.GetBubblesForShoppingList(TargetShoppingListAmount);
 		BubblesObtained = new bool[BubblesTarget.Length];
+		UI_Controller UIcontroller = GameManager.Instance.UIController.GetComponentInChildren<UI_Controller>();
 
-		GameManager.Instance.player_instance.GetComponentsInChildren<SpriteRenderer>().First(x => x.name == "Bubbler").sprite = BubblerPlayer.GetComponent<SpriteRenderer>().sprite;
-	}
+
+
+        GameManager.Instance.player_instance.GetComponentInChildren<Player_Movement>().scriptableData = BubblerPlayer;
+		//Tengo que asignar aqui los sprites en la UI leyendolos de los scriptables
+		UIcontroller.SetIcons(BubblesTarget.Select(x => x.bublerSpriteUIOff).ToList(), BubblesTarget.Select(x => x.bublerSpriteUIOn).ToList());
+    }
 
 	public void SetGameOver()
 	{
