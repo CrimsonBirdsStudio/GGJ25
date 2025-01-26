@@ -26,8 +26,13 @@ public class BlubberCatcher : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+
+        //GameManager.Instance.GameEvents.OnBubbleCollideWithPlayer(collision.GetComponent<BubblerObject>());
+
+        /*
         if(collision)
         {
+            
             //print(collision.GetComponentInParent<BubbleProperties>());
             if(collision.GetComponentInParent<BubbleProperties>() != null)
             {
@@ -65,5 +70,6 @@ public class BlubberCatcher : MonoBehaviour
                 GameObject.Destroy(collision.transform.parent.gameObject);
             }
         }
+        */
     }
 }
