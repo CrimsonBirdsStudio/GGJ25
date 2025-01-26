@@ -21,13 +21,13 @@ public class BubblerRepeler : MonoBehaviour
 
     void StartRepelation(BubblerObject bubbler)
     {
+        theSound.Play();
         bubblerGo = bubbler.gameObject;
-        if (bubbler.BubblerConfig.SpawnerType == SpawnType.BadFollower)
+        if (bubbler.BubblerConfig.SpawnerType != SpawnType.GoodBubbler)
         {
-            theSound.Play();
-            Vector2 pos = bubbler.transform.position;
-            GameObject go = GameObject.Instantiate(repelledPrefab);
-            go.transform.position = pos;
+            //Vector2 pos = bubbler.transform.position;
+            //GameObject go = GameObject.Instantiate(repelledPrefab);
+            //go.transform.position = pos;
   
             Destroy(bubbler.gameObject);
             /*
