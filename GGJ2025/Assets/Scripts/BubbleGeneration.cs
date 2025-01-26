@@ -25,6 +25,7 @@ public class BubbleGeneration : MonoBehaviour
 	// Debugs
 	private Vector2 _debugSpawnPos;
 	private float _debugBubbleRadius;
+	private float _debugSpawnRadius;
 
 	void Start()
 	{
@@ -41,26 +42,127 @@ public class BubbleGeneration : MonoBehaviour
 		if (Time.time > _lastSpawnTime + SpawnCooldown)
 		{
 			_lastSpawnTime = Time.time;
-			SpawnBubbles();
+			//SpawnBubbles();
+			SpawnBubbles2();
 			lastPlayerPos = PlayerObject.position;
 		}
 	}
 
 	void SpawnBubbles2()
 	{
+		_debugBubbleRadius = 0f;
+		_debugSpawnRadius = 0f;
+
 		// Obtener dirección del jugador.
 		Vector2 playerDir = ((Vector2)PlayerObject.position - lastPlayerPos).normalized;
+		if (Mathf.Abs(playerDir.magnitude) < 0.01f)
+			return;
+
 
 		// Comprobar qué bubblers tienen posibilidad de spawnear y obtener una lista filtrada.
 		var configsToSpawn = BubblerSpawningLogic.GetBubblersThatCanSpawn(bubblerConfigs);
+		if (configsToSpawn.Count == 0)
+			return;
 
-		// Para cada config viable:
-		foreach (var config in configsToSpawn)
+		_debugSpawnRadius = configsToSpawn.Max(x => x.SpawnRadius);
+		Vector2[][] nextPositionsListToSpawn = new Vector2[configsToSpawn.Count][];
+
+		int configIndex = 0;
+		foreach (var configToSpawn in configsToSpawn)
 		{
 			// Elegir posición de spawn en base a la dirección en la que va el jugador.
 			Vector2 borderDistance = GameManager.Instance.CurrentViewSize / 2f;
-			Vector2 spawnCenterPos = (Vector2)CameraObject.position + new Vector2(playerDir.x * (borderDistance.x + SpawnDistance.x + SpawnRadius), playerDir.y * (borderDistance.y + SpawnDistance.y + SpawnRadius));
+			Vector2 spawnCenterPos = (Vector2)CameraObject.position + new Vector2(playerDir.x * (borderDistance.x + SpawnDistance.x + configToSpawn.SpawnRadius), playerDir.y * (borderDistance.y + SpawnDistance.y + configToSpawn.SpawnRadius));
 			_debugSpawnPos = spawnCenterPos;
+
+			// Obtener densidad de burbujas en la zona.
+			_currentAreaForDensityCheck = Mathf.PI * configToSpawn.SpawnRadius * configToSpawn.SpawnRadius;
+			Collider2D[] collidersInArea = Physics2D.OverlapCircleAll(spawnCenterPos, configToSpawn.SpawnRadius);
+
+			float areaUsedByAllBubbles = 0f;
+			float areaUsedBySameBubbles = 0f;
+			float maxAllBubbleRadius = configsToSpawn.Max(x => x.Radius);
+			float maxSameBubbleRadius = configToSpawn.Radius;
+			float maxAllBubbleArea = Mathf.PI * maxAllBubbleRadius * maxAllBubbleRadius;
+			float maxSameBubbleArea = Mathf.PI * configToSpawn.Radius * configToSpawn.Radius;
+
+			for (int i = 0; i < collidersInArea.Length; i++)
+			{
+				var foundBubbleObject = collidersInArea[i]?.transform.parent?.GetComponent<BubblerObject>();
+				if (foundBubbleObject == null)
+				{
+					print($"collidersInArea[i]: {collidersInArea[i].name}, parent = {collidersInArea[i]?.transform.parent.name}");
+				}
+				if (foundBubbleObject != null)
+				{
+					BubblerConfig existingBubble = foundBubbleObject.BubblerConfig;
+					areaUsedByAllBubbles += Mathf.PI * existingBubble.Radius * existingBubble.Radius;
+					float nextAllBubbleRadius = existingBubble.Radius;
+					float nextAllBubbleArea = Mathf.PI * nextAllBubbleRadius * nextAllBubbleRadius;
+
+					maxAllBubbleRadius = Mathf.Max(nextAllBubbleRadius, maxAllBubbleRadius);
+					maxAllBubbleArea = Mathf.Max(nextAllBubbleArea, maxAllBubbleArea);
+
+					if (existingBubble.SpawnerType == configToSpawn.SpawnerType)
+					{
+						float nextSameBubbleArea = Mathf.PI * existingBubble.Radius * existingBubble.Radius;
+						areaUsedBySameBubbles += nextSameBubbleArea;
+					}
+				}
+			}
+			float maxRadiusAllBoth = Mathf.Max(maxAllBubbleRadius, maxSameBubbleRadius);
+			_debugBubbleRadius = Mathf.Max( maxRadiusAllBoth, _debugBubbleRadius);
+
+			float currentAllDensity = areaUsedByAllBubbles == 0 ? 0 : areaUsedByAllBubbles / _currentAreaForDensityCheck;
+			float currentSameDensity = areaUsedBySameBubbles == 0 ? 0 : areaUsedBySameBubbles / _currentAreaForDensityCheck;
+
+			//print($"type: {configToSpawn.SpawnerType}, currentAllDensity: {currentAllDensity}, currentSameDensity: {currentSameDensity}, maxRadiusAllBoth: {maxRadiusAllBoth}");
+
+			// En base a la densidad, calcular cuantas burbujas hay que spawnear de cada tipo.
+			if (currentAllDensity >= configToSpawn.MaxDensityOverall ||
+				currentSameDensity >= configToSpawn.MaxDensityForSameType)
+				return;
+
+			int bubbleAmountToSpawn = Mathf.FloorToInt(Mathf.Clamp(
+				(configToSpawn.MaxDensityForSameType - currentSameDensity) * (_currentAreaForDensityCheck / maxSameBubbleArea),
+				0f,
+				(configToSpawn.MaxDensityOverall - currentAllDensity) * (_currentAreaForDensityCheck / maxAllBubbleArea)
+				));
+
+			//print(((configToSpawn.MaxDensityForSameType - currentSameDensity) * (_currentAreaForDensityCheck / maxSameBubbleArea))+" "+ (configToSpawn.MaxDensityOverall - currentAllDensity) * (_currentAreaForDensityCheck / maxAllBubbleArea));
+
+			// Elegir posiciones para cada burbuja sin que se sobrepongan.
+			_nextPositionsToSpawn.Clear();
+			for (int i = 0; i < bubbleAmountToSpawn; i++)
+			{
+				if (_nextPositionsToSpawn.Count < i)
+					break;
+
+				int attemptsLeft = 10;
+				while (attemptsLeft > 0)
+				{
+					attemptsLeft--;
+					Vector2 nextPosition = spawnCenterPos + new Vector2(UnityEngine.Random.Range(-configToSpawn.SpawnRadius, configToSpawn.SpawnRadius), UnityEngine.Random.Range(-configToSpawn.SpawnRadius, configToSpawn.SpawnRadius));
+
+					if (Physics2D.OverlapCircle(nextPosition, maxRadiusAllBoth + BubbleMargin) == null &&
+						!_nextPositionsToSpawn.Any(pos => Vector2.Distance(nextPosition, pos) < maxRadiusAllBoth + BubbleMargin))
+					{
+						_nextPositionsToSpawn.Add(nextPosition);
+						break;
+					}
+				}
+			}
+			nextPositionsListToSpawn[configIndex] = _nextPositionsToSpawn.ToArray();
+			configIndex++;
+		}
+
+		// Spawnear burbujas en las posiciones determinadas.
+		for (int i = 0; i < nextPositionsListToSpawn.Length; i++)
+		{
+			for (int j = 0; j < nextPositionsListToSpawn[i].Length; j++)
+			{
+				BubblerSpawningLogic.InstantiateBubbler(configsToSpawn[i], nextPositionsListToSpawn[i][j], transform);
+			}
 		}
 	}
 
@@ -68,6 +170,8 @@ public class BubbleGeneration : MonoBehaviour
 	{
 		// Obtener dirección del jugador.
 		Vector2 playerDir = ((Vector2)PlayerObject.position - lastPlayerPos).normalized;
+		if (Mathf.Abs(playerDir.magnitude) < 0.01f)
+			return;
 
 		// Elegir posición de spawn en base a la dirección en la que va el jugador.
 		Vector2 borderDistance = GameManager.Instance.CurrentViewSize / 2f;
@@ -122,19 +226,23 @@ public class BubbleGeneration : MonoBehaviour
 
 		// Elegir burbujas a spawnear.
 		// TODO: Implementar lógica.
-		BubblerConfig[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => bubblerConfigs[UnityEngine.Random.Range(0, bubblerConfigs.Length)]).ToArray();
-
-		// Spawnear burbujas.
-		for(int i = 0;i < bubblesChoosen.Length; i++)
+		var possibleBubblers = BubblerSpawningLogic.GetBubblersThatCanSpawn(bubblerConfigs);
+		if (possibleBubblers.Count > 0)
 		{
-			BubblerSpawningLogic.InstantiateBubbler(bubblesChoosen[i], _nextPositionsToSpawn[i], transform);
+			BubblerConfig[] bubblesChoosen = _nextPositionsToSpawn.Select(pos => possibleBubblers[UnityEngine.Random.Range(0, possibleBubblers.Count)]).ToArray();
+
+			// Spawnear burbujas.
+			for (int i = 0; i < bubblesChoosen.Length; i++)
+			{
+				BubblerSpawningLogic.InstantiateBubbler(bubblesChoosen[i], _nextPositionsToSpawn[i], transform);
+			}
 		}
 	}
 
 	void OnDrawGizmos()
 	{
 		Gizmos.color = Color.green;
-		Gizmos.DrawSphere(_debugSpawnPos, SpawnRadius);
+		Gizmos.DrawSphere(_debugSpawnPos, _debugSpawnRadius);
 
 		Gizmos.color = Color.red;
 		for (int i = 0; i < _nextPositionsToSpawn.Count; i++)

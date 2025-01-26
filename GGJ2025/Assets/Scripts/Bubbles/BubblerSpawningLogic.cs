@@ -11,7 +11,13 @@ public class BubblerSpawningLogic
         BubblerAccounting bubblerAccounting = GameManager.Instance.BubblerAccounting;
 		foreach (var bubbler in bubblerConfigs)
         {
+			int spawnedAmount = bubblerAccounting.GetSpawnedBlubbersOfType(bubbler.SpawnerType);
+			if (bubbler.MaxTotalSpawned > 0 && spawnedAmount >= bubbler.MaxTotalSpawned) continue;
 
+			float nextSpawnTime = bubblerAccounting.GetNextSpawnTimeForBlubbersOfType(bubbler.SpawnerType);
+			if (bubbler.SpawnTimeFrame.y > 0f && GameManager.Instance.GameState.LevelTimer < nextSpawnTime) continue;
+
+			result.Add(bubbler);
 		}
 
         return result;
@@ -20,7 +26,8 @@ public class BubblerSpawningLogic
     public static GameObject InstantiateBubbler(BubblerConfig config, Vector2 position, Transform parent)
 	{
 		GameObject result = GameObject.Instantiate(config.prefabBase, position, Quaternion.identity, parent);
-        BubblerObject bubbler = result.AddComponent<BubblerObject>();
+		result.name = config.SpawnerType.ToString();
+		BubblerObject bubbler = result.AddComponent<BubblerObject>();
 		bubbler.BubblerConfig = config;
 
 
@@ -43,6 +50,7 @@ public class BubblerSpawningLogic
             case BubblerEnums.DespawnMechanic.TimeAndDistance:
                 despawner.DistanceToDelete = bubbler.BubblerConfig.DespawnDistance;
                 despawner.TimeAtDistanceToDelete = bubbler.BubblerConfig.DespawnTime;
+                despawner.DistanceToDeleteMax = bubbler.BubblerConfig.DespawnDistanceMax;
 
 				break;
         }
@@ -86,7 +94,7 @@ public class BubblerSpawningLogic
 
 	private static void ConfigBubbleBubbler(BubblerObject bubbler)
 	{
-		if (bubbler.BubblerConfig.prefabBubble == null)
+		if (bubbler.BubblerConfig.prefabBubbler == null)
 			return;
 
 		var bubbleSprite = GameObject.Instantiate(bubbler.BubblerConfig.prefabBubbler, bubbler.transform);

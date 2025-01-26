@@ -48,20 +48,25 @@ public class TheCleanerTM : MonoBehaviour
 	private void TryClearObject(ToBeCleared objectToClear, Vector2 cleanFromPos)
 	{
 		float gameTime = GameManager.Instance.GameState.LevelTimer;
-		if (Vector2.Distance(cleanFromPos, objectToClear.transform.position) > objectToClear.DistanceToDelete)
+		float distance = Vector2.Distance(cleanFromPos, objectToClear.transform.position);
+		if (distance > objectToClear.DistanceToDelete)
 		{
-			if (objectToClear.TimeAtWhenGotOut.HasValue)
+			if(objectToClear.DistanceToDeleteMax > objectToClear.DistanceToDelete &&
+				distance > objectToClear.DistanceToDeleteMax)
+			{
+				RemoveToBeCleared(objectToClear);
+				Destroy(objectToClear.gameObject);
+			}else if (objectToClear.TimeAtWhenGotOut.HasValue)
 			{
 				if(gameTime - objectToClear.TimeAtWhenGotOut > objectToClear.TimeAtDistanceToDelete)
 				{
-				RemoveToBeCleared(objectToClear);
-				Destroy(objectToClear.gameObject);
+					RemoveToBeCleared(objectToClear);
+					Destroy(objectToClear.gameObject);
 				}
 			}
 			else
 			{
 				objectToClear.TimeAtWhenGotOut = gameTime;
-
 			}
 		}
 		else

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0889f225e5983bb468b1d2a5c91c0ad5, type: 3}
+  m_Name: BubblerConfigStopper
+  m_EditorClassIdentifier: 
+  prefabBase: {fileID: 226420496374734395, guid: 6763b1d62a3390749ab5c30785a0e936, type: 3}
+  prefabBubble: {fileID: 8692821181687536155, guid: 665b33ace6bb09449a55a7f676c16650, type: 3}
+  prefabBubbler: {fileID: 0}
+  SpawnerType: 4
+  SpawnAreaType: 0
+  RespawnMechanic: 0
+  DespawnMechanic: 1
+  SpawnTimeFrame: {x: 0, y: 0}
+  RespawnTimeFrame: {x: 0, y: 0}
+  MaxTotalSpawned: 50
+  MaxDensityForSameType: 0.1
+  MaxDensityOverall: 1
+  Radius: 5
+  SpawnRadius: 20
+  DespawnTime: 30
+  DespawnDistance: 25
+  DespawnDistanceMax: 30
+  MovementInterval: 0
+  MovementForce: 0

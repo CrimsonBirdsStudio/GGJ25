@@ -22,10 +22,12 @@ MonoBehaviour:
   SpawnTimeFrame: {x: 0, y: 0}
   RespawnTimeFrame: {x: 0, y: 0}
   MaxTotalSpawned: 1
-  MaxDensityForSameType: 1
-  MaxDensityOverall: 2
+  MaxDensityForSameType: 10
+  MaxDensityOverall: 20
   Radius: 1
+  SpawnRadius: 4
   DespawnTime: 3
-  DespawnDistance: 20
+  DespawnDistance: 12
+  DespawnDistanceMax: 20
   MovementInterval: 2
   MovementForce: 5

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d49f6eb5-d200-46a1-b8dd-a28df1bd3ec1}">
+		<property name="assetPath">
+			<value>Bubblers SFX/Bubbles_FX 02_Single.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.0312471655328799</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6fb96f74-ec99-4a03-9727-b482e4f2e7f8}</destination>
+		</relationship>
+	</object>
+</objects>
