@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{13caab95-7379-4af4-a26b-870f5228a163}">
+		<property name="name">
+			<value>Impulse_Force</value>
+		</property>
+		<relationship name="folder">
+			<destination>{8c25c0a2-1ae6-4cec-8484-e938c453fc22}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{6194f71d-4005-40f7-a863-b26e9ad74543}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{6194f71d-4005-40f7-a863-b26e9ad74543}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Valor 1</value>
+			<value>Valor 2</value>
+			<value>Valor 3</value>
+		</property>
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>
