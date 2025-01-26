@@ -922,6 +922,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 649782977}
   m_CullTransparentMesh: 1
+--- !u!1 &707616598 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7806311861454113581, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+  m_PrefabInstance: {fileID: 1892575535}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &708608325 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4826658073066191484, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
@@ -1658,6 +1663,7 @@ MonoBehaviour:
   initialBubblers: {fileID: 1176611644}
   playerBubble: {fileID: 2078596032}
   backGorundFader: {fileID: 1688379009}
+  mouseIcon: {fileID: 707616598}
 --- !u!114 &1199500058
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2389,6 +2395,10 @@ PrefabInstance:
       propertyPath: staminaIndicator
       value: 
       objectReference: {fileID: 1257414585}
+    - target: {fileID: 7806311861454113581, guid: 1cb3ba95489d0ac4a96998a67dbf7676, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

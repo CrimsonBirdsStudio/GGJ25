@@ -15,6 +15,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject initialBubblers;
     public GameObject playerBubble;
     public GameObject backGorundFader;
+    public GameObject mouseIcon;
 
     List<Sprite> bublersChosen = new();
     bool animFinished;
@@ -96,6 +97,7 @@ public class UI_Controller : MonoBehaviour
         tittleAnim.transform.DOScale(0, .25f).OnComplete(() => {
             animFinished = true;
             StartCoroutine(ShowBubbler());
+            mouseIcon.SetActive(true);
         });
     }
 
