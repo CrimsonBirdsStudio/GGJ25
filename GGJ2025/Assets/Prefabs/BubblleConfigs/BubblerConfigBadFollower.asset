@@ -23,7 +23,7 @@ MonoBehaviour:
   RespawnTimeFrame: {x: 0, y: 0}
   MaxTotalSpawned: 40
   MaxDensityForSameType: 0.3
-  MaxDensityOverall: 0.3
+  MaxDensityOverall: 10
   Radius: 1.5
   SpawnRadius: 6
   DespawnTime: 3

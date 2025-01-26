@@ -94,7 +94,7 @@ public class BubblerSpawningLogic
 
 	private static void ConfigBubbleBubbler(BubblerObject bubbler)
 	{
-		if (bubbler.BubblerConfig.prefabBubble == null)
+		if (bubbler.BubblerConfig.prefabBubbler == null)
 			return;
 
 		var bubbleSprite = GameObject.Instantiate(bubbler.BubblerConfig.prefabBubbler, bubbler.transform);
