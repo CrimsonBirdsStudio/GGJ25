@@ -3,8 +3,14 @@ guid: f8720d05e99bbfe449a83968ea40e9d7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6670627495663281900
-    second: robot_stick_idle1.PNG_0
+      213: 8208864973366809327
+    second: robot_stick_idle_spritesheet_0
+  - first:
+      213: 2562930961841796529
+    second: robot_stick_idle_spritesheet_1
+  - first:
+      213: -6170162396210872266
+    second: robot_stick_idle_spritesheet_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,20 +122,64 @@ TextureImporter:
       name: robot_stick_idle_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 379
-        y: 246
-        width: 222
-        height: 422
+        x: 0
+        y: 0
+        width: 926
+        height: 899
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 177f798302124fd42812c91a18ecbc2a
-      internalID: -1243500994
+      spriteID: fe2dcaa633fbbe170800000000000000
+      internalID: 8208864973366809327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_stick_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b53e6c712c519320800000000000000
+      internalID: 2562930961841796529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_stick_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630c067ddfd2f5aa0800000000000000
+      internalID: -6170162396210872266
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: e6dce4a1bdfc52943879728eec6e10ed
+    spriteID: 945485c807cc1c9459675078cbd18c6a
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      robot_stick_idle_spritesheet_0: -1243500994
+      robot_stick_idle_spritesheet_0: 8208864973366809327
+      robot_stick_idle_spritesheet_1: 2562930961841796529
+      robot_stick_idle_spritesheet_2: -6170162396210872266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

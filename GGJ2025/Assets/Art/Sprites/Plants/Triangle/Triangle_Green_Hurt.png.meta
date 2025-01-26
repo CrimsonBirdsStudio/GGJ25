@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Triangle_Green_Hurt_0: 5059774261093987027
+      Triangle_Green_Hurt_1: -8833011085406136056
+      Triangle_Green_Hurt_2: 6297470109151012248
+      Triangle_Green_Hurt_3: 7220607094033832353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
