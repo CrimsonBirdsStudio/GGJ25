@@ -3,11 +3,12 @@ using UnityEngine.UI;
 using DG.Tweening;
 using System.Collections.Generic;
 using System.Collections;
+using Unity.VisualScripting;
 
 public class UI_Controller : MonoBehaviour
 {
-    public List<Sprite> bublersSpritesOff =new();
-    public List<Sprite> bublersSpritesOn = new();
+    public List<Image> bublersSpritesOff =new();
+    public List<Image> bublersSpritesOn = new();
     public float timeBetweenBublers;
     public GameObject bublersContainer;
     public GameObject myFriendz;
@@ -15,6 +16,7 @@ public class UI_Controller : MonoBehaviour
     public GameObject initialBubblers;
     public GameObject playerBubble;
     public GameObject backGorundFader;
+    public GameObject mouseIcon;
 
     List<Sprite> bublersChosen = new();
     bool animFinished;
@@ -38,6 +40,7 @@ public class UI_Controller : MonoBehaviour
         for(int i = 0; i < 4; i++)
         {
            bublersContainer.transform.GetChild(i).gameObject.GetComponent<Image>().sprite = offIcons[i];
+
            bublersContainer.transform.GetChild(i+4).gameObject.GetComponent<Image>().sprite = onIcons[i];
         }
     }
@@ -96,19 +99,37 @@ public class UI_Controller : MonoBehaviour
         tittleAnim.transform.DOScale(0, .25f).OnComplete(() => {
             animFinished = true;
             StartCoroutine(ShowBubbler());
+            mouseIcon.SetActive(true);
         });
     }
 
 	void OnBubblerObtained(BubblerObject bubbler)
 	{
 		print($"Bubbler Obtained! {bubbler.name}");
-	}
+        foreach (Image bublerSelected in bublersSpritesOn)
+        {
+            if (bublerSelected.sprite == bubbler.BubblerScriptableSprite.bublerSpriteUIOn)
+            {
+                bublerSelected.gameObject.transform.DOScale(0,.25f).OnComplete(() => {
+                    bublerSelected.gameObject.SetActive(false);
+                });
+                break;
+            }
+        }
+    }
 	void OnBubblerLost(BubblerObject bubbler)
 	{
 		print($"Bubbler lost! {bubbler.name}");
-
-	}
-	private void OnDestroy()
+        foreach(Image bublerSelected in bublersSpritesOff)
+        {
+            if(bublerSelected.sprite == bubbler.BubblerScriptableSprite.bublerSpriteUIOff)
+            {
+                bublerSelected.gameObject.SetActive(false);
+                break;
+            }
+        }
+    }
+private void OnDestroy()
 	{
 		GameManager.Instance.GameEvents.OnGameStateBubblersObtainedEvent += OnBubblerObtained;
 		GameManager.Instance.GameEvents.OnGameStateBubblersLostEvent += OnBubblerLost;
