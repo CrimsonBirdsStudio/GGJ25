@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 6b4a244aa79714f4d9ec031c3e8e1f8c
+guid: 149e2272539a23a45b6d736486721a1d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6883398169878228699
-    second: plant_circle_idle1_0
+      213: -7300065301814193906
+    second: Triangle_Green_Push_0
+  - first:
+      213: -2299435798481782885
+    second: Triangle_Green_Push_1
+  - first:
+      213: 3980390888332524889
+    second: Triangle_Green_Push_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -47,11 +53,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 0
+  spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 300
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,23 +119,67 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: plant_circle_idle_spritesheet_0
+      name: Triangle_Green_Push_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 926
-        height: 899
+        x: 307
+        y: 244
+        width: 306
+        height: 473
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 56cdb19f21cd3b0439007eee9bf6b25e
-      internalID: -1875270515
+      spriteID: e01d5301945f0ba90800000000000000
+      internalID: -7300065301814193906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Green_Push_1
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 246
+        width: 297
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b973daff253c610e0800000000000000
+      internalID: -2299435798481782885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Triangle_Green_Push_2
+      rect:
+        serializedVersion: 2
+        x: 2158
+        y: 240
+        width: 303
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95df2468c603d3730800000000000000
+      internalID: 3980390888332524889
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: a933de4334b28d84b83db9eb10f969ca
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -147,8 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      plant_circle_idle_spritesheet_0: -1875270515
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
