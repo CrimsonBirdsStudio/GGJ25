@@ -95,7 +95,7 @@ public class GameState : MonoBehaviour
 					if (BubblesObtained[i])
 					{
 						BubblesObtained[i] = false;
-						GameManager.Instance.GameEvents.OnGameStateBubblersLost(bubbler);
+						GameManager.Instance.GameEvents.OnGameStateBubblersLost(BubblesTarget[i]);
 						break;
 					}
 				}
