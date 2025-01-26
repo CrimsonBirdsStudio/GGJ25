@@ -29,7 +29,9 @@ public class UI_Controller : MonoBehaviour
                 bubbler.anchoredPosition.y - 150
             );
         }
-    }
+		GameManager.Instance.GameEvents.OnGameStateBubblersObtainedEvent += OnBubblerObtained;
+		GameManager.Instance.GameEvents.OnGameStateBubblersLostEvent += OnBubblerLost;
+	}
 
     public void SetIcons(List<Sprite> offIcons, List<Sprite> onIcons)
     {
@@ -96,4 +98,19 @@ public class UI_Controller : MonoBehaviour
             StartCoroutine(ShowBubbler());
         });
     }
+
+	void OnBubblerObtained(BubblerObject bubbler)
+	{
+		print($"Bubbler Obtained! {bubbler.name}");
+	}
+	void OnBubblerLost(BubblerObject bubbler)
+	{
+		print($"Bubbler lost! {bubbler.name}");
+
+	}
+	private void OnDestroy()
+	{
+		GameManager.Instance.GameEvents.OnGameStateBubblersObtainedEvent += OnBubblerObtained;
+		GameManager.Instance.GameEvents.OnGameStateBubblersLostEvent += OnBubblerLost;
+	}
 }
