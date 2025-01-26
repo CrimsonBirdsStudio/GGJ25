@@ -1,4 +1,5 @@
 using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
 
 public class AbsorbedBubblerBehaiviour : MonoBehaviour
 {
@@ -23,11 +24,13 @@ public class AbsorbedBubblerBehaiviour : MonoBehaviour
     public void SetTarget(Transform _target)
     {
         target = _target;
+        vel = _target.GetComponent<Rigidbody2D>().linearVelocity.magnitude;
     }
 
     private void FixedUpdate()
     {
         Vector2 dir = (target.position - transform.position).normalized;
+        vel = target.GetComponent<Rigidbody2D>().linearVelocity.magnitude;
         transform.Translate(dir * vel * Time.fixedDeltaTime);
     }
 }
