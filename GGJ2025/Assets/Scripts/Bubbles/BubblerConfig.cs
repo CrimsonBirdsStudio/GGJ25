@@ -30,5 +30,5 @@ public class BubblerConfig : ScriptableObject
 
 	public float MovementInterval;
 	public float MovementForce;
-
+	public float RotateOnSpawn;
 }

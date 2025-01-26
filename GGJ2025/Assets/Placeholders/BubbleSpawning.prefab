@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8881d22ccee16d641867c3f79bfc2519, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  initialDelayInSeconds: 15
   bubblerConfigs:
   - {fileID: 11400000, guid: b14adf09ff81b244f999e6c8cac9d747, type: 2}
   - {fileID: 11400000, guid: 79cbc435b01bfc641add1ac55a53c026, type: 2}

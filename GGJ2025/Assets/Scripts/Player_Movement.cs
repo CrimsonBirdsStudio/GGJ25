@@ -1,7 +1,4 @@
 using DG.Tweening;
-using System;
-using Unity.VisualScripting;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -16,6 +13,7 @@ public class Player_Movement : MonoBehaviour
     public float cooldown = 1f; // Cooldown entre impulsos
     public AnimationCurve impulseCurve = new AnimationCurve(new Keyframe(0f, 1f, 2, 2), new Keyframe(1f, 5f, 4, 4));
     public GameObject arrow;
+    public GameObject mouseIcon;
 
 
     private Animator animator;
@@ -50,6 +48,10 @@ public class Player_Movement : MonoBehaviour
 
         if (Input.GetMouseButton(0) && CanImpulse())
         {
+            if(mouseIcon.activeSelf)
+            {
+                mouseIcon.SetActive(false);
+            }
             arrow.GetComponent<SpriteRenderer>().color = new Color(
                 arrow.GetComponent<SpriteRenderer>().color.r,
                 arrow.GetComponent<SpriteRenderer>().color.g,
