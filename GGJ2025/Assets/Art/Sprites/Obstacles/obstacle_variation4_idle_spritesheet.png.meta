@@ -1,0 +1,403 @@
+fileFormatVersion: 2
+guid: a4af21d75129836468d1d66f146c1768
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -71260741654054380
+    second: obstacle_variation4_idle_spritesheet_0
+  - first:
+      213: -1630460429578030100
+    second: obstacle_variation4_idle_spritesheet_1
+  - first:
+      213: -4424483807114386840
+    second: obstacle_variation4_idle_spritesheet_2
+  - first:
+      213: -2193102040453921294
+    second: obstacle_variation4_idle_spritesheet_3
+  - first:
+      213: 833498633811147912
+    second: obstacle_variation4_idle_spritesheet_4
+  - first:
+      213: -5279767557210236877
+    second: obstacle_variation4_idle_spritesheet_5
+  - first:
+      213: 4680889928448250032
+    second: obstacle_variation4_idle_spritesheet_6
+  - first:
+      213: 2186722469257353470
+    second: obstacle_variation4_idle_spritesheet_7
+  - first:
+      213: -455976143609696247
+    second: obstacle_variation4_idle_spritesheet_8
+  - first:
+      213: 3811119934583865881
+    second: obstacle_variation4_idle_spritesheet_9
+  - first:
+      213: 7133195580757770009
+    second: obstacle_variation4_idle_spritesheet_10
+  - first:
+      213: 5467169618744806148
+    second: obstacle_variation4_idle_spritesheet_11
+  - first:
+      213: -3072088084403510582
+    second: obstacle_variation4_idle_spritesheet_12
+  - first:
+      213: 8831649964561981878
+    second: obstacle_variation4_idle_spritesheet_13
+  - first:
+      213: -6625098140741883547
+    second: obstacle_variation4_idle_spritesheet_14
+  - first:
+      213: 6749568699404456499
+    second: obstacle_variation4_idle_spritesheet_15
+  - first:
+      213: -2988918607730067117
+    second: obstacle_variation4_idle_spritesheet_16
+  - first:
+      213: 2988164367748466666
+    second: obstacle_variation4_idle_spritesheet_17
+  - first:
+      213: 2099640206666308490
+    second: obstacle_variation4_idle_spritesheet_18
+  - first:
+      213: 2281735107551471679
+    second: obstacle_variation4_idle_spritesheet_19
+  - first:
+      213: 5222941624782560040
+    second: obstacle_variation4_idle_spritesheet_20
+  - first:
+      213: 1336805594646926410
+    second: obstacle_variation4_idle_spritesheet_21
+  - first:
+      213: 4668394083764557285
+    second: obstacle_variation4_idle_spritesheet_22
+  - first:
+      213: 5625266585554882054
+    second: obstacle_variation4_idle_spritesheet_23
+  - first:
+      213: 3636799676128957069
+    second: obstacle_variation4_idle_spritesheet_24
+  - first:
+      213: 7287804874046403283
+    second: obstacle_variation4_idle_spritesheet_25
+  - first:
+      213: -2832130719158257843
+    second: obstacle_variation4_idle_spritesheet_26
+  - first:
+      213: 6476053016357500371
+    second: obstacle_variation4_idle_spritesheet_27
+  - first:
+      213: 247778727093577300
+    second: obstacle_variation4_idle_spritesheet_28
+  - first:
+      213: 951964318034967201
+    second: obstacle_variation4_idle_spritesheet_29
+  - first:
+      213: -8712330722175885770
+    second: obstacle_variation4_idle_spritesheet_30
+  - first:
+      213: 4558209872897340825
+    second: obstacle_variation4_idle_spritesheet_31
+  - first:
+      213: 2641462734879159825
+    second: obstacle_variation4_idle_spritesheet_32
+  - first:
+      213: -5733497306300909105
+    second: obstacle_variation4_idle_spritesheet_33
+  - first:
+      213: 6518162353619420098
+    second: obstacle_variation4_idle_spritesheet_34
+  - first:
+      213: -8021007021666314855
+    second: obstacle_variation4_idle_spritesheet_35
+  - first:
+      213: -9101703518668425526
+    second: obstacle_variation4_idle_spritesheet_36
+  - first:
+      213: -1757291213265592245
+    second: obstacle_variation4_idle_spritesheet_37
+  - first:
+      213: -1076364035727632786
+    second: obstacle_variation4_idle_spritesheet_38
+  - first:
+      213: 7533898079638925768
+    second: obstacle_variation4_idle_spritesheet_39
+  - first:
+      213: -2074153671061391314
+    second: obstacle_variation4_idle_spritesheet_40
+  - first:
+      213: 1565555153230401086
+    second: obstacle_variation4_idle_spritesheet_41
+  - first:
+      213: 7623600275923517063
+    second: obstacle_variation4_idle_spritesheet_42
+  - first:
+      213: -780062370098823413
+    second: obstacle_variation4_idle_spritesheet_43
+  - first:
+      213: -2204240904159907189
+    second: obstacle_variation4_idle_spritesheet_44
+  - first:
+      213: -6898053529904973980
+    second: obstacle_variation4_idle_spritesheet_45
+  - first:
+      213: 750970734735680355
+    second: obstacle_variation4_idle_spritesheet_46
+  - first:
+      213: -7663198758422518116
+    second: obstacle_variation4_idle_spritesheet_47
+  - first:
+      213: -5972259864857462741
+    second: obstacle_variation4_idle_spritesheet_48
+  - first:
+      213: -4836762037950586314
+    second: obstacle_variation4_idle_spritesheet_49
+  - first:
+      213: -2949821752270522460
+    second: obstacle_variation4_idle_spritesheet_50
+  - first:
+      213: 5388901546460804239
+    second: obstacle_variation4_idle_spritesheet_51
+  - first:
+      213: 4909657137050670057
+    second: obstacle_variation4_idle_spritesheet_52
+  - first:
+      213: -213961611062848000
+    second: obstacle_variation4_idle_spritesheet_53
+  - first:
+      213: 8579721746766993412
+    second: obstacle_variation4_idle_spritesheet_54
+  - first:
+      213: -3749193297443196571
+    second: obstacle_variation4_idle_spritesheet_55
+  - first:
+      213: -103145436664370800
+    second: obstacle_variation4_idle_spritesheet_56
+  - first:
+      213: 8735382019765319836
+    second: obstacle_variation4_idle_spritesheet_57
+  - first:
+      213: -324897784883229021
+    second: obstacle_variation4_idle_spritesheet_58
+  - first:
+      213: -3661747061448157546
+    second: obstacle_variation4_idle_spritesheet_59
+  - first:
+      213: -1408701882156393706
+    second: obstacle_variation4_idle_spritesheet_60
+  - first:
+      213: -6154949926480506978
+    second: obstacle_variation4_idle_spritesheet_61
+  - first:
+      213: -4260988749083349347
+    second: obstacle_variation4_idle_spritesheet_62
+  - first:
+      213: 3824493018875389172
+    second: obstacle_variation4_idle_spritesheet_63
+  - first:
+      213: -6633710165260971685
+    second: obstacle_variation4_idle_spritesheet_64
+  - first:
+      213: 6759673548174686380
+    second: obstacle_variation4_idle_spritesheet_65
+  - first:
+      213: -8765570855967294211
+    second: obstacle_variation4_idle_spritesheet_66
+  - first:
+      213: -3115175800587018693
+    second: obstacle_variation4_idle_spritesheet_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: obstacle_variation4_idle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a7747abb4d20ff0800000000000000
+      internalID: -71260741654054380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_variation4_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce3bbaab0e07f59e0800000000000000
+      internalID: -1630460429578030100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: obstacle_variation4_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862aa7a5b631992c0800000000000000
+      internalID: -4424483807114386840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 923100f5b2705ff469c3e221e4d25b69
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      obstacle_variation4_idle_spritesheet_0: -71260741654054380
+      obstacle_variation4_idle_spritesheet_1: -1630460429578030100
+      obstacle_variation4_idle_spritesheet_2: -4424483807114386840
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
