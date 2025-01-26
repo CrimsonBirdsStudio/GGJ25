@@ -172,6 +172,6 @@ public class Player_Movement : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Destroy(collision.transform.parent.gameObject);   
+        //Destroy(collision.transform.parent.gameObject);   
     }
 }
