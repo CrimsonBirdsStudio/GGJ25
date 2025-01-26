@@ -47,7 +47,6 @@ MonoBehaviour:
     Data4: 1815068864
   Banks:
   - {fileID: -1017177451340106743}
-  - {fileID: -1017177451340106743}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -70,7 +69,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Bank.bank
   Name: Desktop/Bank
   StudioPath: bank:/Bank
-  lastModified: 638734559096219400
+  lastModified: 638734598520101206
   FileSizes:
   - Name: Desktop
     Value: 494
@@ -90,7 +89,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638734559096254391
+  lastModified: 638734598520116300
   FileSizes:
   - Name: Desktop
     Value: 1036
@@ -137,7 +136,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/SFX.bank
   Name: Desktop/SFX
   StudioPath: bank:/SFX
-  lastModified: 638734559097464760
+  lastModified: 638734598520251903
   FileSizes:
   - Name: Desktop
     Value: 124480
@@ -172,7 +171,7 @@ MonoBehaviour:
   - {fileID: -4142797966250029231}
   StringsBanks:
   - {fileID: 5749029205288338875}
-  cacheTime: 638734559097464760
+  cacheTime: 638734598520251903
   cacheVersion: 131622
 --- !u!114 &795603582021469051
 MonoBehaviour:
@@ -243,7 +242,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/BackgroudMusic.bank
   Name: Desktop/BackgroudMusic
   StudioPath: bank:/BackgroudMusic
-  lastModified: 638734559096187555
+  lastModified: 638734598520101206
   FileSizes:
   - Name: Desktop
     Value: 548000
@@ -263,7 +262,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734559096264391
+  lastModified: 638734598520218998
   FileSizes:
   - Name: Desktop
     Value: 1122
