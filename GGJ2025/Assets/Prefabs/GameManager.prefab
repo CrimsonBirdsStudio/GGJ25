@@ -51,6 +51,8 @@ MonoBehaviour:
   PlayerMovementScript: {fileID: 0}
   GameState: {fileID: 0}
   BubblerRepository: {fileID: 0}
+  BubblerAccounting: {fileID: 0}
+  GameEvents: {fileID: 0}
 --- !u!114 &1308343579306055759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,6 +67,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CurrentDifficulty: 0
   CurrentLevel: 0
+  BubblesTarget: []
+  BubblesObtained: 
+  BubblerPlayer: {fileID: 0}
+  TargetShoppingListAmount: 4
 --- !u!114 &2664736824317059049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -90,7 +96,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6468bd23989d64a429d8a0ea4dbef21e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllSprites:
+  AllBubblerSprites:
   - {fileID: 503816210576823527, guid: 4041105edd1358e438b80da35dec223c, type: 3}
   - {fileID: 3969555971759499886, guid: 20ed44052e8ca6f4cb9aebe3c1617fa9, type: 3}
   - {fileID: 3499351416483430963, guid: edfa10bcc173e6e49afa881052f5032d, type: 3}
@@ -102,5 +108,7 @@ MonoBehaviour:
   - {fileID: 3059880228475011861, guid: a8bf00a42a64cf343bc5dd9700ef496c, type: 3}
   - {fileID: 2026752811094984682, guid: fe2a61e4b6bfe344d9f6c9c5e5c3d7ea, type: 3}
   - {fileID: 1810530656167300493, guid: 6830b9313d845b840a98ea95665b0904, type: 3}
+  - {fileID: 7203310424373361093, guid: c713367936adae547bc8623834d399a0, type: 3}
   - {fileID: 3122548421889674232, guid: f75fa6c3b7bb4f7409d4e91c6e887beb, type: 3}
   - {fileID: 7475804657656082510, guid: e83eb93ca8060c54c9da317cbcc058a7, type: 3}
+  - {fileID: 5986351264041442979, guid: 36280e90bdee3ee4aa2513d99653f74c, type: 3}

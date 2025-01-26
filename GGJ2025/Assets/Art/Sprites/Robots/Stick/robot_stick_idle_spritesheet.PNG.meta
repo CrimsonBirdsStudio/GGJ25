@@ -116,10 +116,10 @@ TextureImporter:
       name: robot_stick_idle_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 926
-        height: 899
+        x: 379
+        y: 246
+        width: 222
+        height: 422
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

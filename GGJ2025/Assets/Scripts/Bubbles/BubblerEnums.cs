@@ -38,7 +38,8 @@ public class BubblerEnums
 
     public enum DespawnMechanic
     {
-        TimeAndDistance
+        None
+        ,TimeAndDistance
     }
 
     public enum RespawnMechanic

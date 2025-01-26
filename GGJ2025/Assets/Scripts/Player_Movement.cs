@@ -1,11 +1,14 @@
 using DG.Tweening;
 using System;
 using Unity.VisualScripting;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class Player_Movement : MonoBehaviour
 {
+
+    public Bubler_Scriptable scriptableData;
     public float velocityMultiplier = 10f; // Multiplicador de fuerza
     public float staminaRefillRate = 10f; // Velocidad de recarga de estamina
     public float maxStamina = 100f; // Valor máximo de estamina
@@ -27,6 +30,7 @@ public class Player_Movement : MonoBehaviour
     void Start()
     {
         animator = transform.GetChild(1).GetComponent<Animator>();
+        animator.runtimeAnimatorController = scriptableData.animatorController;
         _rb = GetComponent<Rigidbody2D>();
         stamina = maxStamina;
         Cursor.visible=false;
@@ -93,8 +97,13 @@ public class Player_Movement : MonoBehaviour
     private void ApplyImpulse()
     {
         GameObject bubblerSprite = transform.GetChild(1).gameObject;
-        bubblerSprite.transform.DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f);
         animator.Play("Push");
+        bubblerSprite.transform
+            .DOPunchScale(new Vector3(0, .25f, 0), 0.5f, 10, 0.5f)
+            .OnComplete(() => {
+                // Restablecer la escala original
+                bubblerSprite.transform.localScale = new Vector3(.25f, .25f, .25f);
+            });
 
         arrow.GetComponent<SpriteRenderer>().color = new Color
                 (arrow.GetComponent<SpriteRenderer>().color.r, arrow.GetComponent<SpriteRenderer>().color.g, arrow.GetComponent<SpriteRenderer>().material.color.b, 0);
@@ -136,7 +145,13 @@ public class Player_Movement : MonoBehaviour
             if(isCooldownActive)
             {
                 GameObject bubblerSprite = transform.GetChild(1).gameObject;
-                bubblerSprite.transform.DOPunchScale(new Vector3(0, 1, 0), 0.5f, 10, 0.5f);
+                bubblerSprite.transform
+                .DOPunchScale(new Vector3(0, .25f, 0), 0.5f, 10, 0.5f)
+                .OnComplete(() => {
+                    // Restablecer la escala original
+                    bubblerSprite.transform.localScale = new Vector3(.25f, .25f, .25f);
+                });
+                ;
                 animator.Play("Idle");
             }
             isCooldownActive = false; // Cooldown terminado

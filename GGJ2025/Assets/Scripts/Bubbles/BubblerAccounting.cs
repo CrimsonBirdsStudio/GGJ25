@@ -21,7 +21,6 @@ public class BubblerAccounting : MonoBehaviour
 
 	private void EventBubbleCreatedOrDestroyed(BubblerObject blubber)
 	{
-		print("Accounting for bubble, is destroyed? "+blubber.IsDestroyed);
 		BubblerConfig config = blubber.BubblerConfig;
 		if (_SpawnedBubblersBySpawnType.TryGetValue(config.SpawnerType, out var amount))
 		{

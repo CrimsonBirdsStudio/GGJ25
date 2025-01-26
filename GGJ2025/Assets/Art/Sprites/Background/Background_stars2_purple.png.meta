@@ -1,0 +1,1612 @@
+fileFormatVersion: 2
+guid: fb6d154a74dc2aa439e43a0c29f7efa8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 930120244526458234
+    second: Background_stars2_purple_0
+  - first:
+      213: -4988729471969865653
+    second: Background_stars2_purple_1
+  - first:
+      213: -6800617780986339438
+    second: Background_stars2_purple_2
+  - first:
+      213: 4929675094273987149
+    second: Background_stars2_purple_3
+  - first:
+      213: 4526760597456916058
+    second: Background_stars2_purple_4
+  - first:
+      213: 7848611109621926389
+    second: Background_stars2_purple_5
+  - first:
+      213: -7122626961113062457
+    second: Background_stars2_purple_6
+  - first:
+      213: -4362082164548537763
+    second: Background_stars2_purple_7
+  - first:
+      213: 6495186159121209285
+    second: Background_stars2_purple_8
+  - first:
+      213: 8864591054945004258
+    second: Background_stars2_purple_9
+  - first:
+      213: 9085611588263395203
+    second: Background_stars2_purple_10
+  - first:
+      213: -2877677596546158333
+    second: Background_stars2_purple_11
+  - first:
+      213: -4485231034689140416
+    second: Background_stars2_purple_12
+  - first:
+      213: -5831517649419870025
+    second: Background_stars2_purple_13
+  - first:
+      213: -8282986781791800624
+    second: Background_stars2_purple_14
+  - first:
+      213: -2073541946595253071
+    second: Background_stars2_purple_15
+  - first:
+      213: -5566823173771027880
+    second: Background_stars2_purple_16
+  - first:
+      213: -5675013389881224686
+    second: Background_stars2_purple_17
+  - first:
+      213: 7081218673633004439
+    second: Background_stars2_purple_18
+  - first:
+      213: -3107265697343350307
+    second: Background_stars2_purple_19
+  - first:
+      213: -7256053496933915247
+    second: Background_stars2_purple_20
+  - first:
+      213: 5001370170029625919
+    second: Background_stars2_purple_21
+  - first:
+      213: -9138909534031153791
+    second: Background_stars2_purple_22
+  - first:
+      213: 7796544473596691720
+    second: Background_stars2_purple_23
+  - first:
+      213: 8070945750159809107
+    second: Background_stars2_purple_24
+  - first:
+      213: 3372136797131244481
+    second: Background_stars2_purple_25
+  - first:
+      213: 7902576563858955642
+    second: Background_stars2_purple_26
+  - first:
+      213: 6586345549640958147
+    second: Background_stars2_purple_27
+  - first:
+      213: -4239205853897413571
+    second: Background_stars2_purple_28
+  - first:
+      213: -4043077184036639640
+    second: Background_stars2_purple_29
+  - first:
+      213: -5932534596439214330
+    second: Background_stars2_purple_30
+  - first:
+      213: -8789218676582320390
+    second: Background_stars2_purple_31
+  - first:
+      213: -7367111181831937204
+    second: Background_stars2_purple_32
+  - first:
+      213: -7604184171005287298
+    second: Background_stars2_purple_33
+  - first:
+      213: -4610529381350509664
+    second: Background_stars2_purple_34
+  - first:
+      213: 7005803784723172238
+    second: Background_stars2_purple_35
+  - first:
+      213: -3793050336028645167
+    second: Background_stars2_purple_36
+  - first:
+      213: 4611657865232396061
+    second: Background_stars2_purple_37
+  - first:
+      213: 272575244448872071
+    second: Background_stars2_purple_38
+  - first:
+      213: -3555265208923842214
+    second: Background_stars2_purple_39
+  - first:
+      213: -6018615695579313110
+    second: Background_stars2_purple_40
+  - first:
+      213: -6447151615115250607
+    second: Background_stars2_purple_41
+  - first:
+      213: -172612782118320633
+    second: Background_stars2_purple_42
+  - first:
+      213: -834986695687167536
+    second: Background_stars2_purple_43
+  - first:
+      213: -6922133463519401361
+    second: Background_stars2_purple_44
+  - first:
+      213: -5403241294362347138
+    second: Background_stars2_purple_45
+  - first:
+      213: -2615287365557269956
+    second: Background_stars2_purple_46
+  - first:
+      213: 8158514409369955209
+    second: Background_stars2_purple_47
+  - first:
+      213: -111422358225469093
+    second: Background_stars2_purple_48
+  - first:
+      213: -6268724389402363686
+    second: Background_stars2_purple_49
+  - first:
+      213: -2212570627809382342
+    second: Background_stars2_purple_50
+  - first:
+      213: -8750100466683148083
+    second: Background_stars2_purple_51
+  - first:
+      213: 8955604054403747183
+    second: Background_stars2_purple_52
+  - first:
+      213: -6993715365960059966
+    second: Background_stars2_purple_53
+  - first:
+      213: -3754603526498149138
+    second: Background_stars2_purple_54
+  - first:
+      213: -6396159992183706338
+    second: Background_stars2_purple_55
+  - first:
+      213: -5007463017456431813
+    second: Background_stars2_purple_56
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Background_stars2_purple_0
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1069
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7526653f6378ec00800000000000000
+      internalID: 930120244526458234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1016
+        width: 299
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40d6b60af874cab0800000000000000
+      internalID: -4988729471969865653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_2
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 987
+        width: 20
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f9a1fc82a5f91a0800000000000000
+      internalID: -6800617780986339438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_3
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1012
+        width: 154
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d429a443169b96440800000000000000
+      internalID: 4929675094273987149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 925
+        width: 59
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5e87a297c842de30800000000000000
+      internalID: 4526760597456916058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_5
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 996
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f90331783edbec60800000000000000
+      internalID: 7848611109621926389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_6
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 916
+        width: 147
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c36c332488572d90800000000000000
+      internalID: -7122626961113062457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_7
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 951
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d527405f165c673c0800000000000000
+      internalID: -4362082164548537763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_8
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 918
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c714741669832a50800000000000000
+      internalID: 6495186159121209285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_9
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 284
+        width: 684
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea2a1d099a550b70800000000000000
+      internalID: 8864591054945004258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_10
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 907
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fbc951a93961e70800000000000000
+      internalID: 9085611588263395203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_11
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 889
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30134c7f87f6018d0800000000000000
+      internalID: -2877677596546158333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_12
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 896
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049cbc1432241c1c0800000000000000
+      internalID: -4485231034689140416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_13
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 889
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b068e43899421fa0800000000000000
+      internalID: -5831517649419870025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_14
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 877
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d23b08386bec0d80800000000000000
+      internalID: -8282986781791800624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 837
+        width: 136
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b4615ee59c4933e0800000000000000
+      internalID: -2073541946595253071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_16
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 860
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a17f751dbaeb2b0800000000000000
+      internalID: -5566823173771027880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_17
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 824
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2125b80b36d4e31b0800000000000000
+      internalID: -5675013389881224686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_18
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 824
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b02c2adda854260800000000000000
+      internalID: 7081218673633004439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_19
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 604
+        width: 143
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9d71faf46c0e4d0800000000000000
+      internalID: -3107265697343350307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_20
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 798
+        width: 113
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195e50ce9c15d4b90800000000000000
+      internalID: -7256053496933915247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 774
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32d9d6dbaf686540800000000000000
+      internalID: 5001370170029625919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_22
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 753
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18574a5e2321c2180800000000000000
+      internalID: -9138909534031153791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_23
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 730
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805044014e3e23c60800000000000000
+      internalID: 7796544473596691720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_24
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 645
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a59b7e562c10070800000000000000
+      internalID: 8070945750159809107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_25
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 733
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c30807fc8c3cce20800000000000000
+      internalID: 3372136797131244481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_26
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 707
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7dd323e3879bad60800000000000000
+      internalID: 7902576563858955642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_27
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 689
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c00356a166676b50800000000000000
+      internalID: 6586345549640958147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_28
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 733
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c20b47cb05b25c0800000000000000
+      internalID: -4239205853897413571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_29
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 676
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c6206e8ba14e7c0800000000000000
+      internalID: -4043077184036639640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_30
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 734
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607768967376bada0800000000000000
+      internalID: -5932534596439214330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_31
+      rect:
+        serializedVersion: 2
+        x: 1442
+        y: 647
+        width: 28
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6f4115e2c660680800000000000000
+      internalID: -8789218676582320390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_32
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 650
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43691aa963c2c990800000000000000
+      internalID: -7367111181831937204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_33
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 654
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74e49009c2887690800000000000000
+      internalID: -7604184171005287298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_34
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 612
+        width: 43
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a3f91e84fb1400c0800000000000000
+      internalID: -4610529381350509664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_35
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 590
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8b03828c6d993160800000000000000
+      internalID: 7005803784723172238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_36
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 579
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d826d9d0d06c5bc0800000000000000
+      internalID: -3793050336028645167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_37
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 574
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f20d21566efff30800000000000000
+      internalID: 4611657865232396061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_38
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 547
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786b0fb9db168c300800000000000000
+      internalID: 272575244448872071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_39
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 545
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a591acb012929aec0800000000000000
+      internalID: -3555265208923842214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_40
+      rect:
+        serializedVersion: 2
+        x: 1394
+        y: 542
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c8761b9e4997ca0800000000000000
+      internalID: -6018615695579313110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_41
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 508
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15438f7b3cd1786a0800000000000000
+      internalID: -6447151615115250607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_42
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 512
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7064526d691ca9df0800000000000000
+      internalID: -172612782118320633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 429
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1a36336088964f0800000000000000
+      internalID: -834986695687167536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_44
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 260
+        width: 111
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ae41b3a44afef90800000000000000
+      internalID: -6922133463519401361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_45
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 408
+        width: 138
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e797fcd9ba4d305b0800000000000000
+      internalID: -5403241294362347138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_46
+      rect:
+        serializedVersion: 2
+        x: 1509
+        y: 67
+        width: 314
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a44665ff1a4bbd0800000000000000
+      internalID: -2615287365557269956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_47
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 463
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98be66131add83170800000000000000
+      internalID: 8158514409369955209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_48
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 375
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b514fed94f5247ef0800000000000000
+      internalID: -111422358225469093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_49
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 78
+        width: 384
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad838d681640109a0800000000000000
+      internalID: -6268724389402363686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_50
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 332
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3075f89cbe5b41e0800000000000000
+      internalID: -2212570627809382342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_51
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 243
+        width: 25
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc80f5e4cf5619680800000000000000
+      internalID: -8750100466683148083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_52
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 232
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d88cb4072b84c70800000000000000
+      internalID: 8955604054403747183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_53
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 64
+        width: 303
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c372cfcde451fe90800000000000000
+      internalID: -6993715365960059966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_54
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 88
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec16a24cf7f4ebc0800000000000000
+      internalID: -3754603526498149138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_55
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 79
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d235b10664c37a0800000000000000
+      internalID: -6396159992183706338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Background_stars2_purple_56
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 13
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d8a929aeae18ab0800000000000000
+      internalID: -5007463017456431813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Background_stars2_purple_0: 930120244526458234
+      Background_stars2_purple_1: -4988729471969865653
+      Background_stars2_purple_10: 9085611588263395203
+      Background_stars2_purple_11: -2877677596546158333
+      Background_stars2_purple_12: -4485231034689140416
+      Background_stars2_purple_13: -5831517649419870025
+      Background_stars2_purple_14: -8282986781791800624
+      Background_stars2_purple_15: -2073541946595253071
+      Background_stars2_purple_16: -5566823173771027880
+      Background_stars2_purple_17: -5675013389881224686
+      Background_stars2_purple_18: 7081218673633004439
+      Background_stars2_purple_19: -3107265697343350307
+      Background_stars2_purple_2: -6800617780986339438
+      Background_stars2_purple_20: -7256053496933915247
+      Background_stars2_purple_21: 5001370170029625919
+      Background_stars2_purple_22: -9138909534031153791
+      Background_stars2_purple_23: 7796544473596691720
+      Background_stars2_purple_24: 8070945750159809107
+      Background_stars2_purple_25: 3372136797131244481
+      Background_stars2_purple_26: 7902576563858955642
+      Background_stars2_purple_27: 6586345549640958147
+      Background_stars2_purple_28: -4239205853897413571
+      Background_stars2_purple_29: -4043077184036639640
+      Background_stars2_purple_3: 4929675094273987149
+      Background_stars2_purple_30: -5932534596439214330
+      Background_stars2_purple_31: -8789218676582320390
+      Background_stars2_purple_32: -7367111181831937204
+      Background_stars2_purple_33: -7604184171005287298
+      Background_stars2_purple_34: -4610529381350509664
+      Background_stars2_purple_35: 7005803784723172238
+      Background_stars2_purple_36: -3793050336028645167
+      Background_stars2_purple_37: 4611657865232396061
+      Background_stars2_purple_38: 272575244448872071
+      Background_stars2_purple_39: -3555265208923842214
+      Background_stars2_purple_4: 4526760597456916058
+      Background_stars2_purple_40: -6018615695579313110
+      Background_stars2_purple_41: -6447151615115250607
+      Background_stars2_purple_42: -172612782118320633
+      Background_stars2_purple_43: -834986695687167536
+      Background_stars2_purple_44: -6922133463519401361
+      Background_stars2_purple_45: -5403241294362347138
+      Background_stars2_purple_46: -2615287365557269956
+      Background_stars2_purple_47: 8158514409369955209
+      Background_stars2_purple_48: -111422358225469093
+      Background_stars2_purple_49: -6268724389402363686
+      Background_stars2_purple_5: 7848611109621926389
+      Background_stars2_purple_50: -2212570627809382342
+      Background_stars2_purple_51: -8750100466683148083
+      Background_stars2_purple_52: 8955604054403747183
+      Background_stars2_purple_53: -6993715365960059966
+      Background_stars2_purple_54: -3754603526498149138
+      Background_stars2_purple_55: -6396159992183706338
+      Background_stars2_purple_56: -5007463017456431813
+      Background_stars2_purple_6: -7122626961113062457
+      Background_stars2_purple_7: -4362082164548537763
+      Background_stars2_purple_8: 6495186159121209285
+      Background_stars2_purple_9: 8864591054945004258
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
