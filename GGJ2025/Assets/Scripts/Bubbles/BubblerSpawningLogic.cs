@@ -114,7 +114,7 @@ public class BubblerSpawningLogic
 				break;
 			case BubblerEnums.SpawnType.GoodBubbler:
 				{
-					var targets = GameManager.Instance.GameState.BubblesTarget;
+					var targets = GameManager.Instance.GameState.GetRemainingTargets();
 					var spriteSelected = targets[Random.Range(0, targets.Length)];
 					var spriteAnimator = bubbleSprite.GetComponent<Animator>();
 					spriteAnimator.runtimeAnimatorController = spriteSelected.animatorController;
