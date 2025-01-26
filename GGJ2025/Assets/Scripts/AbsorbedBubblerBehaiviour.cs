@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 using static UnityEngine.GraphicsBuffer;
 
 public class AbsorbedBubblerBehaiviour : MonoBehaviour
@@ -12,6 +13,7 @@ public class AbsorbedBubblerBehaiviour : MonoBehaviour
     void Start()
     {
         stop = false;
+        
         GameManager.Instance.GameEvents.OnGameStateBubblersLostEvent += OnBubblerLost;
     }
 

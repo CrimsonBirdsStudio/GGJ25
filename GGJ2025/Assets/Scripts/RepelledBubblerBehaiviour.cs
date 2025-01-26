@@ -4,11 +4,15 @@ public class RepelledBubblerBehaiviour : MonoBehaviour
 {
 
     public float vely;
+    public float velx;
+    public float dirx;
+
     public float grav;
     float crono;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        dirx = Random.Range(-1f, 1f);
         crono = 0;
     }
 
@@ -22,7 +26,9 @@ public class RepelledBubblerBehaiviour : MonoBehaviour
             return;
         }
         vely -=  Time.deltaTime * grav;
-        transform.Translate(Vector2.up * vely * Time.deltaTime);
+        transform.Rotate(0, 0, Time.deltaTime * 180f);
+        transform.position = new Vector3(transform.position.x + dirx * velx * Time.deltaTime, transform.position.y + vely * Time.deltaTime, transform.position.z);
+        //transform.Translate(Vector2.up * vely * Time.deltaTime);
 
     }
 }

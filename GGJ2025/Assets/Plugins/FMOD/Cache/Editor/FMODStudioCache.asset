@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8665466521328700010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Blubbers/Blubber_Hit_Rock
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Blubbers/Blubber_Hit_Rock
+  Guid:
+    Data1: 1314975511
+    Data2: 1134203981
+    Data3: 997339560
+    Data4: -554194082
+  Banks:
+  - {fileID: -1017177451340106743}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
 --- !u!114 &-7597446769951674182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27,6 +54,33 @@ MonoBehaviour:
   - Valor 2
   - Valor 3
   Exists: 1
+--- !u!114 &-6884366031237993186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Blubbers/Blubber_Lose
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Blubbers/Blubber_Lose
+  Guid:
+    Data1: 40223414
+    Data2: 1126188740
+    Data3: 1158435498
+    Data4: -1179092025
+  Banks:
+  - {fileID: -1017177451340106743}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3500
 --- !u!114 &-6582341552594748511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,11 +123,38 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Bank.bank
   Name: Desktop/Bank
   StudioPath: bank:/Bank
-  lastModified: 638734598144481706
+  lastModified: 638735034730751463
   FileSizes:
   - Name: Desktop
     Value: 494
   Exists: 1
+--- !u!114 &-4719972220433009156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Blubbers/Blubber_Hit_SlowEffect
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Blubbers/Blubber_Hit_SlowEffect
+  Guid:
+    Data1: 369626848
+    Data2: 1116713665
+    Data3: 752310158
+    Data4: 413638101
+  Banks:
+  - {fileID: -1017177451340106743}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 3000
 --- !u!114 &-4142797966250029231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -89,7 +170,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.bank
   Name: Desktop/Master
   StudioPath: bank:/Master
-  lastModified: 638734880367200223
+  lastModified: 638735034730777082
   FileSizes:
   - Name: Desktop
     Value: 1258
@@ -136,10 +217,10 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/SFX.bank
   Name: Desktop/SFX
   StudioPath: bank:/SFX
-  lastModified: 638734880367250080
+  lastModified: 638735035971748583
   FileSizes:
   - Name: Desktop
-    Value: 458944
+    Value: 572736
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -165,13 +246,18 @@ MonoBehaviour:
   - {fileID: 1919223030321072491}
   - {fileID: -1334024999000241462}
   - {fileID: 6866841650805655615}
+  - {fileID: -8665466521328700010}
+  - {fileID: 8099990936334802257}
+  - {fileID: 8912643957632139518}
+  - {fileID: -6884366031237993186}
+  - {fileID: -4719972220433009156}
   EditorParameters:
   - {fileID: -7597446769951674182}
   MasterBanks:
   - {fileID: -4142797966250029231}
   StringsBanks:
   - {fileID: 5749029205288338875}
-  cacheTime: 638734880367250080
+  cacheTime: 638735035971748583
   cacheVersion: 131622
 --- !u!114 &1919223030321072491
 MonoBehaviour:
@@ -215,7 +301,7 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/BackgroudMusic.bank
   Name: Desktop/BackgroudMusic
   StudioPath: bank:/BackgroudMusic
-  lastModified: 638734598144481706
+  lastModified: 638735034730715925
   FileSizes:
   - Name: Desktop
     Value: 548000
@@ -262,10 +348,10 @@ MonoBehaviour:
   Path: GGJ25/Build/Desktop/Desktop/Master.strings.bank
   Name: Desktop/Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638734880367209862
+  lastModified: 638735034730787082
   FileSizes:
   - Name: Desktop
-    Value: 1188
+    Value: 1424
   Exists: 1
 --- !u!114 &6866841650805655615
 MonoBehaviour:
@@ -295,6 +381,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 7196
+--- !u!114 &8099990936334802257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Movement/Mantener_SFX
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Movement/Mantener_SFX
+  Guid:
+    Data1: 1486813741
+    Data2: 1163155324
+    Data3: 921477055
+    Data4: -962125541
+  Banks:
+  - {fileID: -1017177451340106743}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1500
 --- !u!114 &8492698441322791626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,3 +435,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4781
+--- !u!114 &8912643957632139518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/SFX/Movement/Soltar_SFX
+  m_EditorClassIdentifier: 
+  Path: event:/SFX/Movement/Soltar_SFX
+  Guid:
+    Data1: 1582999952
+    Data2: 1107267091
+    Data3: -52916071
+    Data4: 329555952
+  Banks:
+  - {fileID: -1017177451340106743}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1125
