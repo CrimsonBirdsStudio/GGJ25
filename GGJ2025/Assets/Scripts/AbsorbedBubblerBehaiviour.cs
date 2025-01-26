@@ -6,7 +6,7 @@ public class AbsorbedBubblerBehaiviour : MonoBehaviour
     public Transform target;
     public float vel;
     public Vector2 offset;
-
+    public Bubler_Scriptable bublerScript;
     public bool stop;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -18,7 +18,14 @@ public class AbsorbedBubblerBehaiviour : MonoBehaviour
 
     void OnBubblerLost(Bubler_Scriptable bscript)
     {
-        //if(bscript.)
+        if(gameObject)
+        {
+            if (bscript == bublerScript)
+            {
+                Destroy(gameObject);
+            }
+        }
+        
     }
 
     // Update is called once per frame

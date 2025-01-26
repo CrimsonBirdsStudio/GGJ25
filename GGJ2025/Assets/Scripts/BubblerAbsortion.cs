@@ -4,6 +4,7 @@ using DG.Tweening;
 
 public class BubblerAbsortion : MonoBehaviour
 {
+    public FMODUnity.StudioEventEmitter theSound;
     Tweener growBubbleTween;
     //Transform freeBubbler;
     public GameObject AbsorbedPrefab;
@@ -16,12 +17,14 @@ public class BubblerAbsortion : MonoBehaviour
     }
     void StartAbsortion(BubblerObject bubbler)
     {
+        theSound.Play();
         bubblerGo = bubbler.gameObject; 
         if (bubbler.BubblerConfig.SpawnerType == SpawnType.GoodBubbler)
         {
             Vector2 pos = bubbler.transform.position;
             GameObject go = GameObject.Instantiate(AbsorbedPrefab);
             go.transform.position = pos;
+            go.GetComponent<AbsorbedBubblerBehaiviour>().bublerScript = bubbler.BubblerScriptableSprite;
 
 
             Animator newAnim = go.AddComponent<Animator>();
