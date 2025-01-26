@@ -97,7 +97,7 @@ public class GameState : MonoBehaviour
 		}
 		else
 		{
-			if (BubblesObtained.Count(x => x) == BubblesObtained.Length)
+			if (BubblesObtained.Count(x => x) == 0)
 			{
 				GameManager.Instance.GameEvents.OnGameOver(false);
 			}
