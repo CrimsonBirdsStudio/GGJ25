@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{1b4c587f-1584-46b9-a911-83831fdc8467}">
 		<property name="name">
-			<value>FX_Bubble_Hit_01</value>
+			<value>FX_Bubble_01</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{71dccc83-ee2a-4538-886d-a18fbcfc4624}</destination>
@@ -78,8 +78,14 @@
 		</relationship>
 	</object>
 	<object class="MultiSound" id="{68d1fcf6-a1fb-4dbd-af87-00f99e2e3456}">
+		<property name="triggerProbabilityEnabled">
+			<value>true</value>
+		</property>
 		<property name="isCutoff">
 			<value>true</value>
+		</property>
+		<property name="voiceStealing">
+			<value>3</value>
 		</property>
 		<property name="volume">
 			<value>-6.5</value>
@@ -87,13 +93,9 @@
 		<property name="pitch">
 			<value>1.39999998</value>
 		</property>
-		<property name="looping">
-			<value>true</value>
+		<property name="playCount">
+			<value>2</value>
 		</property>
-		<relationship name="sounds">
-			<destination>{32a03104-a044-4174-a11e-d89ae20bab72}</destination>
-			<destination>{118ad38a-52bc-48ce-9be6-d96bef3b1841}</destination>
-		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{b58cddd8-54ad-40b2-a58d-3cae987cf9db}">
 		<relationship name="effects">
@@ -121,19 +123,6 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{34bd4a0b-b5c8-4f69-97ac-e7a38f005ab7}" />
-	<object class="SingleSound" id="{32a03104-a044-4174-a11e-d89ae20bab72}">
-		<property name="playCount">
-			<value>3</value>
-		</property>
-		<relationship name="audioFile">
-			<destination>{0e88e3b9-926c-41fd-8240-dc6a9708b9b5}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{118ad38a-52bc-48ce-9be6-d96bef3b1841}">
-		<relationship name="audioFile">
-			<destination>{5bd52b75-a8d9-4172-bba6-fa4da9c33386}</destination>
-		</relationship>
-	</object>
 	<object class="MixerBusFader" id="{52e0a295-3ae2-4aaa-9e38-0fd394ffb052}" />
 	<object class="MixerBusFader" id="{dcc8dfe7-e51b-4ec5-87a3-b6b641d27f7b}" />
 </objects>
