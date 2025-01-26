@@ -1,7 +1,4 @@
 using DG.Tweening;
-using System;
-using Unity.VisualScripting;
-using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
 
