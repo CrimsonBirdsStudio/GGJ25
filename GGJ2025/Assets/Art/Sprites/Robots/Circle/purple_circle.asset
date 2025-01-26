@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23649f37dc835274ebaa13ffc53d31c7, type: 3}
+  m_Name: purple_circle
+  m_EditorClassIdentifier: 
+  bublerSpriteUIOff: {fileID: -5517295913940419853, guid: 70c6dcd6465c4854f84677fe3fa3a672, type: 3}
+  bublerSpriteUIOn: {fileID: -849059805144262003, guid: fc39db502a866c6448fff2b6838c2a2f, type: 3}
+  animatorController: {fileID: 9100000, guid: ee920add5631f10418938aaacc84eba5, type: 2}

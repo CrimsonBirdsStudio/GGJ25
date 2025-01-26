@@ -122,10 +122,10 @@ TextureImporter:
       name: plant_stick_push_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 403
-        y: 297
-        width: 166
-        height: 391
+        x: 0
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: plant_stick_push_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 1338
-        y: 292
-        width: 162
-        height: 402
+        x: 928
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: plant_stick_push_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 2267
-        y: 293
-        width: 155
-        height: 397
+        x: 1856
+        y: 0
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

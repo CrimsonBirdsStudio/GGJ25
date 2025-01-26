@@ -3,14 +3,32 @@ guid: f438f515d4366914da68c73cbcbf4ef6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8304838837000824437
-    second: robot_triangle_idle1_0
+      213: 13803870956487815
+    second: robot_triangle_idle_spritesheet_0
   - first:
-      213: -330721807679402946
-    second: robot_triangle_idle1_1
+      213: 4605283395311526814
+    second: robot_triangle_idle_spritesheet_1
   - first:
-      213: -6850320973940997131
-    second: robot_triangle_idle1_2
+      213: 3951689845904914824
+    second: robot_triangle_idle_spritesheet_2
+  - first:
+      213: 5223423984590481961
+    second: robot_triangle_idle_spritesheet_3
+  - first:
+      213: -8758597151732460278
+    second: robot_triangle_idle_spritesheet_4
+  - first:
+      213: -4212763670781615495
+    second: robot_triangle_idle_spritesheet_5
+  - first:
+      213: 6493905847403259045
+    second: robot_triangle_idle_spritesheet_6
+  - first:
+      213: -8605268739555722499
+    second: robot_triangle_idle_spritesheet_7
+  - first:
+      213: -6792492714646849962
+    second: robot_triangle_idle_spritesheet_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,10 +150,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 42a782a70aacc0a4d88165d92fea0391
-      internalID: 874263079
+      spriteID: 78403e82c8a013000800000000000000
+      internalID: 13803870956487815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_triangle_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e936c8329d049ef30800000000000000
+      internalID: 4605283395311526814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_triangle_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8893ea75af837d630800000000000000
+      internalID: 3951689845904914824
       vertices: []
       indices: 
       edges: []
@@ -144,7 +206,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 51c94f55842f53b4d95de8159ea3e98c
+    spriteID: 42c88983a4f2deb4c9c4c12413ed84db
     internalID: 0
     vertices: []
     indices: 
@@ -154,7 +216,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      robot_triangle_idle_spritesheet_0: 874263079
+      robot_triangle_idle_spritesheet_0: 13803870956487815
+      robot_triangle_idle_spritesheet_1: 4605283395311526814
+      robot_triangle_idle_spritesheet_2: 3951689845904914824
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

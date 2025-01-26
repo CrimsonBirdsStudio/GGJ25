@@ -3,14 +3,44 @@ guid: 2fa89994f67e81740aa2be0383972a78
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1405091143993542018
-    second: robot_star_idle1_0
+      213: -1824641403785003449
+    second: robot_star_idle_spritesheet_0
   - first:
-      213: 6098791867289698561
-    second: robot_star_idle1_1
+      213: 7253274612732808405
+    second: robot_star_idle_spritesheet_1
   - first:
-      213: 3327121128497617083
-    second: robot_star_idle1_2
+      213: 491470383052374530
+    second: robot_star_idle_spritesheet_2
+  - first:
+      213: -8500150758281060811
+    second: robot_star_idle_spritesheet_3
+  - first:
+      213: -2505647985767091465
+    second: robot_star_idle_spritesheet_4
+  - first:
+      213: -7452626338998131621
+    second: robot_star_idle_spritesheet_5
+  - first:
+      213: -2232032581700825364
+    second: robot_star_idle_spritesheet_6
+  - first:
+      213: -5535932686542530377
+    second: robot_star_idle_spritesheet_7
+  - first:
+      213: 3253327491830719536
+    second: robot_star_idle_spritesheet_8
+  - first:
+      213: -1178941742251120720
+    second: robot_star_idle_spritesheet_9
+  - first:
+      213: -1719528837467729299
+    second: robot_star_idle_spritesheet_10
+  - first:
+      213: -2656128320697022435
+    second: robot_star_idle_spritesheet_11
+  - first:
+      213: 7154545846607833135
+    second: robot_star_idle_spritesheet_12
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -132,10 +162,54 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: f8081baa897c3b7468ca1c7dca96b27b
-      internalID: 1439935977
+      spriteID: 74ebce48f429da6e0800000000000000
+      internalID: -1824641403785003449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_star_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc4c4ea4dec8a460800000000000000
+      internalID: 7253274612732808405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_star_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202467f95bd02d600800000000000000
+      internalID: 491470383052374530
       vertices: []
       indices: 
       edges: []
@@ -144,7 +218,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 61ded6282c208b746b6dac883c5d5545
+    spriteID: c1b8ee80baafe654781dcbc9c24ebd74
     internalID: 0
     vertices: []
     indices: 
@@ -154,7 +228,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      robot_star_idle_spritesheet_0: 1439935977
+      robot_star_idle_spritesheet_0: -1824641403785003449
+      robot_star_idle_spritesheet_1: 7253274612732808405
+      robot_star_idle_spritesheet_2: 491470383052374530
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

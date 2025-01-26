@@ -11,8 +11,9 @@ public class GameManager : MonoBehaviour
     public BubblerRepository BubblerRepository;
     public BubblerAccounting BubblerAccounting;
 	public GameEvents GameEvents;
+    public UI_Controller UIController;
 
-	public Vector2 CurrentViewSize {
+    public Vector2 CurrentViewSize {
         get {
             Camera cam = Camera.main;
             return new Vector2(cam.orthographicSize * 2 * cam.aspect,  cam.orthographicSize * 2);
@@ -40,7 +41,8 @@ public class GameManager : MonoBehaviour
 		GameState = FindObjectInSceneAndShowError<GameState>();
 		BubblerRepository = FindObjectInSceneAndShowError<BubblerRepository>();
 		BubblerAccounting = FindObjectInSceneAndShowError<BubblerAccounting>();
-	}
+        UIController = FindObjectInSceneAndShowError<UI_Controller>();
+    }
 
 	private void ResetPerGameScripts()
     {

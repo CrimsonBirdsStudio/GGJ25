@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: 448e862f594f17a4f9e4c6cb54e5fa59
+guid: 2422a7599653c674294d62d0f15d1dc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 933194619373769560
-    second: robot_circle_idle1_0
+      213: 4525173273140581643
+    second: robot_circle_idle_spritesheet 1_0
+  - first:
+      213: -8612643086466867558
+    second: robot_circle_idle_spritesheet 1_1
+  - first:
+      213: -1644640546283952425
+    second: robot_circle_idle_spritesheet 1_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -128,8 +134,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dff00e74abe49348bf919adb7d31a80
-      internalID: -1729183154
+      spriteID: b7604d6cdcf04bc4280f9e42ac755ef8
+      internalID: -2018755230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_circle_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e70ae1b58fb814fba5c0ace8741b26
+      internalID: -1277114426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: robot_circle_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 0
+        width: 926
+        height: 899
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aae163232dd164495356fd81b63a70
+      internalID: 2105086081
       vertices: []
       indices: 
       edges: []
@@ -138,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 81a3d6266ae60d1449274b8166eda8d7
+    spriteID: ff282a865df88ba43803808e252c5dd9
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +198,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      robot_circle_idle_spritesheet_0: -1729183154
+      robot_circle_idle_spritesheet_0: -2018755230
+      robot_circle_idle_spritesheet_1: -1277114426
+      robot_circle_idle_spritesheet_2: 2105086081
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 35766d537c512f4478d8dafea42365b5
+guid: eafd3783659bd0f4b8e326f005fb0262
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5041403678777106746
-    second: Feather_triangle_idle1_0
+      213: -228423151493852724
+    second: feather_triangle_idle_spritesheet 1_0
   - first:
-      213: 4059250423730540333
-    second: Feather_triangle_idle1_1
+      213: -8197451432403751150
+    second: feather_triangle_idle_spritesheet 1_1
   - first:
-      213: -7415520578124625443
-    second: Feather_triangle_idle1_2
+      213: 5705010509782178009
+    second: feather_triangle_idle_spritesheet 1_2
+  - first:
+      213: -4336189323388627933
+    second: feather_triangle_idle_spritesheet 1_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,8 +127,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 926
-        height: 899
+        width: 928
+        height: 901
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,8 +137,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 350e88204a4e08442a1f4c9d7ad6b110
-      internalID: -48953354
+      spriteID: c710af373ead075488b1b25ab1ddc299
+      internalID: 833897588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather_triangle_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00932b57ae425fd46bcdbb31ea8c9b11
+      internalID: -566806038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: feather_triangle_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78cc6e77058fa54ab661d2247fb85fa
+      internalID: -673520251
       vertices: []
       indices: 
       edges: []
@@ -144,7 +191,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5c9ddad319042e94d84b72b07273bff2
+    spriteID: 942cd108c111e7d4ba428c97ff80d997
     internalID: 0
     vertices: []
     indices: 
@@ -154,7 +201,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      feather_triangle_idle_spritesheet_0: -48953354
+      feather_triangle_idle_spritesheet_0: 833897588
+      feather_triangle_idle_spritesheet_1: -566806038
+      feather_triangle_idle_spritesheet_2: -673520251
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

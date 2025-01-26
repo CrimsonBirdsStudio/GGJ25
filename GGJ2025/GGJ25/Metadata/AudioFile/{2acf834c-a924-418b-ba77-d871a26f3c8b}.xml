@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{2acf834c-a924-418b-ba77-d871a26f3c8b}">
+		<property name="assetPath">
+			<value>Music/Bubble Jam Ost.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>45.660748299319728</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6fb96f74-ec99-4a03-9727-b482e4f2e7f8}</destination>
+		</relationship>
+	</object>
+</objects>
