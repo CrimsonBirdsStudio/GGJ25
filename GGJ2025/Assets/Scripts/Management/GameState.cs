@@ -10,6 +10,7 @@ public class GameState : MonoBehaviour
     public float CurrentDifficulty; // Dificultad actual que escala con el progreso. // TODO: Implementar como getter a partir del progreso del jugador.
 	public int CurrentLevel; // Nivel actual, en base a los blubbers recogidos. // TODO: Implementar como getter a partir del progreso del jugador.
 	public Bubler_Scriptable[] BubblesTarget;
+	public Bubler_Scriptable[] BubblesEnemies;
 	public bool[] BubblesObtained;
 	public Bubler_Scriptable BubblerPlayer; // Sprite del player.
 	public int TargetShoppingListAmount;
@@ -42,7 +43,8 @@ public class GameState : MonoBehaviour
 		IsPaused = false;
 
 		BubblerPlayer = GameManager.Instance.BubblerRepository.GetRandomBubblerExcluding();
-		BubblesTarget = GameManager.Instance.BubblerRepository.GetBubblesForShoppingList(TargetShoppingListAmount);
+		BubblesTarget = GameManager.Instance.BubblerRepository.GetBubblesForShoppingList(TargetShoppingListAmount, BubblerPlayer);
+		BubblesEnemies = GameManager.Instance.BubblerRepository.GetAllBubblersExcluding().Where(x => x != BubblerPlayer && !BubblesTarget.Contains(x)).ToArray();
 		BubblesObtained = new bool[BubblesTarget.Length];
 		UI_Controller UIcontroller = GameManager.Instance.UIController.GetComponentInChildren<UI_Controller>();
 

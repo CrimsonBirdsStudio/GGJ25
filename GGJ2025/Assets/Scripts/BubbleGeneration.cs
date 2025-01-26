@@ -128,6 +128,7 @@ public class BubbleGeneration : MonoBehaviour
 				0f,
 				(configToSpawn.MaxDensityOverall - currentAllDensity) * (_currentAreaForDensityCheck / maxAllBubbleArea)
 				));
+			bubbleAmountToSpawn = Mathf.Clamp(bubbleAmountToSpawn, 0, configToSpawn.MaxTotalSpawned);
 
 			//print(((configToSpawn.MaxDensityForSameType - currentSameDensity) * (_currentAreaForDensityCheck / maxSameBubbleArea))+" "+ (configToSpawn.MaxDensityOverall - currentAllDensity) * (_currentAreaForDensityCheck / maxAllBubbleArea));
 

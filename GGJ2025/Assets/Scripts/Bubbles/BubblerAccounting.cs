@@ -13,6 +13,7 @@ public class BubblerAccounting : MonoBehaviour
 	{
 		GameManager.Instance.GameEvents.OnBubbleSpawnedEvent += EventBubbleCreatedOrDestroyed;
 		GameManager.Instance.GameEvents.OnBubbleDestroyedEvent += EventBubbleCreatedOrDestroyed;
+		GameManager.Instance.GameEvents.OnBubbleTriggeredWithPlayerEvent += EventBubbleTouchedPlayer;
 	}
 
 	public int GetSpawnedBlubbersOfType(BubblerEnums.SpawnType type)
@@ -32,16 +33,27 @@ public class BubblerAccounting : MonoBehaviour
 			_SpawnedBubblersBySpawnType.Add(config.SpawnerType, (blubber.IsDestroyed ? 0 : 1));
 		}
 
-		if (!blubber.IsDestroyed)
+		if (!blubber.IsDestroyed && blubber.BubblerConfig.SpawnerType != BubblerEnums.SpawnType.GoodBubbler)
 		{
-			_NextSpawnTimeBySpawnType[config.SpawnerType] = 
-				GameManager.Instance.GameState.LevelTimer +
-				Random.Range(config.SpawnTimeFrame.x, config.SpawnTimeFrame.y);
+			SetNextSpawnTimer(blubber.BubblerConfig);
 		}
 	}
 
 	public float GetNextSpawnTimeForBlubbersOfType(BubblerEnums.SpawnType type)
 	{
 		return _NextSpawnTimeBySpawnType.TryGetValue(type, out var lastTime) ? lastTime : 0f;
+	}
+
+	public void EventBubbleTouchedPlayer(BubblerObject blubber)
+	{
+		if (blubber.BubblerConfig.SpawnerType == BubblerEnums.SpawnType.GoodBubbler)
+			SetNextSpawnTimer(blubber.BubblerConfig);
+	}
+
+	private void SetNextSpawnTimer(BubblerConfig config)
+	{
+		_NextSpawnTimeBySpawnType[config.SpawnerType] =
+				GameManager.Instance.GameState.LevelTimer +
+				Random.Range(config.SpawnTimeFrame.x, config.SpawnTimeFrame.y);
 	}
 }

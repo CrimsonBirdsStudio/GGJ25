@@ -104,7 +104,8 @@ public class BubblerSpawningLogic
 			case BubblerEnums.SpawnType.BadFollower:
 			case BubblerEnums.SpawnType.BadOscillingGroup:
 				{
-					var spriteSelected = GameManager.Instance.BubblerRepository.GetRandomBubblerExcluding();
+					var allEnemies = GameManager.Instance.GameState.BubblesEnemies;
+					var spriteSelected = allEnemies[Random.Range(0, allEnemies.Length)];
 					var spriteAnimator = bubbleSprite.GetComponent<Animator>();
 					spriteAnimator.runtimeAnimatorController = spriteSelected.animatorController;
 				}
