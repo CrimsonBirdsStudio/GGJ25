@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: 588c8f8a129e7af4e8750de99008b40f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4163813853694710524
+    second: where_message_spritesheet_0
+  - first:
+      213: 2388879052509001196
+    second: where_message_spritesheet_1
+  - first:
+      213: -6627381248241277373
+    second: where_message_spritesheet_2
+  - first:
+      213: 6921007063351915340
+    second: where_message_spritesheet_3
+  - first:
+      213: 2662742408425227827
+    second: where_message_spritesheet_4
+  - first:
+      213: 1839717480929731450
+    second: where_message_spritesheet_5
+  - first:
+      213: 3985503215669423695
+    second: where_message_spritesheet_6
+  - first:
+      213: 50052156132285255
+    second: where_message_spritesheet_7
+  - first:
+      213: -7476348393926172311
+    second: where_message_spritesheet_8
+  - first:
+      213: 3526846143278442409
+    second: where_message_spritesheet_9
+  - first:
+      213: 6203582670773947828
+    second: where_message_spritesheet_10
+  - first:
+      213: -313449220931036044
+    second: where_message_spritesheet_11
+  - first:
+      213: -3229885328073612581
+    second: where_message_spritesheet_12
+  - first:
+      213: 3010613028702398828
+    second: where_message_spritesheet_13
+  - first:
+      213: -4354211481441968237
+    second: where_message_spritesheet_14
+  - first:
+      213: -826829589725101129
+    second: where_message_spritesheet_15
+  - first:
+      213: -3156099873798893248
+    second: where_message_spritesheet_16
+  - first:
+      213: 733167730031803950
+    second: where_message_spritesheet_17
+  - first:
+      213: -3473087744008353686
+    second: where_message_spritesheet_18
+  - first:
+      213: 1925679031579042982
+    second: where_message_spritesheet_19
+  - first:
+      213: -3921226190669146581
+    second: where_message_spritesheet_20
+  - first:
+      213: -2893698396288032590
+    second: where_message_spritesheet_21
+  - first:
+      213: 4018683754388680363
+    second: where_message_spritesheet_22
+  - first:
+      213: 4603060360859549865
+    second: where_message_spritesheet_23
+  - first:
+      213: -151039537932353203
+    second: where_message_spritesheet_24
+  - first:
+      213: 4312650919619542060
+    second: where_message_spritesheet_25
+  - first:
+      213: 116420532166211079
+    second: where_message_spritesheet_26
+  - first:
+      213: 1890076355148368296
+    second: where_message_spritesheet_27
+  - first:
+      213: -1228123181017971841
+    second: where_message_spritesheet_28
+  - first:
+      213: -5727452103208384086
+    second: where_message_spritesheet_29
+  - first:
+      213: -7123114636458871035
+    second: where_message_spritesheet_30
+  - first:
+      213: -8458429674394054357
+    second: where_message_spritesheet_31
+  - first:
+      213: 9160697870858837872
+    second: where_message_spritesheet_32
+  - first:
+      213: -5580614634212656263
+    second: where_message_spritesheet_33
+  - first:
+      213: -1143587392208467315
+    second: where_message_spritesheet_34
+  - first:
+      213: -4729687043717939901
+    second: where_message_spritesheet_35
+  - first:
+      213: -4141497393222098751
+    second: where_message_spritesheet_36
+  - first:
+      213: 8585254803646712604
+    second: where_message_spritesheet_37
+  - first:
+      213: 4741616738573292987
+    second: where_message_spritesheet_38
+  - first:
+      213: -5519322335478885642
+    second: where_message_spritesheet_39
+  - first:
+      213: -3209178716046792447
+    second: where_message_spritesheet_40
+  - first:
+      213: 2444105513161549196
+    second: where_message_spritesheet_41
+  - first:
+      213: 5123689397746857748
+    second: where_message_spritesheet_42
+  - first:
+      213: -3415370211984650251
+    second: where_message_spritesheet_43
+  - first:
+      213: 5917789711931581980
+    second: where_message_spritesheet_44
+  - first:
+      213: 2697017032047949203
+    second: where_message_spritesheet_45
+  - first:
+      213: 1672145714667400650
+    second: where_message_spritesheet_46
+  - first:
+      213: 7669675251066194877
+    second: where_message_spritesheet_47
+  - first:
+      213: -6642259393751651886
+    second: where_message_spritesheet_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: where_message_idle_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7913fa535f63e9d4786834776cc3e46e
+      internalID: 1984511627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: where_message_idle_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d9feb535c100f343aedf00dcbf8ae21
+      internalID: -2020427101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: where_message_idle_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 0
+        width: 928
+        height: 901
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a50b3060295b1459afc53566890e73
+      internalID: -1703050964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94d4c3875e4a48c4ea57282902ee6ccc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      where_message_idle_spritesheet_0: 1984511627
+      where_message_idle_spritesheet_1: -2020427101
+      where_message_idle_spritesheet_2: -1703050964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
