@@ -21,10 +21,10 @@ public class BubblerRepeler : MonoBehaviour
 
     void StartRepelation(BubblerObject bubbler)
     {
-        theSound.Play();
         bubblerGo = bubbler.gameObject;
-        if (bubbler.BubblerConfig.SpawnerType != SpawnType.GoodBubbler)
+        if (bubbler.BubblerConfig.SpawnerType == SpawnType.BadFollower)
         {
+            theSound.Play();
             Vector2 pos = bubbler.transform.position;
             GameObject go = GameObject.Instantiate(repelledPrefab);
             go.transform.position = pos;

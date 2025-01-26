@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: BubblerConfigStopper
   m_EditorClassIdentifier: 
   prefabBase: {fileID: 226420496374734395, guid: 6763b1d62a3390749ab5c30785a0e936, type: 3}
-  prefabBubble: {fileID: 8692821181687536155, guid: 665b33ace6bb09449a55a7f676c16650, type: 3}
+  prefabBubble: {fileID: 8692821181687536155, guid: fcf0e118be073ac45b6621b3dd5e429c, type: 3}
   prefabBubbler: {fileID: 0}
   SpawnerType: 4
   SpawnAreaType: 0
@@ -30,4 +30,4 @@ MonoBehaviour:
   DespawnDistance: 25
   DespawnDistanceMax: 30
   MovementInterval: 0
-  MovementForce: 0
+  MovementForce: 0.25

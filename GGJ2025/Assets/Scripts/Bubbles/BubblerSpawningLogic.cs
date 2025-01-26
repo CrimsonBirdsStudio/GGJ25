@@ -79,13 +79,12 @@ public class BubblerSpawningLogic
 			return;
 
 		var bubbleSprite = GameObject.Instantiate(bubbler.BubblerConfig.prefabBubble, bubbler.transform);
-
+		bubbler.BubbleSprite = bubbleSprite;
 
 		switch (bubbler.BubblerConfig.SpawnerType)
 		{
-			case BubblerEnums.SpawnType.BadFollower:
-			case BubblerEnums.SpawnType.BadOscillingGroup:
-			case BubblerEnums.SpawnType.GoodBubbler:
+			case BubblerEnums.SpawnType.ObstacleStopper:
+				bubbleSprite.GetComponent<Animator>().runtimeAnimatorController = GameManager.Instance.BubblerRepository.BubbleStopperSprite.animatorController;
 				break;
 			default:
 				break;
@@ -98,8 +97,7 @@ public class BubblerSpawningLogic
 			return;
 
 		var bubbleSprite = GameObject.Instantiate(bubbler.BubblerConfig.prefabBubbler, bubbler.transform);
-
-		// TODO: Obtener sprites con nuevo scriptableobject de sprites.
+		bubbler.BubblerSprite = bubbleSprite;
 
 		switch (bubbler.BubblerConfig.SpawnerType)
 		{
