@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: 174bd494fccfabe4e83e03b7f98605c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7280670583992045090
+    second: Final_words2_0
+  - first:
+      213: -6976072981230770140
+    second: Final_words2_1
+  - first:
+      213: -4353186922173065069
+    second: Final_words2_2
+  - first:
+      213: 1276740137030016527
+    second: Final_words2_3
+  - first:
+      213: -4656078099970397852
+    second: Final_words2_4
+  - first:
+      213: 5704535695555793583
+    second: Final_words2_5
+  - first:
+      213: -6631398603124854212
+    second: Final_words2_6
+  - first:
+      213: -7791064988781816914
+    second: Final_words2_7
+  - first:
+      213: -465461208139486711
+    second: Final_words2_8
+  - first:
+      213: 3151785130168330659
+    second: Final_words2_9
+  - first:
+      213: -6254201579378500790
+    second: Final_words2_10
+  - first:
+      213: -3011301301374144582
+    second: Final_words2_11
+  - first:
+      213: 2661939235803453090
+    second: Final_words2_12
+  - first:
+      213: 5588100379172486641
+    second: Final_words2_13
+  - first:
+      213: -7786333037515721684
+    second: Final_words2_14
+  - first:
+      213: -3555585176391950146
+    second: Final_words2_15
+  - first:
+      213: -7491311525325461474
+    second: Final_words2_16
+  - first:
+      213: -8596947496609797314
+    second: Final_words2_17
+  - first:
+      213: 1077334642968861289
+    second: Final_words2_18
+  - first:
+      213: -4437387862712591420
+    second: Final_words2_19
+  - first:
+      213: -855928433385309939
+    second: Final_words2_20
+  - first:
+      213: 7654048594903906881
+    second: Final_words2_21
+  - first:
+      213: -2636843638944077588
+    second: Final_words2_22
+  - first:
+      213: 1788224388517740346
+    second: Final_words2_23
+  - first:
+      213: -7525500186710968483
+    second: Final_words2_24
+  - first:
+      213: 363468931568472072
+    second: Final_words2_25
+  - first:
+      213: 7823705695704516585
+    second: Final_words2_26
+  - first:
+      213: 4476190362103333987
+    second: Final_words2_27
+  - first:
+      213: -5628655380496703134
+    second: Final_words2_28
+  - first:
+      213: 2943847634242947816
+    second: Final_words2_29
+  - first:
+      213: 4248570718645373045
+    second: Final_words2_30
+  - first:
+      213: -2502113564693704632
+    second: Final_words2_31
+  - first:
+      213: 5644535371323360375
+    second: Final_words2_32
+  - first:
+      213: 2768895527426859220
+    second: Final_words2_33
+  - first:
+      213: -6588648893616541762
+    second: Final_words2_34
+  - first:
+      213: -4743804130242678101
+    second: Final_words2_35
+  - first:
+      213: -9072276593287705334
+    second: Final_words2_36
+  - first:
+      213: -3086872562987831103
+    second: Final_words2_37
+  - first:
+      213: 8704613826227652725
+    second: Final_words2_38
+  - first:
+      213: -852263015397758139
+    second: Final_words2_39
+  - first:
+      213: -6587455051571843271
+    second: Final_words2_40
+  - first:
+      213: 3115051018988568240
+    second: Final_words2_41
+  - first:
+      213: -730053553494589828
+    second: Final_words2_42
+  - first:
+      213: -1344900043483191739
+    second: Final_words2_43
+  - first:
+      213: -8911230924757903313
+    second: Final_words2_44
+  - first:
+      213: -8294318874620097429
+    second: Final_words2_45
+  - first:
+      213: 6833634882997673218
+    second: Final_words2_46
+  - first:
+      213: 4331458082410866727
+    second: Final_words2_47
+  - first:
+      213: -3565082424541646561
+    second: Final_words2_48
+  - first:
+      213: -1241972796941401484
+    second: Final_words2_49
+  - first:
+      213: -4494306268737173529
+    second: Final_words2_50
+  - first:
+      213: -4233928278034954081
+    second: Final_words2_51
+  - first:
+      213: 921528968412676871
+    second: Final_words2_52
+  - first:
+      213: 5094740767555674570
+    second: Final_words2_53
+  - first:
+      213: 5562498340558521635
+    second: Final_words2_54
+  - first:
+      213: -6877380350401297548
+    second: Final_words2_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final_words2_0
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 315
+        width: 46
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1b482bdacd5fa90800000000000000
+      internalID: -7280670583992045090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_1
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 314
+        width: 49
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4282a8a9592003f90800000000000000
+      internalID: -6976072981230770140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 322
+        width: 45
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3989ff6fe8f5693c0800000000000000
+      internalID: -4353186922173065069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_3
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 311
+        width: 33
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e5822e364e7b110800000000000000
+      internalID: 1276740137030016527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_4
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 321
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469e9c413a9426fb0800000000000000
+      internalID: -4656078099970397852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_5
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 319
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2932ebdf49a2f40800000000000000
+      internalID: 5704535695555793583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_6
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 326
+        width: 41
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32b8b8ea1a88f3a0800000000000000
+      internalID: -6631398603124854212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_7
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 314
+        width: 42
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea35da9eba390e390800000000000000
+      internalID: -7791064988781816914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_8
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 324
+        width: 67
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a2f105f795a89f0800000000000000
+      internalID: -465461208139486711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_9
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 360
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9aa0480e36dbb20800000000000000
+      internalID: 3151785130168330659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_10
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 320
+        width: 60
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b157bbccc9439a0800000000000000
+      internalID: -6254201579378500790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_11
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 325
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf2ce3cb65b536d0800000000000000
+      internalID: -3011301301374144582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_12
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 318
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a65db3a1ab11f420800000000000000
+      internalID: 2661939235803453090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_13
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 320
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fd3dc510bbec8d40800000000000000
+      internalID: 5588100379172486641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_14
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 322
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24bcfb2b5361f390800000000000000
+      internalID: -7786333037515721684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_15
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 320
+        width: 46
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb06380de1608aec0800000000000000
+      internalID: -3555585176391950146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_16
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 329
+        width: 33
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e18af2fbbd3890890800000000000000
+      internalID: -7491311525325461474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_17
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 345
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ba3e7ecc181b880800000000000000
+      internalID: -8596947496609797314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_18
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 329
+        width: 49
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a916a562673fe00800000000000000
+      internalID: 1077334642968861289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_19
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 326
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbd268cf3b3b62c0800000000000000
+      internalID: -4437387862712591420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_20
+      rect:
+        serializedVersion: 2
+        x: 1208
+        y: 327
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0979eeef912f14f0800000000000000
+      internalID: -855928433385309939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_21
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 324
+        width: 53
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14a33d8e4a4a83a60800000000000000
+      internalID: 7654048594903906881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_22
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 312
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce86d745eac086bd0800000000000000
+      internalID: -2636843638944077588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_23
+      rect:
+        serializedVersion: 2
+        x: 1378
+        y: 327
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f3a406b9c01d810800000000000000
+      internalID: 1788224388517740346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_24
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 328
+        width: 15
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d57f4f5b37d009790800000000000000
+      internalID: -7525500186710968483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_25
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 331
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8009709411d4b0500800000000000000
+      internalID: 363468931568472072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_26
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 319
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e70ba3e0e2639c60800000000000000
+      internalID: 7823705695704516585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_27
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 325
+        width: 82
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36442302b6f9e1e30800000000000000
+      internalID: 4476190362103333987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_28
+      rect:
+        serializedVersion: 2
+        x: 1612
+        y: 328
+        width: 44
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 261276ad0cff2e1b0800000000000000
+      internalID: -5628655380496703134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_29
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 333
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eaccef73d5aad820800000000000000
+      internalID: 2943847634242947816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_30
+      rect:
+        serializedVersion: 2
+        x: 1707
+        y: 340
+        width: 16
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578cbf70f84f5fa30800000000000000
+      internalID: 4248570718645373045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_31
+      rect:
+        serializedVersion: 2
+        x: 1724
+        y: 328
+        width: 66
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840debc38f4b64dd0800000000000000
+      internalID: -2502113564693704632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_32
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 310
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7744bd1a30b655e40800000000000000
+      internalID: 5644535371323360375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_33
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 84
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d0227cdfc71d6620800000000000000
+      internalID: 2768895527426859220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_34
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 79
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf273a4dba6094a0800000000000000
+      internalID: -6588648893616541762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_35
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 81
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2badcf64f9a2eb0800000000000000
+      internalID: -4743804130242678101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_36
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 77
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0dcef0618cc81280800000000000000
+      internalID: -9072276593287705334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_37
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 73
+        width: 14
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0f53842c93925d0800000000000000
+      internalID: -3086872562987831103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_38
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 76
+        width: 48
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578c04be7200dc870800000000000000
+      internalID: 8704613826227652725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_39
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 82
+        width: 52
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b63009d472c24f0800000000000000
+      internalID: -852263015397758139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_40
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 87
+        width: 40
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f253d4888a494a0800000000000000
+      internalID: -6587455051571843271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_41
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 89
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0be3804c562ea3b20800000000000000
+      internalID: 3115051018988568240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_42
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 94
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e71fc39245ed5f0800000000000000
+      internalID: -730053553494589828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_43
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 90
+        width: 58
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546e6c93984f55de0800000000000000
+      internalID: -1344900043483191739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_44
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 89
+        width: 54
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f28545a00b2f45480800000000000000
+      internalID: -8911230924757903313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_45
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 93
+        width: 89
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6c8370cde8a4ec80800000000000000
+      internalID: -8294318874620097429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_46
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 82
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d5bcd48b2f5de50800000000000000
+      internalID: 6833634882997673218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_47
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 91
+        width: 48
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72828994d2e6c1c30800000000000000
+      internalID: 4331458082410866727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_48
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 89
+        width: 40
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11f43a6c68468ec0800000000000000
+      internalID: -3565082424541646561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_49
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 98
+        width: 52
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4720c994250a3cee0800000000000000
+      internalID: -1241972796941401484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_50
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 108
+        width: 40
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e70c1ca24401a1c0800000000000000
+      internalID: -4494306268737173529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_51
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 96
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98ce37d9a01e35c0800000000000000
+      internalID: -4233928278034954081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_52
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 104
+        width: 70
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703487cd6bde9cc00800000000000000
+      internalID: 921528968412676871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_53
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 102
+        width: 36
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac16bd82cb724b640800000000000000
+      internalID: 5094740767555674570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_54
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 98
+        width: 47
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325c0b4f4c6f13d40800000000000000
+      internalID: 5562498340558521635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final_words2_55
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 110
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473441d5203ae80a0800000000000000
+      internalID: -6877380350401297548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Final_words2_0: -7280670583992045090
+      Final_words2_1: -6976072981230770140
+      Final_words2_10: -6254201579378500790
+      Final_words2_11: -3011301301374144582
+      Final_words2_12: 2661939235803453090
+      Final_words2_13: 5588100379172486641
+      Final_words2_14: -7786333037515721684
+      Final_words2_15: -3555585176391950146
+      Final_words2_16: -7491311525325461474
+      Final_words2_17: -8596947496609797314
+      Final_words2_18: 1077334642968861289
+      Final_words2_19: -4437387862712591420
+      Final_words2_2: -4353186922173065069
+      Final_words2_20: -855928433385309939
+      Final_words2_21: 7654048594903906881
+      Final_words2_22: -2636843638944077588
+      Final_words2_23: 1788224388517740346
+      Final_words2_24: -7525500186710968483
+      Final_words2_25: 363468931568472072
+      Final_words2_26: 7823705695704516585
+      Final_words2_27: 4476190362103333987
+      Final_words2_28: -5628655380496703134
+      Final_words2_29: 2943847634242947816
+      Final_words2_3: 1276740137030016527
+      Final_words2_30: 4248570718645373045
+      Final_words2_31: -2502113564693704632
+      Final_words2_32: 5644535371323360375
+      Final_words2_33: 2768895527426859220
+      Final_words2_34: -6588648893616541762
+      Final_words2_35: -4743804130242678101
+      Final_words2_36: -9072276593287705334
+      Final_words2_37: -3086872562987831103
+      Final_words2_38: 8704613826227652725
+      Final_words2_39: -852263015397758139
+      Final_words2_4: -4656078099970397852
+      Final_words2_40: -6587455051571843271
+      Final_words2_41: 3115051018988568240
+      Final_words2_42: -730053553494589828
+      Final_words2_43: -1344900043483191739
+      Final_words2_44: -8911230924757903313
+      Final_words2_45: -8294318874620097429
+      Final_words2_46: 6833634882997673218
+      Final_words2_47: 4331458082410866727
+      Final_words2_48: -3565082424541646561
+      Final_words2_49: -1241972796941401484
+      Final_words2_5: 5704535695555793583
+      Final_words2_50: -4494306268737173529
+      Final_words2_51: -4233928278034954081
+      Final_words2_52: 921528968412676871
+      Final_words2_53: 5094740767555674570
+      Final_words2_54: 5562498340558521635
+      Final_words2_55: -6877380350401297548
+      Final_words2_6: -6631398603124854212
+      Final_words2_7: -7791064988781816914
+      Final_words2_8: -465461208139486711
+      Final_words2_9: 3151785130168330659
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

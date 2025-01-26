@@ -4,6 +4,8 @@ using DG.Tweening;
 using System.Collections.Generic;
 using System.Collections;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
+using UnityEngine.U2D;
 
 public class UI_Controller : MonoBehaviour
 {
@@ -17,9 +19,10 @@ public class UI_Controller : MonoBehaviour
     public GameObject playerBubble;
     public GameObject backGorundFader;
     public GameObject mouseIcon;
+    public GameObject endGood;
+    public GameObject endBad;
 
     List<Sprite> bublersChosen = new();
-    bool animFinished;
     void Start()
     {
         StartCoroutine(StartAnimation());
@@ -33,8 +36,14 @@ public class UI_Controller : MonoBehaviour
         }
 		GameManager.Instance.GameEvents.OnGameStateBubblersObtainedEvent += OnBubblerObtained;
 		GameManager.Instance.GameEvents.OnGameStateBubblersLostEvent += OnBubblerLost;
-	}
+        GameManager.Instance.GameEvents.OnGameOverEvent += OnEndGame;
 
+    }
+    private void OnEndGame(bool win)
+    {
+        Debug.Log("EndGame");
+        StartCoroutine(EndAnimation(win));
+    }
     public void SetIcons(List<Sprite> offIcons, List<Sprite> onIcons)
     {
         for(int i = 0; i < 4; i++)
@@ -97,14 +106,60 @@ public class UI_Controller : MonoBehaviour
             yield return new WaitForSeconds(1f);
         }
         tittleAnim.transform.DOScale(0, .25f).OnComplete(() => {
-            animFinished = true;
             StartCoroutine(ShowBubbler());
             mouseIcon.SetActive(true);
         });
     }
-    public IEnumerator EndAnimation()
+    public IEnumerator EndAnimation(bool win)
     {
-        yield return new WaitForSeconds(1);
+        playerBubble.SetActive(false);
+        
+        Color initialColor = backGorundFader.GetComponent<SpriteRenderer>().color;
+        float startAlpha = initialColor.a;
+        float timeElapsed = 0;
+
+        while (timeElapsed < .5f)
+        {
+            timeElapsed += Time.deltaTime;
+            float newAlpha = Mathf.Lerp(startAlpha, 1, timeElapsed / .5f);
+            backGorundFader.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, newAlpha);
+            yield return null; // Espera hasta el siguiente frame
+        }
+
+        // Asegúrate de que el alfa final sea exactamente el deseado
+        backGorundFader.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, 1);
+        yield return new WaitForSeconds(2);
+        SpriteRenderer endMsg = !win ? endBad.GetComponent<SpriteRenderer>() : endGood.GetComponent<SpriteRenderer>();
+        initialColor = endMsg.color;
+        startAlpha = initialColor.a;
+        timeElapsed = 0;
+
+        while (timeElapsed < .5f)
+        {
+            timeElapsed += Time.deltaTime;
+            float newAlpha = Mathf.Lerp(startAlpha, 1, timeElapsed / .5f);
+            endMsg.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, newAlpha);
+            yield return null; // Espera hasta el siguiente frame
+        }
+
+        // Asegúrate de que el alfa final sea exactamente el deseado
+        endMsg.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, 1);
+       
+        yield return new WaitForSeconds(4);
+
+        while (timeElapsed < .5f)
+        {
+            timeElapsed += Time.deltaTime;
+            float newAlpha = Mathf.Lerp(startAlpha, 0, timeElapsed / .5f);
+            endMsg.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, newAlpha);
+            yield return null; // Espera hasta el siguiente frame
+        }
+
+        // Asegúrate de que el alfa final sea exactamente el deseado
+        endMsg.GetComponent<SpriteRenderer>().color = new Color(initialColor.r, initialColor.g, initialColor.b, 0);
+        yield return new WaitForSeconds(4);
+
+        SceneManager.LoadScene(0);
     }
 	void OnBubblerObtained(BubblerObject bubbler)
 	{
